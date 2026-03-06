@@ -1,0 +1,16 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="org.adbcj.support.DecoderInputStreamTest">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="org.adbcj.support.DecoderInputStreamTest">
+        <test-method status="PASS" signature="readString()" name="readString" duration-ms="3" started-at="2026-03-01T21:28:34Z" finished-at="2026-03-01T21:28:34Z">
+        </test-method>
+        <test-method status="PASS" signature="boundingTest()" name="boundingTest" duration-ms="0" started-at="2026-03-01T21:28:34Z" finished-at="2026-03-01T21:28:34Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

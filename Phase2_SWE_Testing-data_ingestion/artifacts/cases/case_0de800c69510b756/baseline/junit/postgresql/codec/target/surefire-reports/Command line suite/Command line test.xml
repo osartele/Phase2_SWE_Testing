@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test" failures="0" tests="8" time="0.05" errors="0">
+  <properties/>
+  <testcase name="testMD5Hash" time="0.013" classname="org.adbcj.postgresql.codec.TestPasswordEncryption"/>
+  <testcase name="testReadyForQuery" time="0.028" classname="org.adbcj.postgresql.codec.backend.BackendMessageDecoderTest"/>
+  <testcase name="testBackendKey" time="0.0" classname="org.adbcj.postgresql.codec.backend.BackendMessageDecoderTest"/>
+  <testcase name="simpleBackendMessages" time="0.001" classname="org.adbcj.postgresql.codec.backend.BackendMessageDecoderTest"/>
+  <testcase name="testDecodeAthenticationSuccess" time="0.0" classname="org.adbcj.postgresql.codec.backend.BackendMessageDecoderTest"/>
+  <testcase name="rowDescription" time="0.001" classname="org.adbcj.postgresql.codec.backend.BackendMessageDecoderTest"/>
+  <testcase name="testDecodeAuthenticationRequest" time="0.0" classname="org.adbcj.postgresql.codec.backend.BackendMessageDecoderTest"/>
+  <testcase name="testParameterStatus" time="0.001" classname="org.adbcj.postgresql.codec.backend.BackendMessageDecoderTest"/>
+</testsuite>

@@ -1,0 +1,103 @@
+{
+  "candidate_count": 27,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.647; frequency=1; frequency_norm=1.000",
+      "line": 293,
+      "name": "subSequence",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.544118,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.647059,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public CharSequence subSequence(int start, int end)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.324; frequency=0; frequency_norm=0.000",
+      "line": 260,
+      "name": "createLeafNode",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.648649,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.324324,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void createLeafNode(Matcher matcher, int offset)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.316; frequency=0; frequency_norm=0.000",
+      "line": 222,
+      "name": "setIgnoreErrors",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.631579,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.315789,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void setIgnoreErrors(boolean ignoreErrors)"
+    }
+  ],
+  "dataset_id": "c2t_fa4687ee26a2d3a7d1a1",
+  "focal_class_name": "Machine",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\internal\\vm\\Machine.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "subSequence",
+    "rank": 1
+  },
+  "labeled_focal_method": "subSequence",
+  "labeled_test_method": "subSequence_not_supported",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 32,
+    "name": "subSequence_not_supported"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Machine",
+      "machine"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:58Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_fa4687ee26a2d3a7d1a1",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\internal\\vm\\MachineTest.java",
+  "top_k": 3
+}

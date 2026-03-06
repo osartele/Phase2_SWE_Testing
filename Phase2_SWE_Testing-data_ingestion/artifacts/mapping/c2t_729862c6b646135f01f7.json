@@ -1,0 +1,101 @@
+{
+  "candidate_count": 23,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=3); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 94,
+      "name": "pop",
+      "param_count": 0,
+      "rank": 1,
+      "score": 11.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 3,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public final int pop()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.286; frequency=0; frequency_norm=0.000",
+      "line": 134,
+      "name": "peek",
+      "param_count": 0,
+      "rank": 2,
+      "score": 0.571429,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.285714,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public final int peek()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.286; frequency=0; frequency_norm=0.000",
+      "line": 281,
+      "name": "skip",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.571429,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.285714,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public long skip(long n) throws IOException"
+    }
+  ],
+  "dataset_id": "c2t_729862c6b646135f01f7",
+  "focal_class_name": "CodeBuffer",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\channel\\CodeBuffer.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "pop",
+    "rank": 1
+  },
+  "labeled_focal_method": "pop",
+  "labeled_test_method": "testPop",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 39,
+    "name": "testPop"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "CodeBuffer",
+      "code"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:51Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "junit.framework.Assert.assertEquals",
+      "org.hamcrest.core.Is.is",
+      "org.junit.Assert.assertThat"
+    ]
+  },
+  "record_id": "c2t_729862c6b646135f01f7",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\channel\\CodeBufferTest.java",
+  "top_k": 3
+}

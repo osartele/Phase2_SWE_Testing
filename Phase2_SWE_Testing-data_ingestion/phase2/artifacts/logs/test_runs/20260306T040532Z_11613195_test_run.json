@@ -1,0 +1,20 @@
+{
+  "build_tool": {
+    "detected_command": [],
+    "detected_command_shell": "",
+    "runner": null,
+    "tool": null
+  },
+  "console_log_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040532Z_11613195_console.log",
+  "duration_seconds": 0.005,
+  "execution_error": "build_tool_not_detected in C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\11613195: expected wrapper or build files (pom.xml/build.gradle)",
+  "exit_code": -1,
+  "failing_test_count": 0,
+  "failing_tests": [],
+  "repo_id": "11613195",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\11613195",
+  "report_paths": [],
+  "started_at_utc": "2026-03-06T04:05:32Z",
+  "status": "error",
+  "success": false
+}

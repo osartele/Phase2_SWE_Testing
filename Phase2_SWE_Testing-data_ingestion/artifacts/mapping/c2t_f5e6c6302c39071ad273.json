@@ -1,0 +1,98 @@
+{
+  "candidate_count": 29,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=10); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=10; frequency_norm=1.000",
+      "line": 231,
+      "name": "isIntegerValue",
+      "param_count": 1,
+      "rank": 1,
+      "score": 11.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 10,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 10,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static boolean isIntegerValue(BigDecimal value)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=10); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=10; frequency_norm=1.000",
+      "line": 235,
+      "name": "isIntegerValue",
+      "param_count": 1,
+      "rank": 2,
+      "score": 11.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 10,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 10,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static boolean isIntegerValue(String value)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=1; arg_count_match=0; name_similarity=0.300; frequency=0; frequency_norm=0.000",
+      "line": 227,
+      "name": "asByte",
+      "param_count": 2,
+      "rank": 3,
+      "score": 2.1,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.3,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 1
+      },
+      "signature": "public static byte asByte(int m, int n)"
+    }
+  ],
+  "dataset_id": "c2t_f5e6c6302c39071ad273",
+  "focal_class_name": "Numeric",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\162657830\\utils\\src\\main\\java\\org\\nervos\\ckb\\utils\\Numeric.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "isIntegerValue",
+    "rank": 1
+  },
+  "labeled_focal_method": "isIntegerValue",
+  "labeled_test_method": "testIsIntegerValue",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 26,
+    "is_test": true,
+    "line": 171,
+    "name": "testIsIntegerValue"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Numeric"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:58Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.nervos.ckb.utils.Numeric.asByte"
+    ]
+  },
+  "record_id": "c2t_f5e6c6302c39071ad273",
+  "repo_id": "162657830",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\162657830",
+  "repository_url": "https://github.com/nervosnetwork/ckb-sdk-java",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\162657830\\utils\\src\\test\\java\\org\\nervos\\ckb\\utils\\NumericTest.java",
+  "top_k": 3
+}

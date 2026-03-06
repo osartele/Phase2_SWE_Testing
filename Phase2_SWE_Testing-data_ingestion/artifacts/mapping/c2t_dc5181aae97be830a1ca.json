@@ -1,0 +1,99 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.409; frequency=1; frequency_norm=1.000",
+      "line": 68,
+      "name": "getParser",
+      "param_count": 0,
+      "rank": 1,
+      "score": 8.068182,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.409091,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Parser getParser()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.391; frequency=0; frequency_norm=0.000",
+      "line": 86,
+      "name": "doGetParser",
+      "param_count": 0,
+      "rank": 2,
+      "score": 0.782609,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.391304,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public abstract Parser doGetParser();"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.356; frequency=0; frequency_norm=0.000",
+      "line": 63,
+      "name": "getCharset",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.711111,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.355556,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Charset getCharset()"
+    }
+  ],
+  "dataset_id": "c2t_dc5181aae97be830a1ca",
+  "focal_class_name": "AbstractConfigurationModel",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\main\\java\\org\\sonar\\sslr\\toolkit\\AbstractConfigurationModel.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getParser",
+    "rank": 1
+  },
+  "labeled_focal_method": "getParser",
+  "labeled_test_method": "getParser_should_return_parser_instance",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 5,
+    "is_test": true,
+    "line": 31,
+    "name": "getParser_should_return_parser_instance"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "AbstractConfigurationModel"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:56Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.mockito.Mockito.mock"
+    ]
+  },
+  "record_id": "c2t_dc5181aae97be830a1ca",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\test\\java\\org\\sonar\\sslr\\toolkit\\AbstractConfigurationModelTest.java",
+  "top_k": 3
+}

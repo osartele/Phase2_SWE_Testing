@@ -1,0 +1,64 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.074; frequency=1; frequency_norm=0.100",
+      "line": 68,
+      "name": "query",
+      "param_count": 0,
+      "rank": 1,
+      "score": 6.498148,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.1,
+        "name_similarity": 0.074074,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void query() throws QueryException"
+    }
+  ],
+  "dataset_id": "c2t_eeec8c384c6587b06e7a",
+  "focal_class_name": "OrdinalSmellTypeAnalysis",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\175298978\\SmellTracker\\src\\main\\java\\fr\\inria\\sniffer\\tracker\\analysis\\query\\smell\\OrdinalSmellTypeAnalysis.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "query",
+    "rank": 1
+  },
+  "labeled_focal_method": "query",
+  "labeled_test_method": "handleMissingGapCommit",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 32,
+    "is_test": true,
+    "line": 335,
+    "name": "handleMissingGapCommit"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "OrdinalSmellTypeAnalysis"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:57Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.mockito.ArgumentMatchers.any",
+      "org.mockito.ArgumentMatchers.eq",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify"
+    ]
+  },
+  "record_id": "c2t_eeec8c384c6587b06e7a",
+  "repo_id": "175298978",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\175298978",
+  "repository_url": "https://github.com/HabchiSarra/Sniffer",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\175298978\\SmellTracker\\src\\test\\java\\fr\\inria\\sniffer\\tracker\\analysis\\query\\smell\\OrdinalSmellTypeAnalysisTest.java",
+  "top_k": 3
+}

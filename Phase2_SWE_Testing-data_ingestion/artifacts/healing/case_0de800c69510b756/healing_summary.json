@@ -1,0 +1,46 @@
+{
+  "baseline_label": "ReAssert-style baseline",
+  "case_id": "case_0de800c69510b756",
+  "case_source": "<index:case_0de800c69510b756>",
+  "checked_out_modified_sha": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "direct_reassert_tool": {
+    "available": true,
+    "command": "echo reassert-tool",
+    "enabled": true,
+    "source": "cli"
+  },
+  "duration_seconds": 3.953,
+  "iterations": [
+    {
+      "assertion_failure_count": 0,
+      "changed_files": [],
+      "direct_reassert_applied": false,
+      "direct_reassert_attempted": true,
+      "execution_error": null,
+      "failing_test_count": 0,
+      "failing_tests": [],
+      "iteration": 1,
+      "patch_diff_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\patch.diff",
+      "reassert_result_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\reassert_result.json",
+      "repair_count": 0,
+      "repair_strategy": "ReAssert-style baseline",
+      "repairs_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\repairs.json",
+      "report_paths_copied": [],
+      "report_paths_original": [],
+      "status": "fail",
+      "stderr_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\stderr.log",
+      "stdout_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\stdout.log",
+      "success": false
+    }
+  ],
+  "max_iterations": 1,
+  "max_minutes": 2,
+  "modified_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "repo_id": "13899",
+  "repo_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899",
+  "restored_original_sha": "669b302c106551287cf2352101f3e131bb858015",
+  "started_at_utc": "2026-03-02T03:03:06Z",
+  "status": "ok",
+  "stop_reason": "no_progress_no_assertion_failures",
+  "timeout_seconds": 120
+}

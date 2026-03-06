@@ -1,0 +1,99 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.828; frequency=1; frequency_norm=1.000",
+      "line": 87,
+      "name": "createGrantedAuthorities",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.905172,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.827586,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static Collection<? extends GrantedAuthority> createGrantedAuthorities(RefreshableKeycloakSecurityContext context, GrantedAuthoritiesMapper mapper)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=0; name_similarity=0.828; frequency=1; frequency_norm=1.000",
+      "line": 73,
+      "name": "createGrantedAuthorities",
+      "param_count": 1,
+      "rank": 2,
+      "score": 9.655172,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.827586,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static Collection<?extends GrantedAuthority> createGrantedAuthorities(RefreshableKeycloakSecurityContext context)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.383; frequency=0; frequency_norm=0.000",
+      "line": 59,
+      "name": "createAccount",
+      "param_count": 2,
+      "rank": 3,
+      "score": 0.765957,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.382979,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static OidcKeycloakAccount createAccount(KeycloakDeployment deployment, RefreshableKeycloakSecurityContext context)"
+    }
+  ],
+  "dataset_id": "c2t_263793028cfaf8dd2158",
+  "focal_class_name": "KeycloakSpringAdapterUtils",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269\\keycloak-spring-security-auth\\src\\main\\java\\org\\keycloak\\adapters\\springsecurity\\support\\KeycloakSpringAdapterUtils.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "createGrantedAuthorities",
+    "rank": 1
+  },
+  "labeled_focal_method": "createGrantedAuthorities",
+  "labeled_test_method": "testCreateGrantedAuthoritiesWithMapper",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 5,
+    "is_test": true,
+    "line": 98,
+    "name": "testCreateGrantedAuthoritiesWithMapper"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "KeycloakSpringAdapterUtils"
+    ],
+    "generated_at_utc": "2026-03-06T02:37:39Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.*",
+      "org.mockito.Mockito.*"
+    ]
+  },
+  "record_id": "c2t_263793028cfaf8dd2158",
+  "repo_id": "35515269",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269",
+  "repository_url": "https://github.com/Smartling/smartling-keycloak-extras",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269\\keycloak-spring-security-auth\\src\\test\\java\\org\\keycloak\\adapters\\springsecurity\\support\\KeycloakSpringAdapterUtilsTest.java",
+  "top_k": 3
+}

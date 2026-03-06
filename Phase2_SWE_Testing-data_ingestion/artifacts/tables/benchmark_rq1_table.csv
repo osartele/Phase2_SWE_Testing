@@ -1,0 +1,3 @@
+approach,rows,available_runs,pass_rate,avg_time_seconds,avg_patch_line_similarity
+healing,1,1,0.0,6.985,0.0
+regen,1,0,,,

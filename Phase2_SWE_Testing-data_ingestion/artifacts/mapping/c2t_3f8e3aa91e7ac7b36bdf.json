@@ -1,0 +1,61 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 56,
+      "name": "getStatus",
+      "param_count": 0,
+      "rank": 1,
+      "score": 11.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public RdRandStatus getStatus()"
+    }
+  ],
+  "dataset_id": "c2t_3f8e3aa91e7ac7b36bdf",
+  "focal_class_name": "RdRandException",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\30000823\\lizalab-rdrand-util\\src\\main\\java\\net\\lizalab\\util\\RdRandException.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getStatus",
+    "rank": 1
+  },
+  "labeled_focal_method": "getStatus",
+  "labeled_test_method": "testGetStatus",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 44,
+    "name": "testGetStatus"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "RdRandException",
+      "rdRandException"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:48Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_3f8e3aa91e7ac7b36bdf",
+  "repo_id": "30000823",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\30000823",
+  "repository_url": "https://github.com/hpadmanabhan/rdrand-util",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\30000823\\lizalab-rdrand-util\\src\\test\\java\\net\\lizalab\\util\\RdRandExceptionTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="242" viewBox="0 0 920 242">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="36" font-family="Arial, sans-serif" font-size="24" fill="#111111">Benchmark Mutation Score (%)</text>
+<line x1="220" y1="54" x2="220" y2="222" stroke="#333333" stroke-width="1"/>
+<text x="20" y="90" font-family="Arial, sans-serif" font-size="14" fill="#222222">healing</text>
+<rect x="220" y="76" width="660" height="18" fill="#f0f0f0"/>
+<text x="228" y="90" font-family="Arial, sans-serif" font-size="12" fill="#666666">n/a</text>
+<text x="20" y="134" font-family="Arial, sans-serif" font-size="14" fill="#222222">regen</text>
+<rect x="220" y="120" width="660" height="18" fill="#f0f0f0"/>
+<text x="228" y="134" font-family="Arial, sans-serif" font-size="12" fill="#666666">n/a</text>
+<text x="20" y="178" font-family="Arial, sans-serif" font-size="14" fill="#222222">human</text>
+<rect x="220" y="164" width="660" height="18" fill="#f0f0f0"/>
+<text x="228" y="178" font-family="Arial, sans-serif" font-size="12" fill="#666666">n/a</text>
+</svg>

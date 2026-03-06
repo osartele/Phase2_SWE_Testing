@@ -1,0 +1,99 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.667; frequency=1; frequency_norm=1.000",
+      "line": 57,
+      "name": "authenticate",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.583333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.666667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Authentication authenticate(Authentication authentication) throws AuthenticationException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.359; frequency=0; frequency_norm=0.000",
+      "line": 87,
+      "name": "resolveUsername",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.717949,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.358974,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "protected String resolveUsername(KeycloakAuthenticationToken token)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.267; frequency=0; frequency_norm=0.000",
+      "line": 97,
+      "name": "setUserDetailsService",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.533333,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.266667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Required public void setUserDetailsService(UserDetailsService userDetailsService)"
+    }
+  ],
+  "dataset_id": "c2t_a5cc35a1a11683970d5f",
+  "focal_class_name": "KeycloakUserDetailsAuthenticationProvider",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269\\keycloak-spring-security-user-details\\src\\main\\java\\org\\keycloak\\adapters\\springsecurity\\userdetails\\authentication\\KeycloakUserDetailsAuthenticationProvider.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "authenticate",
+    "rank": 1
+  },
+  "labeled_focal_method": "authenticate",
+  "labeled_test_method": "testAuthenticateUserNotFound",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 4,
+    "is_test": true,
+    "line": 88,
+    "name": "testAuthenticateUserNotFound"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "KeycloakUserDetailsAuthenticationProvider"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:53Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.*",
+      "org.mockito.Mockito.*"
+    ]
+  },
+  "record_id": "c2t_a5cc35a1a11683970d5f",
+  "repo_id": "35515269",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269",
+  "repository_url": "https://github.com/Smartling/smartling-keycloak-extras",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269\\keycloak-spring-security-user-details\\src\\test\\java\\org\\keycloak\\adapters\\springsecurity\\userdetails\\authentication\\KeycloakUserDetailsAuthenticationProviderTest.java",
+  "top_k": 3
+}

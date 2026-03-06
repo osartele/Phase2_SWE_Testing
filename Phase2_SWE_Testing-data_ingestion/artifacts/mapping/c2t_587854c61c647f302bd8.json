@@ -1,0 +1,101 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.182; frequency=6; frequency_norm=1.000",
+      "line": 23,
+      "name": "add",
+      "param_count": 2,
+      "rank": 1,
+      "score": 6.363636,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 6,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.181818,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void add(final Callback<Boolean> callback, final Todo todo)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.333; frequency=0; frequency_norm=0.000",
+      "line": 46,
+      "name": "init",
+      "param_count": 0,
+      "rank": 2,
+      "score": 0.666667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@QueueCallback({QueueCallbackType.INIT}) public void init()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.250; frequency=0; frequency_norm=0.000",
+      "line": 51,
+      "name": "shutdown",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.5,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.25,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@QueueCallback({QueueCallbackType.SHUTDOWN}) public void shutdown()"
+    }
+  ],
+  "dataset_id": "c2t_587854c61c647f302bd8",
+  "focal_class_name": "TodoManagerImpl",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\39970786\\serviceBundle\\src\\main\\java\\com\\mammatustech\\todo\\TodoManagerImpl.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "add",
+    "rank": 1
+  },
+  "labeled_focal_method": "add",
+  "labeled_test_method": "testUsingAll",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 21,
+    "is_test": true,
+    "line": 130,
+    "name": "testUsingAll"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "TodoManagerImpl"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:49Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "io.advantageous.qbit.service.ServiceBundleBuilder.serviceBundleBuilder",
+      "io.advantageous.qbit.service.ServiceProxyUtils.flushServiceProxy",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_587854c61c647f302bd8",
+  "repo_id": "39970786",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\39970786",
+  "repository_url": "https://github.com/MammatusTech/qbit-microservices-examples",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\39970786\\serviceBundle\\src\\test\\java\\com\\mammatustech\\todo\\TodoManagerImplTest.java",
+  "top_k": 3
+}

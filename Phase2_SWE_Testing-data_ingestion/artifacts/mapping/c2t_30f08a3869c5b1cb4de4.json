@@ -1,0 +1,100 @@
+{
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.211; frequency=1; frequency_norm=1.000",
+      "line": 83,
+      "name": "parse",
+      "param_count": 1,
+      "rank": 1,
+      "score": 6.421053,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.210526,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public N parse(File file)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.211; frequency=1; frequency_norm=1.000",
+      "line": 92,
+      "name": "parse",
+      "param_count": 1,
+      "rank": 2,
+      "score": 6.421053,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.210526,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public N parse(String source)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.211; frequency=1; frequency_norm=1.000",
+      "line": 96,
+      "name": "parse",
+      "param_count": 1,
+      "rank": 3,
+      "score": 6.421053,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.210526,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private N parse(Input input)"
+    }
+  ],
+  "dataset_id": "c2t_30f08a3869c5b1cb4de4",
+  "focal_class_name": "ActionParser",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\com\\sonar\\sslr\\api\\typed\\ActionParser.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "parse",
+    "rank": 1
+  },
+  "labeled_focal_method": "parse",
+  "labeled_test_method": "skipped_astnode",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 4,
+    "is_test": true,
+    "line": 80,
+    "name": "skipped_astnode"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ActionParser"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:47Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows"
+    ]
+  },
+  "record_id": "c2t_30f08a3869c5b1cb4de4",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\com\\sonar\\sslr\\api\\typed\\ActionParserTest.java",
+  "top_k": 3
+}

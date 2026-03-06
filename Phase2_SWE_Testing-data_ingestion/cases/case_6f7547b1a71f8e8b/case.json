@@ -1,0 +1,27 @@
+{
+  "base_commit": "1365fff1146b2a16602f9b37f18b5fd51750add0",
+  "build_commands": [
+    "'<build-tool-not-detected>'"
+  ],
+  "case_id": "case_6f7547b1a71f8e8b",
+  "focal_file_path": "europeana-client/src/main/java/eu/europeana/api/client/thumbnails/ThumbnailsAccessor.java",
+  "mapped_focal_method": "copyThumbnails",
+  "mapped_test_method": "testCopyThumbnails",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040532Z_11613195_test_run.json",
+    "baseline_test_status": "error",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040549Z_11613195_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": "2e6107850afb4af02a83cad7cb274ad1b5d6d4c6",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_4da5a92f77f4bee7ef14",
+    "score": 5.0,
+    "touches_method_region": true
+  },
+  "modified_commit": "2e6107850afb4af02a83cad7cb274ad1b5d6d4c6",
+  "repo_id": "11613195",
+  "test_file_path": "europeana-client/src/test/java/eu/europeana/api/client/thumbnails/ThumbnailsAccessorTest.java"
+}

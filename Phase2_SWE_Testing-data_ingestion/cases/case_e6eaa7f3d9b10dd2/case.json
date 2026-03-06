@@ -1,0 +1,27 @@
+{
+  "base_commit": "3a9db9b04ae7d9545301ade8340ebd3b6baea138",
+  "build_commands": [
+    "'C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\gradlew.bat' test --console=plain"
+  ],
+  "case_id": "case_e6eaa7f3d9b10dd2",
+  "focal_file_path": "nxparser-model-datatypes/src/main/java/org/semanticweb/yars/nx/dt/datetime/XsdGDay.java",
+  "mapped_focal_method": "getCanonicalRepresentation",
+  "mapped_test_method": "test",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040602Z_35897457_test_run.json",
+    "baseline_test_status": "fail",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040634Z_35897457_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": "270f19110f407de5d4c58c62a927bfc8fee6935c",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_4e67a3255d6d0597f52c",
+    "score": 3.0,
+    "touches_method_region": false
+  },
+  "modified_commit": "270f19110f407de5d4c58c62a927bfc8fee6935c",
+  "repo_id": "35897457",
+  "test_file_path": "nxparser-model-datatypes/src/test/java/org/semanticweb/yars/nx/dt/datetime/XsdGDayTest.java"
+}

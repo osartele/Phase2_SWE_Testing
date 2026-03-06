@@ -1,0 +1,27 @@
+{
+  "base_commit": "42f3bab557380aab0114028b58d745e3000897e8",
+  "build_commands": [
+    "'C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32521417\\mvnw.cmd' -B test"
+  ],
+  "case_id": "case_f5c850871f0920fd",
+  "focal_file_path": "fullstop-plugins/fullstop-instance-plugin-support/src/main/java/org/zalando/stups/fullstop/plugin/provider/impl/TaupageYamlProviderImpl.java",
+  "mapped_focal_method": "apply",
+  "mapped_test_method": "testApplyWithNoAmi",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041051Z_32521417_test_run.json",
+    "baseline_test_status": "fail",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041105Z_32521417_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": null,
+    "human_update_distance": null,
+    "human_update_found": false,
+    "rank": 1,
+    "record_id": "c2t_27d16cb8c7e791ecd76d",
+    "score": 2.0,
+    "touches_method_region": true
+  },
+  "modified_commit": "3cc6a1d42e02f1f53a683f58a06ad4c2c80c9ced",
+  "repo_id": "32521417",
+  "test_file_path": "fullstop-plugins/fullstop-instance-plugin-support/src/test/java/org/zalando/stups/fullstop/plugin/provider/impl/TaupageYamlProviderImplTest.java"
+}

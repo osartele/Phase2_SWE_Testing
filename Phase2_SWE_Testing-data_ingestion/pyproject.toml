@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "phase2-pipeline"
+version = "0.1.0"
+description = "Reproducible Phase 2 pipeline for RQ1/RQ2/RQ3 experiments."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "PyYAML==6.0.2",
+  "requests==2.32.3",
+  "pandas==2.2.3",
+  "tree-sitter==0.25.2",
+  "tree-sitter-java==0.23.5",
+]
+
+[project.scripts]
+phase2 = "phase2.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/phase2"]

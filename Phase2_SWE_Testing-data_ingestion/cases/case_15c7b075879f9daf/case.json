@@ -1,0 +1,27 @@
+{
+  "base_commit": "3a9db9b04ae7d9545301ade8340ebd3b6baea138",
+  "build_commands": [
+    "'C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\gradlew.bat' test --console=plain"
+  ],
+  "case_id": "case_15c7b075879f9daf",
+  "focal_file_path": "nxparser-model/src/main/java/org/semanticweb/yars/nx/Literal.java",
+  "mapped_focal_method": "toString",
+  "mapped_test_method": "testEmptyStringInConstructor",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040918Z_35897457_test_run.json",
+    "baseline_test_status": "fail",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040949Z_35897457_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": "652a536b1dc043a8d694b04da4118a877f22d79b",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_056b36e159d3d0376e48",
+    "score": 3.0,
+    "touches_method_region": false
+  },
+  "modified_commit": "652a536b1dc043a8d694b04da4118a877f22d79b",
+  "repo_id": "35897457",
+  "test_file_path": "nxparser-model/src/test/java/org/semanticweb/yars/nx/LiteralTest.java"
+}

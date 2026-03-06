@@ -1,0 +1,15 @@
+:nxparser-commons:compileJava FAILED
+
+BUILD FAILED
+
+Total time: 8.637 secs
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':nxparser-commons:compileJava'.
+> Could not find tools.jar
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.

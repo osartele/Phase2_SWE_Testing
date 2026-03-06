@@ -1,0 +1,17 @@
+{
+  "step": "evaluate_rq1",
+  "timestamp_utc": "20260302T030758Z",
+  "workdir": "C:\\Users\\garre\\Desktop\\P2\\New folder",
+  "config_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\phase2\\configs\\experiments\\default.yaml",
+  "payload": {
+    "status": "ok",
+    "output_csv": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\rq1_summary.csv",
+    "per_case_dir": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\rq1_cases",
+    "rows_written": 2,
+    "approach_pass_rates": {
+      "healing": 0.0,
+      "regen": null
+    },
+    "with_ast_similarity": false
+  }
+}

@@ -1,0 +1,23 @@
+repos_root: "C:/Users/osart/phase2_repos"
+
+dataset:
+  # Remove the 'urls:' list and point directly to your local folder
+  path: "C:/Users/osart/phase2_repos/manifests"
+
+rq2:
+  top_k: 3
+
+sync:
+  regenerative:
+    max_iterations: 3
+  healing:
+    max_iterations: 5
+    reassert_command: ""
+
+rq3:
+  timeout_seconds: 3600
+
+tools:
+  evosuite:
+    jar_path: ""
+    download_url: ""

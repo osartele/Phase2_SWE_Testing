@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test" failures="0" tests="2" time="0.01" errors="0">
+  <properties/>
+  <testcase name="readString" time="0.003" classname="org.adbcj.support.DecoderInputStreamTest"/>
+  <testcase name="boundingTest" time="0.0" classname="org.adbcj.support.DecoderInputStreamTest"/>
+</testsuite>

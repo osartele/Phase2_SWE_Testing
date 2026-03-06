@@ -1,0 +1,98 @@
+{
+  "candidate_count": 12,
+  "candidates": [
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=0; frequency_norm=0.000",
+      "line": 77,
+      "name": "parseTopic",
+      "param_count": 1,
+      "rank": 1,
+      "score": 2.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private List<Token> parseTopic(String topic) throws ParseException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.824; frequency=0; frequency_norm=0.000",
+      "line": 48,
+      "name": "asTopic",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.647059,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.823529,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static Topic asTopic(String s)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.632; frequency=0; frequency_norm=0.000",
+      "line": 218,
+      "name": "compareTo",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.263158,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.631579,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public int compareTo(Topic o)"
+    }
+  ],
+  "dataset_id": "c2t_e556c80b3d487fae635e",
+  "focal_class_name": "Topic",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\24653868\\broker\\src\\main\\java\\io\\moquette\\broker\\subscriptions\\Topic.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "parseTopic",
+    "rank": 1
+  },
+  "labeled_focal_method": "parseTopic",
+  "labeled_test_method": "testParseTopic",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 6,
+    "is_test": true,
+    "line": 26,
+    "name": "testParseTopic"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Topic"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:57Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.jupiter.api.Assertions.assertEquals"
+    ]
+  },
+  "record_id": "c2t_e556c80b3d487fae635e",
+  "repo_id": "24653868",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\24653868",
+  "repository_url": "https://github.com/moquette-io/moquette",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\24653868\\broker\\src\\test\\java\\io\\moquette\\broker\\subscriptions\\TopicTest.java",
+  "top_k": 3
+}

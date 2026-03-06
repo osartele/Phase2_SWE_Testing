@@ -1,0 +1,106 @@
+{
+  "candidate_count": 52,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=4); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=4; frequency_norm=0.571",
+      "line": 43,
+      "name": "call",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.821429,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 4,
+        "frequency_norm": 0.571429,
+        "name_similarity": 1.0,
+        "qualifier_hits": 4,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static Instruction call(int offset, Matcher matcher)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=4); static_import_match=0; arg_count_match=1; name_similarity=0.400; frequency=4; frequency_norm=0.571",
+      "line": 109,
+      "name": "equals",
+      "param_count": 1,
+      "rank": 2,
+      "score": 9.621429,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 4,
+        "frequency_norm": 0.571429,
+        "name_similarity": 0.4,
+        "qualifier_hits": 4,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public boolean equals(Object obj)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=4); static_import_match=0; arg_count_match=1; name_similarity=0.400; frequency=4; frequency_norm=0.571",
+      "line": 139,
+      "name": "equals",
+      "param_count": 1,
+      "rank": 3,
+      "score": 9.621429,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 4,
+        "frequency_norm": 0.571429,
+        "name_similarity": 0.4,
+        "qualifier_hits": 4,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public boolean equals(Object obj)"
+    }
+  ],
+  "dataset_id": "c2t_8475c97c0c3244d7ebb7",
+  "focal_class_name": "Instruction",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\internal\\vm\\Instruction.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "call",
+    "rank": 1
+  },
+  "labeled_focal_method": "call",
+  "labeled_test_method": "call",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 31,
+    "is_test": true,
+    "line": 66,
+    "name": "call"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Instruction",
+      "instruction"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:52Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_8475c97c0c3244d7ebb7",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\internal\\vm\\InstructionTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,27 @@
+{
+  "base_commit": "c41aabb60ace2a8c5656590423245219f2c59d65",
+  "build_commands": [
+    "'<build-tool-not-detected>'"
+  ],
+  "case_id": "case_f1f835abe0e884eb",
+  "focal_file_path": "serviceQueue/src/main/java/com/mammatustech/todo/TodoManagerImpl.java",
+  "mapped_focal_method": "add",
+  "mapped_test_method": "testUsingAll",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041128Z_39970786_test_run.json",
+    "baseline_test_status": "error",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041130Z_39970786_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": "85534c86f8201944f09a79be84ba566902f2e4a3",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_289ab3bca74ae38a6e63",
+    "score": 3.0,
+    "touches_method_region": false
+  },
+  "modified_commit": "85534c86f8201944f09a79be84ba566902f2e4a3",
+  "repo_id": "39970786",
+  "test_file_path": "serviceQueue/src/test/java/com/mammatustech/todo/TodoManagerImplTest.java"
+}

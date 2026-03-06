@@ -1,0 +1,101 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.138; frequency=1; frequency_norm=1.000",
+      "line": 182,
+      "name": "toString",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.525862,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.137931,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public String toString()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.296; frequency=0; frequency_norm=0.000",
+      "line": 187,
+      "name": "equals",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.592593,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.296296,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public boolean equals(Object o)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.276; frequency=0; frequency_norm=0.000",
+      "line": 138,
+      "name": "getLabel",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.551724,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.275862,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public String getLabel()"
+    }
+  ],
+  "dataset_id": "c2t_b3b85e77f04fbb68cf09",
+  "focal_class_name": "Literal",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-model\\src\\main\\java\\org\\semanticweb\\yars\\nx\\Literal.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "toString",
+    "rank": 1
+  },
+  "labeled_focal_method": "toString",
+  "labeled_test_method": "testProperLiteralSupplied",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 18,
+    "name": "testProperLiteralSupplied"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Literal",
+      "l"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:54Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotEquals",
+      "org.junit.Assert.assertNull"
+    ]
+  },
+  "record_id": "c2t_b3b85e77f04fbb68cf09",
+  "repo_id": "35897457",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457",
+  "repository_url": "https://github.com/nxparser/nxparser",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-model\\src\\test\\java\\org\\semanticweb\\yars\\nx\\LiteralTest.java",
+  "top_k": 3
+}

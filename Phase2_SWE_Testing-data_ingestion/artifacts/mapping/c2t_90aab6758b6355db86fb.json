@@ -1,0 +1,99 @@
+{
+  "candidate_count": 9,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.800; frequency=1; frequency_norm=1.000",
+      "line": 4,
+      "name": "getBinomials",
+      "param_count": 1,
+      "rank": 1,
+      "score": 10.85,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.8,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static long[][] getBinomials(int m)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.286; frequency=0; frequency_norm=0.000",
+      "line": 40,
+      "name": "shiftPowerSum",
+      "param_count": 3,
+      "rank": 2,
+      "score": 0.571429,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.285714,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static double[] shiftPowerSum( double[] powerSums, double r, double xc )"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.267; frequency=0; frequency_norm=0.000",
+      "line": 133,
+      "name": "entropy",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.533333,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.266667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static double entropy(double[] ps)"
+    }
+  ],
+  "dataset_id": "c2t_90aab6758b6355db86fb",
+  "focal_class_name": "MathUtil",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\147378679\\momentsolver\\src\\main\\java\\com\\github\\stanfordfuturedata\\momentsketch\\MathUtil.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getBinomials",
+    "rank": 1
+  },
+  "labeled_focal_method": "getBinomials",
+  "labeled_test_method": "testBinomial",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 9,
+    "name": "testBinomial"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "MathUtil"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:52Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertArrayEquals",
+      "org.junit.Assert.assertEquals"
+    ]
+  },
+  "record_id": "c2t_90aab6758b6355db86fb",
+  "repo_id": "147378679",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\147378679",
+  "repository_url": "https://github.com/stanford-futuredata/momentsketch",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\147378679\\momentsolver\\src\\test\\java\\com\\github\\stanfordfuturedata\\momentsketch\\MathUtilTest.java",
+  "top_k": 3
+}

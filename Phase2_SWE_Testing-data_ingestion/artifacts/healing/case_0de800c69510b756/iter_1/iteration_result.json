@@ -1,0 +1,21 @@
+{
+  "assertion_failure_count": 0,
+  "changed_files": [],
+  "direct_reassert_applied": false,
+  "direct_reassert_attempted": true,
+  "execution_error": null,
+  "failing_test_count": 0,
+  "failing_tests": [],
+  "iteration": 1,
+  "patch_diff_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\patch.diff",
+  "reassert_result_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\reassert_result.json",
+  "repair_count": 0,
+  "repair_strategy": "ReAssert-style baseline",
+  "repairs_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\repairs.json",
+  "report_paths_copied": [],
+  "report_paths_original": [],
+  "status": "fail",
+  "stderr_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\stderr.log",
+  "stdout_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\stdout.log",
+  "success": false
+}

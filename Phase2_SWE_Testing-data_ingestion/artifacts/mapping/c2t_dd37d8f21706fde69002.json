@@ -1,0 +1,100 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=1; name_similarity=0.696; frequency=2; frequency_norm=1.000",
+      "line": 135,
+      "name": "booleanValidator",
+      "param_count": 0,
+      "rank": 1,
+      "score": 10.641304,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.695652,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static ValidationCallback booleanValidator()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.471; frequency=0; frequency_norm=0.000",
+      "line": 68,
+      "name": "integerRangeValidator",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.941176,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.470588,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static ValidationCallback integerRangeValidator(int lowerBound, int upperBound)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.435; frequency=0; frequency_norm=0.000",
+      "line": 41,
+      "name": "charsetValidator",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.869565,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.434783,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static ValidationCallback charsetValidator()"
+    }
+  ],
+  "dataset_id": "c2t_dd37d8f21706fde69002",
+  "focal_class_name": "Validators",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\main\\java\\org\\sonar\\sslr\\toolkit\\Validators.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "booleanValidator",
+    "rank": 1
+  },
+  "labeled_focal_method": "booleanValidator",
+  "labeled_test_method": "booleanValidator_single_instance",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 4,
+    "is_test": true,
+    "line": 73,
+    "name": "booleanValidator_single_instance"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Validators"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:56Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows"
+    ]
+  },
+  "record_id": "c2t_dd37d8f21706fde69002",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\test\\java\\org\\sonar\\sslr\\toolkit\\ValidatorsTest.java",
+  "top_k": 3
+}

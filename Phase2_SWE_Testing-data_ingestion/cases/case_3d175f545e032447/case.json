@@ -1,0 +1,27 @@
+{
+  "base_commit": "b3f2ee3d61f3276c843597d2e272a30f49d39ed0",
+  "build_commands": [
+    "mvn -B test"
+  ],
+  "case_id": "case_3d175f545e032447",
+  "focal_file_path": "simple/src/main/java/org/apache/commons/rdf/simple/Types.java",
+  "mapped_focal_method": "ntriplesString",
+  "mapped_test_method": "testNtriplesString",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040910Z_20555659_test_run.json",
+    "baseline_test_status": "error",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040913Z_20555659_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": "18d39818c134d6c2de417c9a845383c3be99767c",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_016a143a602dd7a494d2",
+    "score": 3.0,
+    "touches_method_region": false
+  },
+  "modified_commit": "18d39818c134d6c2de417c9a845383c3be99767c",
+  "repo_id": "20555659",
+  "test_file_path": "simple/src/test/java/org/apache/commons/rdf/simple/TypesTest.java"
+}

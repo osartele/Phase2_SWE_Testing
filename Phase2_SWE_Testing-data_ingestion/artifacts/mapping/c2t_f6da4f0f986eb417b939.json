@@ -1,0 +1,98 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.667; frequency=1; frequency_norm=1.000",
+      "line": 87,
+      "name": "resolveUsername",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.583333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.666667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "protected String resolveUsername(Object principal)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.246; frequency=0; frequency_norm=0.000",
+      "line": 110,
+      "name": "setDirectAccessGrantService",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.491228,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.245614,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Required public void setDirectAccessGrantService(DirectAccessGrantService directAccessGrantService)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.235; frequency=0; frequency_norm=0.000",
+      "line": 104,
+      "name": "setKeycloakDeployment",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.470588,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.235294,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Required public void setKeycloakDeployment(KeycloakDeployment keycloakDeployment)"
+    }
+  ],
+  "dataset_id": "c2t_f6da4f0f986eb417b939",
+  "focal_class_name": "DirectAccessGrantAuthenticationProvider",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269\\keycloak-spring-security-auth\\src\\main\\java\\org\\keycloak\\adapters\\springsecurity\\authentication\\DirectAccessGrantAuthenticationProvider.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "resolveUsername",
+    "rank": 1
+  },
+  "labeled_focal_method": "resolveUsername",
+  "labeled_test_method": "testResolveUsernameFromUserDetails",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 3,
+    "is_test": true,
+    "line": 71,
+    "name": "testResolveUsernameFromUserDetails"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "DirectAccessGrantAuthenticationProvider"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:58Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.*"
+    ]
+  },
+  "record_id": "c2t_f6da4f0f986eb417b939",
+  "repo_id": "35515269",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269",
+  "repository_url": "https://github.com/Smartling/smartling-keycloak-extras",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269\\keycloak-spring-security-auth\\src\\test\\java\\org\\keycloak\\adapters\\springsecurity\\authentication\\DirectAccessGrantAuthenticationProviderTest.java",
+  "top_k": 3
+}

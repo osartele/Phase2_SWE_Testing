@@ -1,0 +1,60 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.500",
+      "line": 31,
+      "name": "getCss",
+      "param_count": 0,
+      "rank": 1,
+      "score": 10.75,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 1.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static String getCss()"
+    }
+  ],
+  "dataset_id": "c2t_96ff768c848e1a3849a9",
+  "focal_class_name": "CssLoader",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\main\\java\\org\\sonar\\sslr\\internal\\toolkit\\CssLoader.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getCss",
+    "rank": 1
+  },
+  "labeled_focal_method": "getCss",
+  "labeled_test_method": "getCss",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 4,
+    "is_test": true,
+    "line": 27,
+    "name": "getCss"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "CssLoader"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:52Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat"
+    ]
+  },
+  "record_id": "c2t_96ff768c848e1a3849a9",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\test\\java\\org\\sonar\\sslr\\internal\\toolkit\\CssLoaderTest.java",
+  "top_k": 3
+}

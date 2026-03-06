@@ -1,0 +1,63 @@
+{
+  "$id": "https://phase2.local/schemas/case.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "base_commit": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "build_commands": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "case_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "focal_file_path": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "mapped_focal_method": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "mapped_test_method": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object"
+    },
+    "modified_commit": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "repo_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "test_file_path": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "case_id",
+    "repo_id",
+    "base_commit",
+    "modified_commit",
+    "focal_file_path",
+    "test_file_path",
+    "mapped_focal_method",
+    "mapped_test_method",
+    "build_commands"
+  ],
+  "title": "Phase2ChangeCase",
+  "type": "object"
+}

@@ -1,0 +1,24 @@
+{
+  "build_tool": {
+    "detected_command": [
+      "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\gradlew.bat",
+      "test",
+      "--console=plain"
+    ],
+    "detected_command_shell": "'C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\gradlew.bat' test --console=plain",
+    "runner": "wrapper",
+    "tool": "gradle"
+  },
+  "console_log_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040918Z_35897457_console.log",
+  "duration_seconds": 27.373,
+  "execution_error": null,
+  "exit_code": 1,
+  "failing_test_count": 0,
+  "failing_tests": [],
+  "repo_id": "35897457",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457",
+  "report_paths": [],
+  "started_at_utc": "2026-03-06T04:09:18Z",
+  "status": "fail",
+  "success": false
+}

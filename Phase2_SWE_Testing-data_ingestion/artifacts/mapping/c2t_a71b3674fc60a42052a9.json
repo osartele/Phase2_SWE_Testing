@@ -1,0 +1,80 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 37,
+      "name": "create",
+      "param_count": 2,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public SpringCloudBlobStoreContext create(S3ServiceInfo serviceInfo, ServiceConnectorConfig serviceConnectorConfig)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.133; frequency=0; frequency_norm=0.000",
+      "line": 50,
+      "name": "loadProxy",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.266667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.133333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void loadProxy(Properties storeProviderInitProperties)"
+    }
+  ],
+  "dataset_id": "c2t_a71b3674fc60a42052a9",
+  "focal_class_name": "S3FactoryCreator",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\42510870\\spring-cloud-s3-connectors-core\\src\\main\\java\\com\\orange\\spring\\cloud\\connector\\s3\\core\\creator\\S3FactoryCreator.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "create",
+    "rank": 1
+  },
+  "labeled_focal_method": "create",
+  "labeled_test_method": "create",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 3,
+    "is_test": true,
+    "line": 31,
+    "name": "create"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "S3FactoryCreator"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:53Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotNull"
+    ]
+  },
+  "record_id": "c2t_a71b3674fc60a42052a9",
+  "repo_id": "42510870",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\42510870",
+  "repository_url": "https://github.com/orange-cloudfoundry/spring-cloud-s3-connectors",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\42510870\\spring-cloud-s3-connectors-core\\src\\test\\java\\com\\orange\\spring\\cloud\\connector\\s3\\core\\creator\\S3FactoryCreatorTest.java",
+  "top_k": 3
+}

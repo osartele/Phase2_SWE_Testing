@@ -1,0 +1,100 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=2; frequency_norm=1.000",
+      "line": 69,
+      "name": "getName",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getName()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.667; frequency=0; frequency_norm=0.000",
+      "line": 90,
+      "name": "getValue",
+      "param_count": 0,
+      "rank": 2,
+      "score": 1.333333,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.666667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getValue()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.533; frequency=0; frequency_norm=0.000",
+      "line": 81,
+      "name": "setValue",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.066667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.533333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void setValue(String value)"
+    }
+  ],
+  "dataset_id": "c2t_80cfa51f843985e768a9",
+  "focal_class_name": "ConfigurationProperty",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\main\\java\\org\\sonar\\sslr\\toolkit\\ConfigurationProperty.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getName",
+    "rank": 1
+  },
+  "labeled_focal_method": "getName",
+  "labeled_test_method": "getName",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 6,
+    "is_test": true,
+    "line": 27,
+    "name": "getName"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ConfigurationProperty"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:52Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertThrows",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_80cfa51f843985e768a9",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\test\\java\\org\\sonar\\sslr\\toolkit\\ConfigurationPropertyTest.java",
+  "top_k": 3
+}

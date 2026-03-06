@@ -1,0 +1,22 @@
+{
+  "assertion_failure_count": 0,
+  "changed_files": [],
+  "direct_reassert_applied": false,
+  "direct_reassert_attempted": false,
+  "execution_error": null,
+  "failing_test_count": 0,
+  "failing_tests": [],
+  "iteration": 1,
+  "patch_diff_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\ablations\\case_0de800c69510b756\\healing_mapper_on\\healing\\case_0de800c69510b756\\iter_1\\patch.diff",
+  "repair_count": 0,
+  "repair_strategy": "ReAssert-style baseline",
+  "repairs_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\ablations\\case_0de800c69510b756\\healing_mapper_on\\healing\\case_0de800c69510b756\\iter_1\\repairs.json",
+  "report_paths_copied": [],
+  "report_paths_original": [],
+  "scoped_failing_test_count": 0,
+  "scoped_failing_tests": [],
+  "status": "fail",
+  "stderr_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\ablations\\case_0de800c69510b756\\healing_mapper_on\\healing\\case_0de800c69510b756\\iter_1\\stderr.log",
+  "stdout_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\ablations\\case_0de800c69510b756\\healing_mapper_on\\healing\\case_0de800c69510b756\\iter_1\\stdout.log",
+  "success": false
+}

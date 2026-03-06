@@ -1,0 +1,99 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.371; frequency=2; frequency_norm=1.000",
+      "line": 74,
+      "name": "getTokenizers",
+      "param_count": 0,
+      "rank": 1,
+      "score": 7.992857,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.371429,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public List<Tokenizer> getTokenizers()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.361; frequency=0; frequency_norm=0.000",
+      "line": 94,
+      "name": "doGetTokenizers",
+      "param_count": 0,
+      "rank": 2,
+      "score": 0.722222,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.361111,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public abstract List<Tokenizer> doGetTokenizers();"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.282; frequency=0; frequency_norm=0.000",
+      "line": 44,
+      "name": "setUpdatedFlag",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.56338,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.28169,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void setUpdatedFlag()"
+    }
+  ],
+  "dataset_id": "c2t_c08dd290da14f22beda6",
+  "focal_class_name": "AbstractConfigurationModel",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\main\\java\\org\\sonar\\sslr\\toolkit\\AbstractConfigurationModel.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getTokenizers",
+    "rank": 1
+  },
+  "labeled_focal_method": "getTokenizers",
+  "labeled_test_method": "getTokenizers_should_return_same_parser_instance_when_flag_not_set",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 10,
+    "is_test": true,
+    "line": 72,
+    "name": "getTokenizers_should_return_same_parser_instance_when_flag_not_set"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "AbstractConfigurationModel"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:55Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.mockito.Mockito.mock"
+    ]
+  },
+  "record_id": "c2t_c08dd290da14f22beda6",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\test\\java\\org\\sonar\\sslr\\toolkit\\AbstractConfigurationModelTest.java",
+  "top_k": 3
+}

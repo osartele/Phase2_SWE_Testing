@@ -1,0 +1,20 @@
+Downloading http://services.gradle.org/distributions/gradle-1.12-all.zip
+
+Unzipping C:\Users\osart\.gradle\wrapper\dists\gradle-1.12-all\2apkk7d25miauqf1pdjp1bm0uo\gradle-1.12-all.zip to C:\Users\osart\.gradle\wrapper\dists\gradle-1.12-all\2apkk7d25miauqf1pdjp1bm0uo
+
+Exception in thread "main" java.lang.RuntimeException: java.util.zip.ZipException: zip file is empty
+	at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:78)
+	at org.gradle.wrapper.Install.createDist(Install.java:44)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:126)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:58)
+Caused by: java.util.zip.ZipException: zip file is empty
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.gradle.wrapper.Install.unzip(Install.java:157)
+	at org.gradle.wrapper.Install.access$400(Install.java:26)
+	at org.gradle.wrapper.Install$1.call(Install.java:67)
+	at org.gradle.wrapper.Install$1.call(Install.java:44)
+	at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:65)
+	... 3 more

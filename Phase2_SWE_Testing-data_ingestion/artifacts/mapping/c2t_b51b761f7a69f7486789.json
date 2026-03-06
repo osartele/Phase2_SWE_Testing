@@ -1,0 +1,82 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.190; frequency=1; frequency_norm=0.500",
+      "line": 45,
+      "name": "toString",
+      "param_count": 0,
+      "rank": 1,
+      "score": 7.130952,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.190476,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public String toString()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.200; frequency=0; frequency_norm=0.000",
+      "line": 29,
+      "name": "execute",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.4,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.2,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void execute(Machine machine)"
+    }
+  ],
+  "dataset_id": "c2t_b51b761f7a69f7486789",
+  "focal_class_name": "StringExpression",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\internal\\vm\\StringExpression.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "toString",
+    "rank": 1
+  },
+  "labeled_focal_method": "toString",
+  "labeled_test_method": "should_compile",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 6,
+    "is_test": true,
+    "line": 33,
+    "name": "should_compile"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "StringExpression"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:54Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_b51b761f7a69f7486789",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\internal\\vm\\StringExpressionTest.java",
+  "top_k": 3
+}

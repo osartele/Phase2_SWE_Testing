@@ -1,0 +1,97 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=1; name_similarity=0.200; frequency=2; frequency_norm=0.333",
+      "line": 61,
+      "name": "getConfigurationFactory",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.983333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.333333,
+        "name_similarity": 0.2,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public ComponentConfigurationResolver getConfigurationFactory(final String componentType)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.296; frequency=2; frequency_norm=0.333",
+      "line": 104,
+      "name": "getAllConfigurations",
+      "param_count": 0,
+      "rank": 2,
+      "score": 7.175926,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.333333,
+        "name_similarity": 0.296296,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Map<String, ConfigurationNode> getAllConfigurations()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.174; frequency=0; frequency_norm=0.000",
+      "line": 68,
+      "name": "getConfiguration",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.347826,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.173913,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public ConfigurationNode getConfiguration(final String key)"
+    }
+  ],
+  "dataset_id": "c2t_912e5f3305d197292c61",
+  "focal_class_name": "ArchaiusTypeConfigurationResolver",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\16563359\\fabricator-archaius\\src\\main\\java\\com\\netflix\\fabricator\\archaius\\ArchaiusTypeConfigurationResolver.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getConfigurationFactory",
+    "rank": 1
+  },
+  "labeled_focal_method": "getConfigurationFactory",
+  "labeled_test_method": "testReadAll",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 32,
+    "is_test": true,
+    "line": 13,
+    "name": "testReadAll"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ArchaiusTypeConfigurationResolver",
+      "resolver"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:52Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_912e5f3305d197292c61",
+  "repo_id": "16563359",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\16563359",
+  "repository_url": "https://github.com/Netflix/fabricator",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\16563359\\fabricator-archaius\\src\\test\\java\\com\\netflix\\fabricator\\archaius\\ArchaiusTypeConfigurationResolverTest.java",
+  "top_k": 3
+}

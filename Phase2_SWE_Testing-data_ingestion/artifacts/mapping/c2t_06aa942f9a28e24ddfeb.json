@@ -1,0 +1,100 @@
+{
+  "candidate_count": 20,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.286; frequency=1; frequency_norm=1.000",
+      "line": 43,
+      "name": "or",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.821429,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.285714,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public abstract T or(T defaultValue);"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.286; frequency=1; frequency_norm=1.000",
+      "line": 65,
+      "name": "or",
+      "param_count": 1,
+      "rank": 2,
+      "score": 7.821429,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.285714,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public T or(Object defaultValue)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.286; frequency=1; frequency_norm=1.000",
+      "line": 110,
+      "name": "or",
+      "param_count": 1,
+      "rank": 3,
+      "score": 7.821429,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.285714,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Object or(Object defaultValue)"
+    }
+  ],
+  "dataset_id": "c2t_06aa942f9a28e24ddfeb",
+  "focal_class_name": "Optional",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\com\\sonar\\sslr\\api\\typed\\Optional.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "or",
+    "rank": 1
+  },
+  "labeled_focal_method": "or",
+  "labeled_test_method": "absent_or_null",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 4,
+    "is_test": true,
+    "line": 77,
+    "name": "absent_or_null"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Optional"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:46Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows"
+    ]
+  },
+  "record_id": "c2t_06aa942f9a28e24ddfeb",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\com\\sonar\\sslr\\api\\typed\\OptionalTest.java",
+  "top_k": 3
+}

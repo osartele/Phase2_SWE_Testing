@@ -1,0 +1,27 @@
+{
+  "base_commit": "438dbbf277e1991e4bc2c422db066b20a9e48be2",
+  "build_commands": [
+    "mvn -B test"
+  ],
+  "case_id": "case_d6be1edd58283ceb",
+  "focal_file_path": "keycloak-spring-security-auth/src/main/java/org/keycloak/adapters/springsecurity/authentication/DirectAccessGrantAuthenticationProvider.java",
+  "mapped_focal_method": "authenticate",
+  "mapped_test_method": "testAuthenticateBadCredentials",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040444Z_35515269_test_run.json",
+    "baseline_test_status": "error",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040457Z_35515269_test_run.json",
+    "candidate_test_status": "fail",
+    "failures_appear": false,
+    "human_update_commit": null,
+    "human_update_distance": null,
+    "human_update_found": false,
+    "rank": 1,
+    "record_id": "c2t_476b8af3ba87b121c66b",
+    "score": 3.0,
+    "touches_method_region": true
+  },
+  "modified_commit": "3c80d550465a6c900b18a128f85a1b44de6e3a09",
+  "repo_id": "35515269",
+  "test_file_path": "keycloak-spring-security-auth/src/test/java/org/keycloak/adapters/springsecurity/authentication/DirectAccessGrantAuthenticationProviderTest.java"
+}

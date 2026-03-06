@@ -1,0 +1,98 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 60,
+      "name": "uri",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public URI uri()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.500; frequency=0; frequency_norm=0.000",
+      "line": 64,
+      "name": "substring",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.5,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String substring(int from, int to)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.250; frequency=0; frequency_norm=0.000",
+      "line": 56,
+      "name": "input",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.5,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.25,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public char[] input()"
+    }
+  ],
+  "dataset_id": "c2t_c51b2688109734df44bf",
+  "focal_class_name": "Input",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\com\\sonar\\sslr\\api\\typed\\Input.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "uri",
+    "rank": 1
+  },
+  "labeled_focal_method": "uri",
+  "labeled_test_method": "uri",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 5,
+    "is_test": true,
+    "line": 34,
+    "name": "uri"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Input"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:55Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat"
+    ]
+  },
+  "record_id": "c2t_c51b2688109734df44bf",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\com\\sonar\\sslr\\api\\typed\\InputTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,27 @@
+{
+  "base_commit": "438dbbf277e1991e4bc2c422db066b20a9e48be2",
+  "build_commands": [
+    "mvn -B test"
+  ],
+  "case_id": "case_e81f5c2110d1d4f9",
+  "focal_file_path": "keycloak-spring-security-user-details/src/main/java/org/keycloak/adapters/springsecurity/userdetails/authentication/KeycloakUserDetailsAuthenticationProvider.java",
+  "mapped_focal_method": "authenticate",
+  "mapped_test_method": "testAuthenticate",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041003Z_35515269_test_run.json",
+    "baseline_test_status": "error",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041004Z_35515269_test_run.json",
+    "candidate_test_status": "fail",
+    "failures_appear": false,
+    "human_update_commit": "40dbf14890ec90496994ea3210154871a3f89ff4",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_103b7de15f15ddce9976",
+    "score": 4.0,
+    "touches_method_region": false
+  },
+  "modified_commit": "40dbf14890ec90496994ea3210154871a3f89ff4",
+  "repo_id": "35515269",
+  "test_file_path": "keycloak-spring-security-user-details/src/test/java/org/keycloak/adapters/springsecurity/userdetails/authentication/KeycloakUserDetailsAuthenticationProviderTest.java"
+}

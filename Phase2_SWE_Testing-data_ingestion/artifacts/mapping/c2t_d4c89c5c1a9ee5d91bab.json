@@ -1,0 +1,100 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.667; frequency=1; frequency_norm=1.000",
+      "line": 102,
+      "name": "getRootRule",
+      "param_count": 0,
+      "rank": 1,
+      "score": 8.583333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.666667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public RuleDefinition getRootRule()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.270; frequency=0; frequency_norm=0.000",
+      "line": 75,
+      "name": "fileToCharArray",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.540541,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.27027,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private static char[] fileToCharArray(File file, Charset charset)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.074; frequency=0; frequency_norm=0.000",
+      "line": 58,
+      "name": "parse",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.148148,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.074074,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public AstNode parse(String source)"
+    }
+  ],
+  "dataset_id": "c2t_d4c89c5c1a9ee5d91bab",
+  "focal_class_name": "ParserAdapter",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\parser\\ParserAdapter.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getRootRule",
+    "rank": 1
+  },
+  "labeled_focal_method": "getRootRule",
+  "labeled_test_method": "getRootRule_unsupported",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 106,
+    "name": "getRootRule_unsupported"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ParserAdapter"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:56Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows"
+    ]
+  },
+  "record_id": "c2t_d4c89c5c1a9ee5d91bab",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\parser\\ParserAdapterTest.java",
+  "top_k": 3
+}

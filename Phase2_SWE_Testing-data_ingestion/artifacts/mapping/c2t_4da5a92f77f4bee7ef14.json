@@ -1,0 +1,99 @@
+{
+  "candidate_count": 9,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 73,
+      "name": "copyThumbnails",
+      "param_count": 3,
+      "rank": 1,
+      "score": 11.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public List<String> copyThumbnails(EuropeanaQueryInterface search, File dir, int maxResults) throws IOException, EuropeanaApiProblem"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 212,
+      "name": "copyThumbnails",
+      "param_count": 2,
+      "rank": 2,
+      "score": 10.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public List<String> copyThumbnails(Map<String, String> thumbnailsMap, File imageFolder) throws FileNotFoundException, IOException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.963; frequency=0; frequency_norm=0.000",
+      "line": 249,
+      "name": "copyThumbnail",
+      "param_count": 2,
+      "rank": 3,
+      "score": 1.925926,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.962963,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String copyThumbnail(String europeanaId, File imageFolder) throws FileNotFoundException, IOException, EuropeanaClientException"
+    }
+  ],
+  "dataset_id": "c2t_4da5a92f77f4bee7ef14",
+  "focal_class_name": "ThumbnailsAccessor",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\11613195\\europeana-client\\src\\main\\java\\eu\\europeana\\api\\client\\thumbnails\\ThumbnailsAccessor.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "copyThumbnails",
+    "rank": 1
+  },
+  "labeled_focal_method": "copyThumbnails",
+  "labeled_test_method": "testCopyThumbnails",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 5,
+    "is_test": true,
+    "line": 18,
+    "name": "testCopyThumbnails"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ThumbnailsAccessor",
+      "ta"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:49Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals"
+    ]
+  },
+  "record_id": "c2t_4da5a92f77f4bee7ef14",
+  "repo_id": "11613195",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\11613195",
+  "repository_url": "https://github.com/europeana/europeana-client",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\11613195\\europeana-client\\src\\test\\java\\eu\\europeana\\api\\client\\thumbnails\\ThumbnailsAccessorTest.java",
+  "top_k": 3
+}

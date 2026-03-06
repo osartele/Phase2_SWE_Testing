@@ -1,0 +1,4 @@
+case_id,repo_id,approach,status,success,duration_seconds,stop_reason,error,summary_path
+case_0de800c69510b756,13899,human,fail,False,4.844,still_failing,,C:\Users\garre\Desktop\P2\New folder\artifacts\benchmark\human\case_0de800c69510b756\human_run.json
+case_0de800c69510b756,13899,healing,ok,False,6.985,no_progress_no_assertion_failures,,C:\Users\garre\Desktop\P2\New folder\artifacts\benchmark\healing\case_0de800c69510b756\healing_summary.json
+case_0de800c69510b756,13899,regen,error,,,error,"FileNotFoundError: EvoSuite jar is not configured. Set --evosuite-jar, EVOSUITE_JAR, or configure tools.evosuite.jar_path / tools.evosuite.download_url.",

@@ -1,0 +1,131 @@
+{
+  "approaches": {
+    "healing": {
+      "approach": "healing",
+      "available": true,
+      "case_id": "case_0de800c69510b756",
+      "command_results": {
+        "jacoco": {
+          "duration_seconds": 0.015,
+          "error": "command_error_FileNotFoundError: [WinError 2] The system cannot find the file specified",
+          "exit_code": -1,
+          "ok": false
+        },
+        "pit": {
+          "duration_seconds": 0.0,
+          "error": "command_error_FileNotFoundError: [WinError 2] The system cannot find the file specified",
+          "exit_code": -1,
+          "ok": false
+        }
+      },
+      "commands": {
+        "jacoco": [
+          "mvn",
+          "-B",
+          "org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent",
+          "test",
+          "org.jacoco:jacoco-maven-plugin:0.8.11:report"
+        ],
+        "pit": [
+          "mvn",
+          "-B",
+          "org.pitest:pitest-maven:mutationCoverage",
+          "-DtimestampedReports=false"
+        ]
+      },
+      "commit_sha": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+      "coverage_counter": null,
+      "coverage_pct": null,
+      "error": "jacoco_command_failed(exit=-1, error=command_error_FileNotFoundError: [WinError 2] The system cannot find the file specified); pit_command_failed(exit=-1, error=command_error_FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+      "jacoco_report_count": 0,
+      "jacoco_report_paths": "",
+      "jacoco_runtime_seconds": 0.015,
+      "mutation_score_pct": null,
+      "pit_report_count": 0,
+      "pit_report_paths": "",
+      "pit_runtime_seconds": 0.0,
+      "prepare": {
+        "applied_patches": [],
+        "ok": true
+      },
+      "repo_id": "13899",
+      "runtime_seconds": 1.688,
+      "status": "error"
+    },
+    "human": {
+      "approach": "human",
+      "available": true,
+      "case_id": "case_0de800c69510b756",
+      "command_results": {
+        "jacoco": {
+          "duration_seconds": 0.0,
+          "error": "command_error_FileNotFoundError: [WinError 2] The system cannot find the file specified",
+          "exit_code": -1,
+          "ok": false
+        },
+        "pit": {
+          "duration_seconds": 0.0,
+          "error": "command_error_FileNotFoundError: [WinError 2] The system cannot find the file specified",
+          "exit_code": -1,
+          "ok": false
+        }
+      },
+      "commands": {
+        "jacoco": [
+          "mvn",
+          "-B",
+          "org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent",
+          "test",
+          "org.jacoco:jacoco-maven-plugin:0.8.11:report"
+        ],
+        "pit": [
+          "mvn",
+          "-B",
+          "org.pitest:pitest-maven:mutationCoverage",
+          "-DtimestampedReports=false"
+        ]
+      },
+      "commit_sha": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+      "coverage_counter": null,
+      "coverage_pct": null,
+      "error": "jacoco_command_failed(exit=-1, error=command_error_FileNotFoundError: [WinError 2] The system cannot find the file specified); pit_command_failed(exit=-1, error=command_error_FileNotFoundError: [WinError 2] The system cannot find the file specified)",
+      "jacoco_report_count": 0,
+      "jacoco_report_paths": "",
+      "jacoco_runtime_seconds": 0.0,
+      "mutation_score_pct": null,
+      "pit_report_count": 0,
+      "pit_report_paths": "",
+      "pit_runtime_seconds": 0.0,
+      "prepare": {
+        "ok": true
+      },
+      "repo_id": "13899",
+      "runtime_seconds": 0.844,
+      "status": "error"
+    },
+    "regen": {
+      "approach": "regen",
+      "available": false,
+      "case_id": "case_0de800c69510b756",
+      "commit_sha": null,
+      "coverage_counter": null,
+      "coverage_pct": null,
+      "error": "missing_regen_summary",
+      "jacoco_report_count": 0,
+      "jacoco_report_paths": "",
+      "jacoco_runtime_seconds": null,
+      "mutation_score_pct": null,
+      "pit_report_count": 0,
+      "pit_report_paths": "",
+      "pit_runtime_seconds": null,
+      "repo_id": "13899",
+      "runtime_seconds": null,
+      "status": "missing_regen_artifact"
+    }
+  },
+  "base_commit": "669b302c106551287cf2352101f3e131bb858015",
+  "case_id": "case_0de800c69510b756",
+  "human_update_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "modified_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "repo_id": "13899"
+}

@@ -1,0 +1,27 @@
+{
+  "base_commit": "9e239ce107131377e8b7c5c10ec6c1f35df8ab26",
+  "build_commands": [
+    "'<build-tool-not-detected>'"
+  ],
+  "case_id": "case_f86051810318036c",
+  "focal_file_path": "lizalab-rdrand-util/src/main/java/net/lizalab/util/RdRandException.java",
+  "mapped_focal_method": "getStatus",
+  "mapped_test_method": "testGetStatus",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040402Z_30000823_test_run.json",
+    "baseline_test_status": "error",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T040403Z_30000823_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": "61a51d222d5f8f7d7dba9baf90c35194787f20de",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_3f8e3aa91e7ac7b36bdf",
+    "score": 3.0,
+    "touches_method_region": false
+  },
+  "modified_commit": "61a51d222d5f8f7d7dba9baf90c35194787f20de",
+  "repo_id": "30000823",
+  "test_file_path": "lizalab-rdrand-util/src/test/java/net/lizalab/util/RdRandExceptionTest.java"
+}

@@ -1,0 +1,105 @@
+{
+  "candidate_count": 44,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=0; name_similarity=0.459; frequency=1; frequency_norm=1.000",
+      "line": 495,
+      "name": "invokeConstructor",
+      "param_count": 3,
+      "rank": 1,
+      "score": 8.918033,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.459016,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static <T> T invokeConstructor(Class<T> classThatContainsTheConstructorToTest, Class<?>[] parameterTypes, Object[] arguments) throws Exception"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=0; name_similarity=0.459; frequency=1; frequency_norm=1.000",
+      "line": 509,
+      "name": "invokeConstructor",
+      "param_count": 2,
+      "rank": 2,
+      "score": 8.918033,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.459016,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static <T> T invokeConstructor(Class<T> classThatContainsTheConstructorToTest, Object... arguments) throws Exception"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.493; frequency=0; frequency_norm=0.000",
+      "line": 523,
+      "name": "getFirstParentConstructor",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.985507,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.492754,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static Constructor<?> getFirstParentConstructor(Class<?> klass)"
+    }
+  ],
+  "dataset_id": "c2t_e3a6cbc37a9c4f65a742",
+  "focal_class_name": "Whitebox",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\20249391\\powermock-reflect\\src\\main\\java\\org\\powermock\\reflect\\Whitebox.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "invokeConstructor",
+    "rank": 1
+  },
+  "labeled_focal_method": "invokeConstructor",
+  "labeled_test_method": "testInstantiateVarArgsOnlyConstructor_noArguments",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 3,
+    "is_test": true,
+    "line": 323,
+    "name": "testInstantiateVarArgsOnlyConstructor_noArguments"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Whitebox"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:57Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.assertj.core.api.Java6Assertions.assertThat",
+      "org.junit.Assert.assertArrayEquals",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.assertNull",
+      "org.junit.Assert.assertSame",
+      "org.junit.Assert.assertTrue",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_e3a6cbc37a9c4f65a742",
+  "repo_id": "20249391",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\20249391",
+  "repository_url": "https://github.com/powermock/powermock",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\20249391\\powermock-reflect\\src\\test\\java\\org\\powermock\\reflect\\WhiteBoxTest.java",
+  "top_k": 3
+}

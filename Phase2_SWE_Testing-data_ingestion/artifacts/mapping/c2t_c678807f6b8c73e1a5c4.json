@@ -1,0 +1,100 @@
+{
+  "candidate_count": 11,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=1; arg_count_match=1; name_similarity=0.711; frequency=3; frequency_norm=1.000",
+      "line": 57,
+      "name": "emitHumanDescription",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.172222,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.711111,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 1
+      },
+      "signature": "static void emitHumanDescription(StringBuilder builder, List<FieldBinding> bindings)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.391; frequency=0; frequency_norm=0.000",
+      "line": 136,
+      "name": "emitResourceInjection",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.782609,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.391304,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "void emitResourceInjection(StringBuilder builder, ResourceInjection injection)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.381; frequency=0; frequency_norm=0.000",
+      "line": 86,
+      "name": "setParentInjector",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.761905,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.380952,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "void setParentInjector(String parentInjector)"
+    }
+  ],
+  "dataset_id": "c2t_c678807f6b8c73e1a5c4",
+  "focal_class_name": "ResourceInjector",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32488797\\vitaminsaber\\src\\main\\java\\com\\w2ji\\vitaminsaber\\internal\\ResourceInjector.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "emitHumanDescription",
+    "rank": 1
+  },
+  "labeled_focal_method": "emitHumanDescription",
+  "labeled_test_method": "humanDescriptionJoinWorks",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 15,
+    "is_test": true,
+    "line": 15,
+    "name": "humanDescriptionJoinWorks"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ResourceInjector"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:55Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "java.util.Arrays.asList",
+      "org.fest.assertions.api.Assertions.assertThat",
+      "com.w2ji.vitaminsaber.internal.ResourceInjector.emitHumanDescription"
+    ]
+  },
+  "record_id": "c2t_c678807f6b8c73e1a5c4",
+  "repo_id": "32488797",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32488797",
+  "repository_url": "https://github.com/w2ji/VitaminSaber",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32488797\\vitaminsaber\\src\\test\\java\\com\\w2ji\\vitaminsaber\\internal\\ResourceInjectorTest.java",
+  "top_k": 3
+}

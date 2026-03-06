@@ -1,0 +1,31 @@
+BUILD FAILED
+
+Total time: 9.541 secs
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'smartling-keycloak-extras'.
+> Could not resolve all dependencies for configuration ':classpath'.
+   > Could not find com.perforce:p4java-jfrog:2011.1.297684.
+     Searched in the following locations:
+         https://plugins.gradle.org/m2/com/perforce/p4java-jfrog/2011.1.297684/p4java-jfrog-2011.1.297684.pom
+         https://plugins.gradle.org/m2/com/perforce/p4java-jfrog/2011.1.297684/p4java-jfrog-2011.1.297684.jar
+     Required by:
+         :smartling-keycloak-extras:unspecified > com.netflix.nebula:nebula-project-plugin:2.2.1 > com.netflix.nebula:gradle-info-plugin:2.2.0
+   > Could not find org.codehaus.groovy.modules.http-builder:http-builder:0.7.2.
+     Searched in the following locations:
+         https://plugins.gradle.org/m2/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.pom
+         https://plugins.gradle.org/m2/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.jar
+     Required by:
+         :smartling-keycloak-extras:unspecified > com.netflix.nebula:nebula-bintray-plugin:2.2.4 > com.jfrog.bintray.gradle:gradle-bintray-plugin:1.3.1
+   > Could not find org.jfrog.buildinfo:build-info-extractor:2.5.1.
+     Searched in the following locations:
+         https://plugins.gradle.org/m2/org/jfrog/buildinfo/build-info-extractor/2.5.1/build-info-extractor-2.5.1.pom
+         https://plugins.gradle.org/m2/org/jfrog/buildinfo/build-info-extractor/2.5.1/build-info-extractor-2.5.1.jar
+     Required by:
+         :smartling-keycloak-extras:unspecified > com.netflix.nebula:nebula-bintray-plugin:2.2.4 > org.jfrog.buildinfo:build-info-extractor-gradle:3.1.1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.

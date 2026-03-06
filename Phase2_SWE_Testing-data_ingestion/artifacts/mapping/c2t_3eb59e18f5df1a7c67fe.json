@@ -1,0 +1,97 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.286; frequency=1; frequency_norm=1.000",
+      "line": 82,
+      "name": "parse",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.821429,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.285714,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public Tuple2 <Boolean, Row> parse(String line)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.296; frequency=0; frequency_norm=0.000",
+      "line": 119,
+      "name": "postProcess",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.592593,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.296296,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private Tuple2 <Boolean, Object> postProcess(Tuple2 <Boolean, Object> record, TypeInformation <?> type)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.188; frequency=0; frequency_norm=0.000",
+      "line": 134,
+      "name": "findNextDelimPos",
+      "param_count": 4,
+      "rank": 3,
+      "score": 0.375,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.1875,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private int findNextDelimPos(String line, int startPos, int limit, boolean isStringCol)"
+    }
+  ],
+  "dataset_id": "c2t_3eb59e18f5df1a7c67fe",
+  "focal_class_name": "CsvParser",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\150938406\\core\\src\\main\\java\\com\\alibaba\\alink\\operator\\common\\io\\csv\\CsvParser.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "parse",
+    "rank": 1
+  },
+  "labeled_focal_method": "parse",
+  "labeled_test_method": "testMalFormatString1",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 33,
+    "name": "testMalFormatString1"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "CsvParser",
+      "parser"
+    ],
+    "generated_at_utc": "2026-03-06T02:37:38Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_3eb59e18f5df1a7c67fe",
+  "repo_id": "150938406",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\150938406",
+  "repository_url": "https://github.com/alibaba/Alink",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\150938406\\core\\src\\test\\java\\com\\alibaba\\alink\\operator\\common\\io\\csv\\CsvParserTest.java",
+  "top_k": 3
+}

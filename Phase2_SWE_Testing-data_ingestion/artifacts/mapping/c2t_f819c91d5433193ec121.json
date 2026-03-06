@@ -1,0 +1,101 @@
+{
+  "candidate_count": 16,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.500",
+      "line": 154,
+      "name": "skippedTrivia",
+      "param_count": 1,
+      "rank": 1,
+      "score": 10.75,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 1.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Deprecated public static Object skippedTrivia(Object e)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.538; frequency=0; frequency_norm=0.000",
+      "line": 145,
+      "name": "commentTrivia",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.076923,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.538462,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Deprecated public static Object commentTrivia(Object e)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.263; frequency=0; frequency_norm=0.000",
+      "line": 159,
+      "name": "convertToSingleExpression",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.526316,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.263158,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private static ParsingExpression convertToSingleExpression(Object... elements)"
+    }
+  ],
+  "dataset_id": "c2t_f819c91d5433193ec121",
+  "focal_class_name": "GrammarOperators",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\parser\\GrammarOperators.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "skippedTrivia",
+    "rank": 1
+  },
+  "labeled_focal_method": "skippedTrivia",
+  "labeled_test_method": "test_skippedTrivia",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 7,
+    "is_test": true,
+    "line": 93,
+    "name": "test_skippedTrivia"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "GrammarOperators"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:58Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows",
+      "org.mockito.Mockito.mock"
+    ]
+  },
+  "record_id": "c2t_f819c91d5433193ec121",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\parser\\GrammarOperatorsTest.java",
+  "top_k": 3
+}

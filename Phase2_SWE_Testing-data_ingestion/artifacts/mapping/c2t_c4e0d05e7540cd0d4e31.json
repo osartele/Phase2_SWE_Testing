@@ -1,0 +1,105 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.160; frequency=1; frequency_norm=1.000",
+      "line": 227,
+      "name": "isMtls",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.57,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.16,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public boolean isMtls()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.375; frequency=0; frequency_norm=0.000",
+      "line": 222,
+      "name": "getHttpClient",
+      "param_count": 0,
+      "rank": 2,
+      "score": 0.75,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.375,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public HttpClient getHttpClient()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.308; frequency=0; frequency_norm=0.000",
+      "line": 138,
+      "name": "newDefaultHttpClient",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.615385,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.307692,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static HttpClient newDefaultHttpClient()"
+    }
+  ],
+  "dataset_id": "c2t_c4e0d05e7540cd0d4e31",
+  "focal_class_name": "ApacheHttpTransport",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\28992330\\google-http-client-apache-v2\\src\\main\\java\\com\\google\\api\\client\\http\\apache\\v2\\ApacheHttpTransport.java",
+  "ground_truth": {
+    "in_top_k": false,
+    "labeled_focal_method": "ApacheHttpTransport",
+    "rank": null
+  },
+  "labeled_focal_method": "ApacheHttpTransport",
+  "labeled_test_method": "testApacheHttpTransport",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 3,
+    "is_test": true,
+    "line": 78,
+    "name": "testApacheHttpTransport"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ApacheHttpTransport",
+      "transport"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:55Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertFalse",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.assertTrue",
+      "org.junit.Assert.fail",
+      "org.junit.Assume.assumeFalse",
+      "org.junit.Assume.assumeTrue"
+    ]
+  },
+  "record_id": "c2t_c4e0d05e7540cd0d4e31",
+  "repo_id": "28992330",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\28992330",
+  "repository_url": "https://github.com/googleapis/google-http-java-client",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\28992330\\google-http-client-apache-v2\\src\\test\\java\\com\\google\\api\\client\\http\\apache\\v2\\ApacheHttpTransportTest.java",
+  "top_k": 3
+}

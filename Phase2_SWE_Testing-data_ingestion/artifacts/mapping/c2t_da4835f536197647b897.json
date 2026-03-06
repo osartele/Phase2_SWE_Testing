@@ -1,0 +1,100 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=8); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=8; frequency_norm=0.727",
+      "line": 68,
+      "name": "integerRangeValidator",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.977273,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 8,
+        "frequency_norm": 0.727273,
+        "name_similarity": 1.0,
+        "qualifier_hits": 8,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static ValidationCallback integerRangeValidator(int lowerBound, int upperBound)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.483; frequency=11; frequency_norm=1.000",
+      "line": 47,
+      "name": "validate",
+      "param_count": 1,
+      "rank": 2,
+      "score": 8.215517,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 11,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.482759,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public String validate(String newValueCandidate)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.483; frequency=11; frequency_norm=1.000",
+      "line": 86,
+      "name": "validate",
+      "param_count": 1,
+      "rank": 3,
+      "score": 8.215517,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 11,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.482759,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public String validate(String newValueCandidate)"
+    }
+  ],
+  "dataset_id": "c2t_da4835f536197647b897",
+  "focal_class_name": "Validators",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\main\\java\\org\\sonar\\sslr\\toolkit\\Validators.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "integerRangeValidator",
+    "rank": 1
+  },
+  "labeled_focal_method": "integerRangeValidator",
+  "labeled_test_method": "integerRangeValidator",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 41,
+    "is_test": true,
+    "line": 41,
+    "name": "integerRangeValidator"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Validators"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:56Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows"
+    ]
+  },
+  "record_id": "c2t_da4835f536197647b897",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\test\\java\\org\\sonar\\sslr\\toolkit\\ValidatorsTest.java",
+  "top_k": 3
+}

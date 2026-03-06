@@ -1,0 +1,79 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=6); static_import_match=0; arg_count_match=1; name_similarity=0.667; frequency=6; frequency_norm=1.000",
+      "line": 34,
+      "name": "escape",
+      "param_count": 1,
+      "rank": 1,
+      "score": 10.583333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 6,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.666667,
+        "qualifier_hits": 6,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static String escape(char ch)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.195; frequency=0; frequency_norm=0.000",
+      "line": 44,
+      "name": "trimTrailingLineSeparatorFrom",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.390244,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.195122,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static String trimTrailingLineSeparatorFrom(String string)"
+    }
+  ],
+  "dataset_id": "c2t_774b9bfa5de3bde5d1b6",
+  "focal_class_name": "TextUtils",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\internal\\matchers\\TextUtils.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "escape",
+    "rank": 1
+  },
+  "labeled_focal_method": "escape",
+  "labeled_test_method": "should_escape",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 18,
+    "is_test": true,
+    "line": 27,
+    "name": "should_escape"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "TextUtils"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:51Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat"
+    ]
+  },
+  "record_id": "c2t_774b9bfa5de3bde5d1b6",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\internal\\matchers\\TextUtilsTest.java",
+  "top_k": 3
+}

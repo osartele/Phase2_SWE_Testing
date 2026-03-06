@@ -1,0 +1,98 @@
+{
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=0; frequency_norm=0.000",
+      "line": 69,
+      "name": "ARRAY",
+      "param_count": 0,
+      "rank": 1,
+      "score": 2.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public ArrayTree ARRAY()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.444; frequency=0; frequency_norm=0.000",
+      "line": 64,
+      "name": "PAIR",
+      "param_count": 0,
+      "rank": 2,
+      "score": 0.888889,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.444444,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public PairTree PAIR()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.308; frequency=0; frequency_norm=0.000",
+      "line": 57,
+      "name": "PAIR_LIST",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.615385,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.307692,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public SyntaxList<PairTree> PAIR_LIST()"
+    }
+  ],
+  "dataset_id": "c2t_b69b947887b94399073f",
+  "focal_class_name": "JsonGrammar",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-examples\\src\\main\\java\\org\\sonar\\sslr\\examples\\grammars\\typed\\JsonGrammar.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "ARRAY",
+    "rank": 1
+  },
+  "labeled_focal_method": "ARRAY",
+  "labeled_test_method": "array",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 32,
+    "is_test": true,
+    "line": 105,
+    "name": "array"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "JsonGrammar"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:54Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat"
+    ]
+  },
+  "record_id": "c2t_b69b947887b94399073f",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-examples\\src\\test\\java\\org\\sonar\\sslr\\examples\\grammars\\typed\\JsonGrammarTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,94 @@
+Downloading https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping C:\Users\osart\.gradle\wrapper\dists\gradle-2.2.1-all\6dibv5rcnnqlfbq9klf8imrndn\gradle-2.2.1-all.zip to C:\Users\osart\.gradle\wrapper\dists\gradle-2.2.1-all\6dibv5rcnnqlfbq9klf8imrndn
+Download https://repo1.maven.org/maven2/com/android/tools/build/gradle/1.0.1/gradle-1.0.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/build/builder/1.0.1/builder-1.0.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/lint/lint/24.0.1/lint-24.0.1.pom
+Download https://repo1.maven.org/maven2/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.pom
+Download https://repo1.maven.org/maven2/net/sf/proguard/proguard-parent/5.1/proguard-parent-5.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/build/builder-model/1.0.1/builder-model-1.0.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/build/builder-test-api/1.0.1/builder-test-api-1.0.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/sdklib/24.0.1/sdklib-24.0.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/sdk-common/24.0.1/sdk-common-24.0.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/common/24.0.1/common-24.0.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/build/manifest-merger/24.0.1/manifest-merger-24.0.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/ddms/ddmlib/24.0.1/ddmlib-24.0.1.pom
+Download https://repo1.maven.org/maven2/com/squareup/javawriter/2.5.0/javawriter-2.5.0.pom
+Download https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.pom
+Download https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.pom
+Download https://repo1.maven.org/maven2/com/android/tools/lint/lint-checks/24.0.1/lint-checks-24.0.1.pom
+Download https://repo1.maven.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.pom
+Download https://repo1.maven.org/maven2/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/layoutlib/layoutlib-api/24.0.1/layoutlib-api-24.0.1.pom
+Download https://repo1.maven.org/maven2/com/android/tools/dvlib/24.0.1/dvlib-24.0.1.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1.1/httpcomponents-client-4.1.1.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom
+Download https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.pom
+Download https://repo1.maven.org/maven2/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+Download https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom
+Download https://repo1.maven.org/maven2/com/android/tools/lint/lint-api/24.0.1/lint-api-24.0.1.pom
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.pom
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/4.0/asm-parent-4.0.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom
+Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+Download https://repo1.maven.org/maven2/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2.pom
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.pom
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.pom
+Download https://repo1.maven.org/maven2/com/android/tools/build/gradle/1.0.1/gradle-1.0.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/build/builder/1.0.1/builder-1.0.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/lint/lint/24.0.1/lint-24.0.1.jar
+Download https://repo1.maven.org/maven2/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/build/builder-model/1.0.1/builder-model-1.0.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/build/builder-test-api/1.0.1/builder-test-api-1.0.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/sdklib/24.0.1/sdklib-24.0.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/sdk-common/24.0.1/sdk-common-24.0.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/common/24.0.1/common-24.0.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/build/manifest-merger/24.0.1/manifest-merger-24.0.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/ddms/ddmlib/24.0.1/ddmlib-24.0.1.jar
+Download https://repo1.maven.org/maven2/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar
+Download https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar
+Download https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar
+Download https://repo1.maven.org/maven2/com/android/tools/lint/lint-checks/24.0.1/lint-checks-24.0.1.jar
+Download https://repo1.maven.org/maven2/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.jar
+Download https://repo1.maven.org/maven2/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/layoutlib/layoutlib-api/24.0.1/layoutlib-api-24.0.1.jar
+Download https://repo1.maven.org/maven2/com/android/tools/dvlib/24.0.1/dvlib-24.0.1.jar
+Download https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar
+Download https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar
+Download https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar
+Download https://repo1.maven.org/maven2/com/android/tools/lint/lint-api/24.0.1/lint-api-24.0.1.jar
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar
+Download https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar
+Download https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+Download https://repo1.maven.org/maven2/com/android/tools/external/lombok/lombok-ast/0.2.2/lombok-ast-0.2.2.jar
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.jar
+Download https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar
+using default debug.keystore
+Error: could not find ../distribution/signing.properties - using default values!
+
+BUILD FAILED
+
+Total time: 1 mins 40.359 secs
+
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'C:\Users\osart\OneDrive - Umich\SWTProject\Phase2_SWE_Testing\repos\23257998\semdroid-android\build.gradle' line: 104
+
+* What went wrong:
+A problem occurred evaluating project ':semdroid-android'.
+> SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.

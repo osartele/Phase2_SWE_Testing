@@ -1,0 +1,123 @@
+$ mvn -B test
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:adbcj-api:jar:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:adbcj-jdbc:jar:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:mysql-codec:jar:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:mysql-mina:jar:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:mysql-netty:jar:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:mysql-build:pom:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:adbcj-postgresql:jar:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:adbcj-tck:jar:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:adbcj-perf:jar:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ org.adbcj:adbcj:0.2-SNAPSHOT, C:\Users\garre\Desktop\P2\New folder\repos\13899\pom.xml, line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.adbcj:adbcj:pom:0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 117, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 141, column 12
+[WARNING] The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ADBCJ                                                              [pom]
+[INFO] ADBCJ - API                                                        [jar]
+[INFO] ADBCJ - JDBC Driver                                                [jar]
+[INFO] ADBCJ - MySQL Drivers Build                                        [pom]
+[INFO] ADBCJ - MySQL Codec                                                [jar]
+[INFO] ADBCJ - MySQL MINA Driver                                          [jar]
+[INFO] ADBCJ - MySQL Netty Driver                                         [jar]
+[INFO] ADBCJ - Postgresql Driver                                          [jar]
+[INFO] ADBCJ - TCK                                                        [jar]
+[INFO] ADBCJ - Perf                                                       [jar]
+[INFO] 
+[INFO] --------------------------< org.adbcj:adbcj >---------------------------
+[INFO] Building ADBCJ 0.2-SNAPSHOT                                       [1/10]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] Could not transfer metadata org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository/, default, releases+snapshots)]
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-4: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-4 requires Maven version 4.0.0-rc-4
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-compiler-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-compiler-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-3: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-3 requires Maven version 4.0.0-rc-4
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-2 requires Maven version 4.0.0-rc-2
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Selected plugin org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[WARNING] Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository/, default, releases+snapshots)]
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: The plugin org.apache.maven.plugins:maven-source-plugin:4.0.0-beta-1 requires Maven version 4.0.0-beta-3
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-source-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-source-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-source-plugin:3.4.0
+[INFO] 
+[INFO] ------------------------< org.adbcj:adbcj-api >-------------------------
+[INFO] Building ADBCJ - API 0.2-SNAPSHOT                                 [2/10]
+[INFO]   from api\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Could not transfer metadata org.apache.maven.plugins:maven-surefire-plugin:2.4-SNAPSHOT/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository/, default, releases+snapshots)]
+[WARNING] org.apache.maven.plugins:maven-surefire-plugin:2.4-SNAPSHOT/maven-metadata.xml failed to transfer from http://0.0.0.0/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-default-http-blocker has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-surefire-plugin:2.4-SNAPSHOT/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository/, default, releases+snapshots)]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for ADBCJ 0.2-SNAPSHOT:
+[INFO] 
+[INFO] ADBCJ .............................................. SUCCESS [  0.375 s]
+[INFO] ADBCJ - API ........................................ FAILURE [  0.121 s]
+[INFO] ADBCJ - JDBC Driver ................................ SKIPPED
+[INFO] ADBCJ - MySQL Drivers Build ........................ SKIPPED
+[INFO] ADBCJ - MySQL Codec ................................ SKIPPED
+[INFO] ADBCJ - MySQL MINA Driver .......................... SKIPPED
+[INFO] ADBCJ - MySQL Netty Driver ......................... SKIPPED
+[INFO] ADBCJ - Postgresql Driver .......................... SKIPPED
+[INFO] ADBCJ - TCK ........................................ SKIPPED
+[INFO] ADBCJ - Perf ....................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.762 s
+[INFO] Finished at: 2026-03-01T22:34:51-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-surefire-plugin:2.4-SNAPSHOT or one of its dependencies could not be resolved:
+[ERROR] 	The following artifacts could not be resolved: org.apache.maven.plugins:maven-surefire-plugin:pom:2.4-SNAPSHOT (absent): Could not transfer artifact org.apache.maven.plugins:maven-surefire-plugin:pom:2.4-SNAPSHOT from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository/, default, releases+snapshots)]
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException

@@ -1,0 +1,96 @@
+{
+  "candidate_count": 23,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=4); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=4; frequency_norm=1.000",
+      "line": 41,
+      "name": "safeRead",
+      "param_count": 1,
+      "rank": 1,
+      "score": 11.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 4,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 4,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static int safeRead(InputStream in) throws IOException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.533; frequency=0; frequency_norm=0.000",
+      "line": 102,
+      "name": "readInt",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.066667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.533333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static int readInt(InputStream in) throws IOException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.500; frequency=0; frequency_norm=0.000",
+      "line": 206,
+      "name": "readEnum",
+      "param_count": 2,
+      "rank": 3,
+      "score": 1.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.5,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static <E extends Enum<E>> E readEnum(InputStream in, Class<E> enumClass) throws IOException"
+    }
+  ],
+  "dataset_id": "c2t_536ecf4c149b120d7404",
+  "focal_class_name": "IoUtils",
+  "focal_file_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\mysql\\codec\\src\\main\\java\\org\\adbcj\\mysql\\codec\\IoUtils.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "safeRead",
+    "rank": 1
+  },
+  "labeled_focal_method": "safeRead",
+  "labeled_test_method": "testSafeRead",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 15,
+    "name": "testSafeRead"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "IoUtils"
+    ],
+    "generated_at_utc": "2026-03-02T03:35:05Z",
+    "manifest_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_536ecf4c149b120d7404",
+  "repo_id": "13899",
+  "repo_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899",
+  "repository_url": "https://github.com/mheath/adbcj",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\mysql\\codec\\src\\test\\java\\org\\adbcj\\mysql\\codec\\IoUtilsTest.java",
+  "top_k": 3
+}

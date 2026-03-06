@@ -1,0 +1,83 @@
+{
+  "approaches": [
+    "healing",
+    "regen",
+    "human"
+  ],
+  "benchmark_root": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark",
+  "case_ids": [
+    "case_0de800c69510b756"
+  ],
+  "cases_executed": 1,
+  "cases_requested": 1,
+  "generated_at_utc": "2026-03-02T03:35:05Z",
+  "outcomes_csv": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\benchmark_outcomes.csv",
+  "rq1_result": {
+    "approach_counts": {
+      "healing": {
+        "evaluated": 1,
+        "passing": 0
+      },
+      "regen": {
+        "evaluated": 0,
+        "passing": 0
+      }
+    },
+    "approach_pass_rates": {
+      "healing": 0.0,
+      "regen": null
+    },
+    "cases_total": 1,
+    "cases_with_human_updates": 1,
+    "output_csv": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\rq1_summary.csv",
+    "per_case_dir": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\rq1_cases",
+    "per_case_paths": [
+      "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\rq1_cases\\case_0de800c69510b756.json"
+    ],
+    "rows_written": 2,
+    "status": "ok",
+    "with_ast_similarity": true
+  },
+  "rq2_result": {
+    "error_report": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\rq2_error_report.md",
+    "metrics_csv": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\rq2_metrics.csv",
+    "n_records": 1,
+    "n_signature_records": 1,
+    "status": "ok",
+    "summary": {
+      "n_records": 1,
+      "n_signature_records": 1,
+      "top1_identifier_accuracy": 1.0,
+      "top1_primary_accuracy": 1.0,
+      "top1_signature_accuracy": 1.0,
+      "top3_identifier_accuracy": 1.0,
+      "top3_primary_accuracy": 1.0,
+      "top3_signature_accuracy": 1.0
+    }
+  },
+  "rq3_result": {
+    "approach_counts": {
+      "healing": {
+        "evaluated": 1
+      },
+      "human": {
+        "evaluated": 1
+      },
+      "regen": {
+        "evaluated": 0
+      }
+    },
+    "cases_total": 1,
+    "evaluation_root": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\rq3_eval",
+    "output_csv": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\rq3_quality.csv",
+    "per_case_dir": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\rq3_cases",
+    "per_case_paths": [
+      "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\rq3_cases\\case_0de800c69510b756.json"
+    ],
+    "rows_written": 3,
+    "status": "ok"
+  },
+  "status": "ok",
+  "summary_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\summary.md",
+  "with_mapper": true
+}

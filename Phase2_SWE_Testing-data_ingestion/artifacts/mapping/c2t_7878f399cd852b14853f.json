@@ -1,0 +1,99 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 59,
+      "name": "authenticate",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Authentication authenticate(Authentication authentication) throws AuthenticationException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.410; frequency=0; frequency_norm=0.000",
+      "line": 120,
+      "name": "setGrantedAuthoritiesMapper",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.820513,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.410256,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void setGrantedAuthoritiesMapper(GrantedAuthoritiesMapper grantedAuthoritiesMapper)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.359; frequency=0; frequency_norm=0.000",
+      "line": 110,
+      "name": "setDirectAccessGrantService",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.717949,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.358974,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Required public void setDirectAccessGrantService(DirectAccessGrantService directAccessGrantService)"
+    }
+  ],
+  "dataset_id": "c2t_7878f399cd852b14853f",
+  "focal_class_name": "DirectAccessGrantAuthenticationProvider",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269\\keycloak-spring-security-auth\\src\\main\\java\\org\\keycloak\\adapters\\springsecurity\\authentication\\DirectAccessGrantAuthenticationProvider.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "authenticate",
+    "rank": 1
+  },
+  "labeled_focal_method": "authenticate",
+  "labeled_test_method": "testAuthenticate",
+  "located_test_method": {
+    "annotation_names": [
+      "Ignore",
+      "Test"
+    ],
+    "invocation_count": 4,
+    "is_test": true,
+    "line": 56,
+    "name": "testAuthenticate"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "DirectAccessGrantAuthenticationProvider"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:51Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.*"
+    ]
+  },
+  "record_id": "c2t_7878f399cd852b14853f",
+  "repo_id": "35515269",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269",
+  "repository_url": "https://github.com/Smartling/smartling-keycloak-extras",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35515269\\keycloak-spring-security-auth\\src\\test\\java\\org\\keycloak\\adapters\\springsecurity\\authentication\\DirectAccessGrantAuthenticationProviderTest.java",
+  "top_k": 3
+}

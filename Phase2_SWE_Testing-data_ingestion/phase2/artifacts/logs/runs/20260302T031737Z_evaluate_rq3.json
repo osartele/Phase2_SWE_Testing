@@ -1,0 +1,24 @@
+{
+  "step": "evaluate_rq3",
+  "timestamp_utc": "20260302T031737Z",
+  "workdir": "C:\\Users\\garre\\Desktop\\P2\\New folder",
+  "config_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\phase2\\configs\\experiments\\default.yaml",
+  "payload": {
+    "status": "ok",
+    "output_csv": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\rq3_quality.csv",
+    "per_case_dir": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\rq3_cases",
+    "rows_written": 3,
+    "approach_counts": {
+      "human": {
+        "evaluated": 1
+      },
+      "healing": {
+        "evaluated": 1
+      },
+      "regen": {
+        "evaluated": 0
+      }
+    },
+    "timeout_seconds": 3600
+  }
+}

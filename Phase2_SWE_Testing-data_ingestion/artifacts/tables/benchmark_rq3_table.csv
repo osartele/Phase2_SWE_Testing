@@ -1,0 +1,4 @@
+approach,rows,available_runs,avg_coverage_pct,avg_mutation_score_pct,avg_runtime_seconds
+healing,1,1,,,2.219
+regen,1,0,,,
+human,1,1,,,2.125

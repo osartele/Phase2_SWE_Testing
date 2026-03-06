@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test" failures="0" tests="10" time="0.058" errors="0">
+  <properties/>
+  <testcase name="testSafeRead" time="0.003" classname="org.adbcj.mysql.codec.IoUtilsTest"/>
+  <testcase name="testReadUnsignedShort" time="0.0" classname="org.adbcj.mysql.codec.IoUtilsTest"/>
+  <testcase name="testReadShort" time="0.0" classname="org.adbcj.mysql.codec.IoUtilsTest"/>
+  <testcase name="decodeGreeting2" time="0.039" classname="org.adbcj.mysql.codec.GreetingDecodeTest"/>
+  <testcase name="decodeGreeting1" time="0.0" classname="org.adbcj.mysql.codec.GreetingDecodeTest"/>
+  <testcase name="readString" time="0.0" classname="org.adbcj.mysql.codec.IoUtilsTest"/>
+  <testcase name="testCharset" time="0.0" classname="org.adbcj.mysql.codec.MysqlCharsetTest"/>
+  <testcase name="okResponseOneAffectedRow" time="0.0" classname="org.adbcj.mysql.codec.OkResponseDecodeTest"/>
+  <testcase name="okRepsonseWithMessage" time="0.001" classname="org.adbcj.mysql.codec.OkResponseDecodeTest"/>
+  <testcase name="testPasswordEncryption" time="0.009" classname="org.adbcj.mysql.codec.TestPasswordEncryption"/>
+</testsuite>

@@ -1,0 +1,99 @@
+{
+  "candidate_count": 34,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.531; frequency=1; frequency_norm=0.500",
+      "line": 568,
+      "name": "getRecursiveFiles",
+      "param_count": 2,
+      "rank": 1,
+      "score": 9.8125,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.53125,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@NotNull public static List<File> getRecursiveFiles(boolean excludeHyphenPrefix, @NotNull File file)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=0; name_similarity=0.531; frequency=1; frequency_norm=0.500",
+      "line": 547,
+      "name": "getRecursiveFiles",
+      "param_count": 3,
+      "rank": 2,
+      "score": 8.5625,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.53125,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@NotNull public static List<File> getRecursiveFiles(boolean excludeHyphenPrefix, @NotNull Plugin plugin, @NotNull String... children)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=0; name_similarity=0.531; frequency=1; frequency_norm=0.500",
+      "line": 588,
+      "name": "getRecursiveFiles",
+      "param_count": 3,
+      "rank": 3,
+      "score": 8.5625,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.53125,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "private static void getRecursiveFiles(@NotNull List<File> files, boolean excludeHyphenPrefix, @NotNull File file)"
+    }
+  ],
+  "dataset_id": "c2t_a860579ae4bf043c4cd7",
+  "focal_class_name": "FileUtils",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\105200994\\BukkitUtil-core\\src\\main\\java\\no\\kh498\\util\\FileUtils.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getRecursiveFiles",
+    "rank": 1
+  },
+  "labeled_focal_method": "getRecursiveFiles",
+  "labeled_test_method": "getRecursiveFilesIgnoresFilesWithHyphenWhenTrue",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 12,
+    "is_test": true,
+    "line": 439,
+    "name": "getRecursiveFilesIgnoresFilesWithHyphenWhenTrue"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "FileUtils"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:53Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.*",
+      "org.powermock.api.mockito.PowerMockito.mock"
+    ]
+  },
+  "record_id": "c2t_a860579ae4bf043c4cd7",
+  "repo_id": "105200994",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\105200994",
+  "repository_url": "https://github.com/kh498/BukkitUtil",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\105200994\\BukkitUtil-core\\src\\test\\java\\no\\kh498\\util\\FileUtilsTest.java",
+  "top_k": 3
+}

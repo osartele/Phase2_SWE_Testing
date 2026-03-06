@@ -1,0 +1,101 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.263; frequency=2; frequency_norm=0.500",
+      "line": 150,
+      "name": "popTo",
+      "param_count": 3,
+      "rank": 1,
+      "score": 7.276316,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.263158,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public final int popTo(Matcher matcher, Matcher afterMatcher, Appendable appendable)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.263; frequency=2; frequency_norm=0.500",
+      "line": 134,
+      "name": "popTo",
+      "param_count": 2,
+      "rank": 2,
+      "score": 6.026316,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.263158,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public final int popTo(Matcher matcher, Appendable appendable)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.240; frequency=0; frequency_norm=0.000",
+      "line": 183,
+      "name": "getPreviousCursor",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.48,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.24,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public final Cursor getPreviousCursor()"
+    }
+  ],
+  "dataset_id": "c2t_a5f6f763e665f20ae374",
+  "focal_class_name": "CodeReader",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\channel\\CodeReader.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "popTo",
+    "rank": 1
+  },
+  "labeled_focal_method": "popTo",
+  "labeled_test_method": "testPopToWithRegexAndFollowingMatcher",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 12,
+    "is_test": true,
+    "line": 118,
+    "name": "testPopToWithRegexAndFollowingMatcher"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "CodeReader"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:53Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.hamcrest.core.Is.is",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThat",
+      "org.junit.Assert.assertThrows"
+    ]
+  },
+  "record_id": "c2t_a5f6f763e665f20ae374",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\channel\\CodeReaderTest.java",
+  "top_k": 3
+}

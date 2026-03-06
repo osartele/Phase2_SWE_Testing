@@ -1,0 +1,62 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.111; frequency=1; frequency_norm=0.500",
+      "line": 42,
+      "name": "parse",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.972222,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.111111,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public ParsingResult parse(char[] input)"
+    }
+  ],
+  "dataset_id": "c2t_31a707e36e49971a646b",
+  "focal_class_name": "ParseRunner",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\parser\\ParseRunner.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "parse",
+    "rank": 1
+  },
+  "labeled_focal_method": "parse",
+  "labeled_test_method": "should_report_error_at_correct_index",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 13,
+    "is_test": true,
+    "line": 70,
+    "name": "should_report_error_at_correct_index"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ParseRunner",
+      "runner"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:48Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertThrows"
+    ]
+  },
+  "record_id": "c2t_31a707e36e49971a646b",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\parser\\ParseRunnerTest.java",
+  "top_k": 3
+}

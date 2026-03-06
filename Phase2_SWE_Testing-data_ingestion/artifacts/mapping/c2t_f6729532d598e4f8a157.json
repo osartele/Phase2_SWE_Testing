@@ -1,0 +1,99 @@
+{
+  "candidate_count": 20,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.000; frequency=1; frequency_norm=0.200",
+      "line": 43,
+      "name": "parse",
+      "param_count": 2,
+      "rank": 1,
+      "score": 8.45,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.2,
+        "name_similarity": 0.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public Iterator<Node[]> parse(Reader r, String baseURI) throws ParseException"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.000; frequency=1; frequency_norm=0.200",
+      "line": 48,
+      "name": "parse",
+      "param_count": 2,
+      "rank": 2,
+      "score": 8.45,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.2,
+        "name_similarity": 0.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public Iterator<Node[]> parse(InputStream is, final String baseURI) throws ParseException"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.000; frequency=1; frequency_norm=0.200",
+      "line": 58,
+      "name": "parse",
+      "param_count": 2,
+      "rank": 3,
+      "score": 8.45,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.2,
+        "name_similarity": 0.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public Iterator<Node[]> parse(BufferedReader br, String baseURI) throws ParseException"
+    }
+  ],
+  "dataset_id": "c2t_f6729532d598e4f8a157",
+  "focal_class_name": "JsonLDParser",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-parsers-external-jsonld-semargl\\src\\main\\java\\org\\semanticweb\\yars\\parsers\\jsonld\\semargl\\JsonLDParser.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "parse",
+    "rank": 1
+  },
+  "labeled_focal_method": "parse",
+  "labeled_test_method": "test2",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 70,
+    "name": "test2"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "JsonLDParser",
+      "jlp"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:58Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.*"
+    ]
+  },
+  "record_id": "c2t_f6729532d598e4f8a157",
+  "repo_id": "35897457",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457",
+  "repository_url": "https://github.com/nxparser/nxparser",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-parsers-external-jsonld-semargl\\src\\test\\java\\org\\semanticweb\\yars\\parsers\\jsonld\\semargl\\JsonLDParserTest.java",
+  "top_k": 3
+}

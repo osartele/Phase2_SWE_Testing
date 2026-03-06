@@ -1,0 +1,100 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.500; frequency=1; frequency_norm=0.143",
+      "line": 46,
+      "name": "toString",
+      "param_count": 0,
+      "rank": 1,
+      "score": 7.392857,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.142857,
+        "name_similarity": 0.5,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public String toString()"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.200; frequency=1; frequency_norm=0.143",
+      "line": 30,
+      "name": "format",
+      "param_count": 2,
+      "rank": 2,
+      "score": 6.792857,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.142857,
+        "name_similarity": 0.2,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String format(List<Token> tokens, int errorIndex)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.471; frequency=0; frequency_norm=0.000",
+      "line": 52,
+      "name": "getTokenStart",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.941176,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.470588,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private static Pos getTokenStart(Token token)"
+    }
+  ],
+  "dataset_id": "c2t_a882de2d0a2f84f88f95",
+  "focal_class_name": "LexerfulParseErrorFormatter",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\internal\\vm\\lexerful\\LexerfulParseErrorFormatter.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "format",
+    "rank": 2
+  },
+  "labeled_focal_method": "format",
+  "labeled_test_method": "test",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 15,
+    "is_test": true,
+    "line": 31,
+    "name": "test"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "LexerfulParseErrorFormatter"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:53Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_a882de2d0a2f84f88f95",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\internal\\vm\\lexerful\\LexerfulParseErrorFormatterTest.java",
+  "top_k": 3
+}

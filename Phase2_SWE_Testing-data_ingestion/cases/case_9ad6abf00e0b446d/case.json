@@ -1,0 +1,27 @@
+{
+  "base_commit": "a5b4326a735dd3ed41b73f578edcb2cf45a243f6",
+  "build_commands": [
+    "'C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\23257998\\gradlew.bat' test --console=plain"
+  ],
+  "case_id": "case_9ad6abf00e0b446d",
+  "focal_file_path": "semdroid-core/src/main/java/com/oprisnik/semdroid/filter/BasicTypesLocalVarFilter.java",
+  "mapped_focal_method": "use",
+  "mapped_test_method": "testBasicTypesFilter",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041033Z_23257998_test_run.json",
+    "baseline_test_status": "fail",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041043Z_23257998_test_run.json",
+    "candidate_test_status": "fail",
+    "failures_appear": false,
+    "human_update_commit": null,
+    "human_update_distance": null,
+    "human_update_found": false,
+    "rank": 1,
+    "record_id": "c2t_2092379fc334190fec64",
+    "score": 1.0,
+    "touches_method_region": false
+  },
+  "modified_commit": "0ef0c26f756293492a8adf74fd66867800a0a0f3",
+  "repo_id": "23257998",
+  "test_file_path": "semdroid-core/src/test/java/com/oprisnik/semdroid/filter/BasicTypesLocalVarFilterTest.java"
+}

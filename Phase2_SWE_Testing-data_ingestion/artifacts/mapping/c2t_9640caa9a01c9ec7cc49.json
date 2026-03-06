@@ -1,0 +1,99 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.400; frequency=1; frequency_norm=0.333",
+      "line": 83,
+      "name": "writeTo",
+      "param_count": 7,
+      "rank": 1,
+      "score": 9.383333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.333333,
+        "name_similarity": 0.4,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void writeTo(Iterable<Node[]> t, Class<?> type, Type genericType, Annotation[] annotations, MediaType mediaType, MultivaluedMap<String, Object> httpHeaders, OutputStream entityStream) throws IOException, WebApplicationException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.157; frequency=0; frequency_norm=0.000",
+      "line": 215,
+      "name": "isReadableCheckMediatypeAndAnnotations",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.313725,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.156863,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override boolean isReadableCheckMediatypeAndAnnotations(Annotation[] annotations, MediaType mt)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.157; frequency=0; frequency_norm=0.000",
+      "line": 221,
+      "name": "isWritableCheckMediatypeAndAnnotations",
+      "param_count": 2,
+      "rank": 3,
+      "score": 0.313725,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.156863,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override boolean isWritableCheckMediatypeAndAnnotations(Annotation[] annotations, MediaType mt)"
+    }
+  ],
+  "dataset_id": "c2t_9640caa9a01c9ec7cc49",
+  "focal_class_name": "RdfXmlMessageBodyWriter",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-jax-rs\\src\\main\\java\\org\\semanticweb\\yars\\jaxrs\\RdfXmlMessageBodyWriter.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "writeTo",
+    "rank": 1
+  },
+  "labeled_focal_method": "writeTo",
+  "labeled_test_method": "numberTwoTest",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 15,
+    "is_test": true,
+    "line": 169,
+    "name": "numberTwoTest"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "RdfXmlMessageBodyWriter",
+      "rxmbr"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:52Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.*"
+    ]
+  },
+  "record_id": "c2t_9640caa9a01c9ec7cc49",
+  "repo_id": "35897457",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457",
+  "repository_url": "https://github.com/nxparser/nxparser",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-jax-rs\\src\\test\\java\\org\\semanticweb\\yars\\jaxrs\\RdfXmlMessageBodyWriterTest.java",
+  "top_k": 3
+}

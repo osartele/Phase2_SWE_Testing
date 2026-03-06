@@ -1,0 +1,44 @@
+{
+  "case_id": "case_0de800c69510b756",
+  "checked_out_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "commands": [
+    {
+      "command": "mvn -B test",
+      "duration_seconds": 2.547,
+      "exit_code": 1
+    }
+  ],
+  "commit_sha_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\commit_sha.txt",
+  "execution_error": null,
+  "failing_test_count": 0,
+  "failing_tests": [],
+  "report_paths_copied": [
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\junit\\postgresql\\codec\\target\\surefire-reports\\Command line suite\\Command line test.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\junit\\postgresql\\codec\\target\\surefire-reports\\TEST-TestSuite.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\junit\\postgresql\\codec\\target\\surefire-reports\\testng-results.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\junit\\postgresql\\mina\\target\\surefire-reports\\PgTest\\Command line test.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\junit\\postgresql\\mina\\target\\surefire-reports\\TEST-PgTest.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\junit\\postgresql\\mina\\target\\surefire-reports\\testng-results.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\junit\\postgresql\\netty\\target\\surefire-reports\\PgTest\\Command line test.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\junit\\postgresql\\netty\\target\\surefire-reports\\TEST-PgTest.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\junit\\postgresql\\netty\\target\\surefire-reports\\testng-results.xml"
+  ],
+  "report_paths_original": [
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\postgresql\\codec\\target\\surefire-reports\\Command line suite\\Command line test.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\postgresql\\codec\\target\\surefire-reports\\TEST-TestSuite.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\postgresql\\codec\\target\\surefire-reports\\testng-results.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\postgresql\\mina\\target\\surefire-reports\\PgTest\\Command line test.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\postgresql\\mina\\target\\surefire-reports\\TEST-PgTest.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\postgresql\\mina\\target\\surefire-reports\\testng-results.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\postgresql\\netty\\target\\surefire-reports\\PgTest\\Command line test.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\postgresql\\netty\\target\\surefire-reports\\TEST-PgTest.xml",
+    "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899\\postgresql\\netty\\target\\surefire-reports\\testng-results.xml"
+  ],
+  "requested_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "run_result_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\run_result.json",
+  "stage": "modified",
+  "status": "fail",
+  "stderr_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\stderr.log",
+  "stdout_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\cases\\case_0de800c69510b756\\modified\\stdout.log",
+  "success": false
+}

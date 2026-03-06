@@ -1,0 +1,8 @@
+{
+  "command": "echo reassert-tool",
+  "duration_seconds": 0.016,
+  "error": null,
+  "exit_code": 0,
+  "stderr": "",
+  "stdout": "reassert-tool\n"
+}

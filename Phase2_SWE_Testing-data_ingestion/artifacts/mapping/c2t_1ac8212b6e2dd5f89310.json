@@ -1,0 +1,102 @@
+{
+  "candidate_count": 29,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.976; frequency=1; frequency_norm=1.000",
+      "line": 184,
+      "name": "getChildAxisIterator",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.20122,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.97561,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Iterator getChildAxisIterator(Object contextNode)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.714; frequency=0; frequency_norm=0.000",
+      "line": 209,
+      "name": "getParentAxisIterator",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.428571,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.714286,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@SuppressWarnings(\"unchecked\") @Override public Iterator getParentAxisIterator(Object contextNode)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.711; frequency=0; frequency_norm=0.000",
+      "line": 224,
+      "name": "getAttributeAxisIterator",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.422222,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.711111,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Iterator getAttributeAxisIterator(Object contextNode)"
+    }
+  ],
+  "dataset_id": "c2t_1ac8212b6e2dd5f89310",
+  "focal_class_name": "AstNodeNavigator",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-xpath\\src\\main\\java\\com\\sonar\\sslr\\impl\\xpath\\AstNodeNavigator.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getChildAxisIterator",
+    "rank": 1
+  },
+  "labeled_focal_method": "getChildAxisIterator",
+  "labeled_test_method": "getChildAxisIterator2",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 208,
+    "name": "getChildAxisIterator2"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "AstNodeNavigator"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:46Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_1ac8212b6e2dd5f89310",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-xpath\\src\\test\\java\\com\\sonar\\sslr\\impl\\xpath\\AstNodeNavigatorTest.java",
+  "top_k": 3
+}

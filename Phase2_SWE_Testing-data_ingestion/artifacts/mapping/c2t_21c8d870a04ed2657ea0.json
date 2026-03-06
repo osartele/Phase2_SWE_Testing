@@ -1,0 +1,101 @@
+{
+  "candidate_count": 16,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.500",
+      "line": 136,
+      "name": "token",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.75,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 1.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Deprecated public static Object token(TokenType tokenType, Object e)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.462; frequency=0; frequency_norm=0.000",
+      "line": 72,
+      "name": "optional",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.923077,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.461538,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Deprecated public static Object optional(Object... e)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.333; frequency=0; frequency_norm=0.000",
+      "line": 145,
+      "name": "commentTrivia",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.666667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Deprecated public static Object commentTrivia(Object e)"
+    }
+  ],
+  "dataset_id": "c2t_21c8d870a04ed2657ea0",
+  "focal_class_name": "GrammarOperators",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\parser\\GrammarOperators.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "token",
+    "rank": 1
+  },
+  "labeled_focal_method": "token",
+  "labeled_test_method": "test_token",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 76,
+    "name": "test_token"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "GrammarOperators"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:46Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows",
+      "org.mockito.Mockito.mock"
+    ]
+  },
+  "record_id": "c2t_21c8d870a04ed2657ea0",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\parser\\GrammarOperatorsTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,27 @@
+{
+  "base_commit": "3a9db9b04ae7d9545301ade8340ebd3b6baea138",
+  "build_commands": [
+    "'C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\gradlew.bat' test --console=plain"
+  ],
+  "case_id": "case_2bc050c0f4890b10",
+  "focal_file_path": "nxparser-utilities-nx/src/main/java/org/semanticweb/yars/nx/NodeArrayComparator.java",
+  "mapped_focal_method": "compare",
+  "mapped_test_method": "test",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041248Z_35897457_test_run.json",
+    "baseline_test_status": "fail",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041317Z_35897457_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": "41a315a0d43ecbedd97898c001fe7bff48d81312",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_386dff7fa05f6910842c",
+    "score": 5.0,
+    "touches_method_region": true
+  },
+  "modified_commit": "41a315a0d43ecbedd97898c001fe7bff48d81312",
+  "repo_id": "35897457",
+  "test_file_path": "nxparser-utilities-nx/src/test/java/org/semanticweb/yars/nx/NodeArrayComparatorTest.java"
+}

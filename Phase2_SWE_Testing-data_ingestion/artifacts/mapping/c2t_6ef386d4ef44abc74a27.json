@@ -1,0 +1,106 @@
+{
+  "candidate_count": 52,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=3); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=0.500",
+      "line": 79,
+      "name": "backCommit",
+      "param_count": 1,
+      "rank": 1,
+      "score": 10.75,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 0.5,
+        "name_similarity": 1.0,
+        "qualifier_hits": 3,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static Instruction backCommit(int offset)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.333; frequency=1; frequency_norm=0.167",
+      "line": 114,
+      "name": "hashCode",
+      "param_count": 0,
+      "rank": 2,
+      "score": 9.083333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.166667,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public int hashCode()"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.333; frequency=1; frequency_norm=0.167",
+      "line": 149,
+      "name": "hashCode",
+      "param_count": 0,
+      "rank": 3,
+      "score": 9.083333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.166667,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public int hashCode()"
+    }
+  ],
+  "dataset_id": "c2t_6ef386d4ef44abc74a27",
+  "focal_class_name": "Instruction",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\org\\sonar\\sslr\\internal\\vm\\Instruction.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "backCommit",
+    "rank": 1
+  },
+  "labeled_focal_method": "backCommit",
+  "labeled_test_method": "backCommit",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 43,
+    "is_test": true,
+    "line": 239,
+    "name": "backCommit"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Instruction",
+      "instruction"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:51Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_6ef386d4ef44abc74a27",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\org\\sonar\\sslr\\internal\\vm\\InstructionTest.java",
+  "top_k": 3
+}

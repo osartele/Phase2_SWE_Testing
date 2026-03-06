@@ -1,0 +1,30 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="org.adbcj.postgresql.codec.backend.BackendMessageDecoderTest">
+        <test-method status="PASS" signature="testReadyForQuery()" name="testReadyForQuery" duration-ms="28" started-at="2026-03-01T21:28:38Z" finished-at="2026-03-01T21:28:38Z">
+        </test-method>
+        <test-method status="PASS" signature="testDecodeAuthenticationRequest()" name="testDecodeAuthenticationRequest" duration-ms="0" started-at="2026-03-01T21:28:38Z" finished-at="2026-03-01T21:28:38Z">
+        </test-method>
+        <test-method status="PASS" signature="testDecodeAthenticationSuccess()" name="testDecodeAthenticationSuccess" duration-ms="0" started-at="2026-03-01T21:28:38Z" finished-at="2026-03-01T21:28:38Z">
+        </test-method>
+        <test-method status="PASS" signature="rowDescription()" name="rowDescription" duration-ms="1" started-at="2026-03-01T21:28:38Z" finished-at="2026-03-01T21:28:38Z">
+        </test-method>
+        <test-method status="PASS" signature="simpleBackendMessages()" name="simpleBackendMessages" duration-ms="1" started-at="2026-03-01T21:28:38Z" finished-at="2026-03-01T21:28:38Z">
+        </test-method>
+        <test-method status="PASS" signature="testBackendKey()" name="testBackendKey" duration-ms="0" started-at="2026-03-01T21:28:38Z" finished-at="2026-03-01T21:28:38Z">
+        </test-method>
+        <test-method status="PASS" signature="testParameterStatus()" name="testParameterStatus" duration-ms="1" started-at="2026-03-01T21:28:38Z" finished-at="2026-03-01T21:28:38Z">
+        </test-method>
+      </class>
+      <class name="org.adbcj.postgresql.codec.TestPasswordEncryption">
+        <test-method status="PASS" signature="testMD5Hash()" name="testMD5Hash" duration-ms="13" started-at="2026-03-01T21:28:38Z" finished-at="2026-03-01T21:28:38Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

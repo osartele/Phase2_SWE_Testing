@@ -1,0 +1,24 @@
+{
+  "build_tool": {
+    "detected_command": [
+      "mvn",
+      "-B",
+      "test"
+    ],
+    "detected_command_shell": "mvn -B test",
+    "runner": "system",
+    "tool": "maven"
+  },
+  "console_log_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\phase2\\artifacts\\logs\\test_runs\\20260302T020437Z_13899_console.log",
+  "duration_seconds": 0.063,
+  "execution_error": "runner_not_found: [WinError 2] The system cannot find the file specified",
+  "exit_code": -1,
+  "failing_test_count": 0,
+  "failing_tests": [],
+  "repo_id": "13899",
+  "repo_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\repos\\13899",
+  "report_paths": [],
+  "started_at_utc": "2026-03-02T02:04:37Z",
+  "status": "error",
+  "success": false
+}

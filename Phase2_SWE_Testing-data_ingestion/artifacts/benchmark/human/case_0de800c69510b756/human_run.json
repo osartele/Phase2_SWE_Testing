@@ -1,0 +1,19 @@
+{
+  "approach": "human",
+  "case_id": "case_0de800c69510b756",
+  "commands": [
+    {
+      "command": "mvn -B test",
+      "duration_seconds": 4.265,
+      "exit_code": 1
+    }
+  ],
+  "duration_seconds": 4.844,
+  "error": null,
+  "human_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "repo_id": "13899",
+  "status": "fail",
+  "stderr_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\human\\case_0de800c69510b756\\stderr.log",
+  "stdout_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\benchmark\\human\\case_0de800c69510b756\\stdout.log",
+  "success": false
+}

@@ -1,0 +1,96 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.400; frequency=3; frequency_norm=1.000",
+      "line": 121,
+      "name": "equals",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.05,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.4,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public boolean equals(Object o)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.500; frequency=0; frequency_norm=0.000",
+      "line": 104,
+      "name": "toString",
+      "param_count": 0,
+      "rank": 2,
+      "score": 1.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.5,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public String toString()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.375; frequency=0; frequency_norm=0.000",
+      "line": 85,
+      "name": "getUriString",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.75,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.375,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Deprecated public String getUriString()"
+    }
+  ],
+  "dataset_id": "c2t_58cff9d481237406fb48",
+  "focal_class_name": "Resource",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-model\\src\\main\\java\\org\\semanticweb\\yars\\nx\\Resource.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "equals",
+    "rank": 1
+  },
+  "labeled_focal_method": "equals",
+  "labeled_test_method": "test",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 6,
+    "is_test": true,
+    "line": 7,
+    "name": "test"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Resource"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:49Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_58cff9d481237406fb48",
+  "repo_id": "35897457",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457",
+  "repository_url": "https://github.com/nxparser/nxparser",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-model\\src\\test\\java\\org\\semanticweb\\yars\\nx\\ResourceTest.java",
+  "top_k": 3
+}

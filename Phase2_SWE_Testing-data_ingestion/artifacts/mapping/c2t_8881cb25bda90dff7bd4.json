@@ -1,0 +1,98 @@
+{
+  "candidate_count": 14,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.385; frequency=1; frequency_norm=1.000",
+      "line": 139,
+      "name": "distributeToRequestInterceptor",
+      "param_count": 2,
+      "rank": 1,
+      "score": 8.019231,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.384615,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public MutableHttpServletRequest distributeToRequestInterceptor( MutableHttpServletRequest request, OgcMessage message) throws InterceptorException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.435; frequency=0; frequency_norm=0.000",
+      "line": 468,
+      "name": "getWpsRequestInterceptor",
+      "param_count": 0,
+      "rank": 2,
+      "score": 0.869565,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.434783,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public WpsRequestInterceptorInterface getWpsRequestInterceptor()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.435; frequency=0; frequency_norm=0.000",
+      "line": 460,
+      "name": "setWcsRequestInterceptor",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.869565,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.434783,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void setWcsRequestInterceptor( WcsRequestInterceptorInterface wcsRequestInterceptor)"
+    }
+  ],
+  "dataset_id": "c2t_8881cb25bda90dff7bd4",
+  "focal_class_name": "OgcMessageDistributor",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\15997656\\src\\shogun-core-main\\src\\main\\java\\de\\terrestris\\shoguncore\\util\\interceptor\\OgcMessageDistributor.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "distributeToRequestInterceptor",
+    "rank": 1
+  },
+  "labeled_focal_method": "distributeToRequestInterceptor",
+  "labeled_test_method": "intercept_request_denied",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 1,
+    "is_test": true,
+    "line": 40,
+    "name": "intercept_request_denied"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "OgcMessageDistributor"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:52Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertNotNull"
+    ]
+  },
+  "record_id": "c2t_8881cb25bda90dff7bd4",
+  "repo_id": "15997656",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\15997656",
+  "repository_url": "https://github.com/terrestris/shogun-core",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\15997656\\src\\shogun-core-main\\src\\test\\java\\de\\terrestris\\shoguncore\\util\\interceptor\\OgcMessageDistributorTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,27 @@
+{
+  "base_commit": "669b302c106551287cf2352101f3e131bb858015",
+  "build_commands": [
+    "mvn -B test"
+  ],
+  "case_id": "case_0de800c69510b756",
+  "focal_file_path": "mysql/codec/src/main/java/org/adbcj/mysql/codec/IoUtils.java",
+  "mapped_focal_method": "safeRead",
+  "mapped_test_method": "testSafeRead",
+  "metadata": {
+    "baseline_test_result_path": "",
+    "baseline_test_status": "",
+    "candidate_test_result_path": "",
+    "candidate_test_status": "",
+    "failures_appear": false,
+    "human_update_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_536ecf4c149b120d7404",
+    "score": 3.0,
+    "touches_method_region": false
+  },
+  "modified_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "repo_id": "13899",
+  "test_file_path": "mysql/codec/src/test/java/org/adbcj/mysql/codec/IoUtilsTest.java"
+}

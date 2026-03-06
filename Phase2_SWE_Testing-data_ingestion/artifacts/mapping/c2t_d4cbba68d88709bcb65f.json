@@ -1,0 +1,98 @@
+{
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.612; frequency=1; frequency_norm=1.000",
+      "line": 91,
+      "name": "reResolveContextualBnode",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.47449,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.612245,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static BNode reResolveContextualBnode(BNode bn, URI uriToResolveAgainst)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.303; frequency=0; frequency_norm=0.000",
+      "line": 70,
+      "name": "iterator",
+      "param_count": 0,
+      "rank": 2,
+      "score": 0.606061,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.30303,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Iterator<Node[]> iterator()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.276; frequency=0; frequency_norm=0.000",
+      "line": 49,
+      "name": "next",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.551724,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.275862,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Node[] next()"
+    }
+  ],
+  "dataset_id": "c2t_d4cbba68d88709bcb65f",
+  "focal_class_name": "NodesReResolvingIterator",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-utilities-nx\\src\\main\\java\\org\\semanticweb\\yars\\nx\\NodesReResolvingIterator.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "reResolveContextualBnode",
+    "rank": 1
+  },
+  "labeled_focal_method": "reResolveContextualBnode",
+  "labeled_test_method": "testContextualBNodeTreatment2",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 26,
+    "name": "testContextualBNodeTreatment2"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "NodesReResolvingIterator"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:56Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals"
+    ]
+  },
+  "record_id": "c2t_d4cbba68d88709bcb65f",
+  "repo_id": "35897457",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457",
+  "repository_url": "https://github.com/nxparser/nxparser",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\35897457\\nxparser-utilities-nx\\src\\test\\java\\org\\semanticweb\\yars\\nx\\NodesReResolvingIteratorTest.java",
+  "top_k": 3
+}

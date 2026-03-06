@@ -1,0 +1,27 @@
+{
+  "base_commit": "e6e574d2fd88a288cf84675c65b840cc35cf8564",
+  "build_commands": [
+    "mvn -B test"
+  ],
+  "case_id": "case_98a8152194ccb32d",
+  "focal_file_path": "sslr-core/src/main/java/com/sonar/sslr/api/AstNode.java",
+  "mapped_focal_method": "toString",
+  "mapped_test_method": "test_toString",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T031841Z_4159017_test_run.json",
+    "baseline_test_status": "error",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T031902Z_4159017_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": "9080d4ba27c85c1ddf6df2807cca88dd6076cf7e",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_062d0fb68e45e252bec1",
+    "score": 5.0,
+    "touches_method_region": true
+  },
+  "modified_commit": "9080d4ba27c85c1ddf6df2807cca88dd6076cf7e",
+  "repo_id": "4159017",
+  "test_file_path": "sslr-core/src/test/java/com/sonar/sslr/api/AstNodeTest.java"
+}

@@ -1,0 +1,105 @@
+{
+  "candidate_count": 14,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=2; frequency_norm=0.286",
+      "line": 74,
+      "name": "initConfigurationTab",
+      "param_count": 0,
+      "rank": 1,
+      "score": 10.535714,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.285714,
+        "name_similarity": 1.0,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "void initConfigurationTab()"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=1; name_similarity=0.074; frequency=2; frequency_norm=0.286",
+      "line": 46,
+      "name": "setView",
+      "param_count": 1,
+      "rank": 2,
+      "score": 8.683862,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.285714,
+        "name_similarity": 0.074074,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public void setView(ToolkitView view)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.640; frequency=0; frequency_norm=0.000",
+      "line": 207,
+      "name": "getConfigurationPropertyByName",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.28,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.64,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private ConfigurationProperty getConfigurationPropertyByName(String name)"
+    }
+  ],
+  "dataset_id": "c2t_db108b88a66b3358e302",
+  "focal_class_name": "ToolkitPresenter",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\main\\java\\org\\sonar\\sslr\\internal\\toolkit\\ToolkitPresenter.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "initConfigurationTab",
+    "rank": 1
+  },
+  "labeled_focal_method": "initConfigurationTab",
+  "labeled_test_method": "initConfigurationTab",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 51,
+    "is_test": true,
+    "line": 88,
+    "name": "initConfigurationTab"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ToolkitPresenter",
+      "presenter"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:56Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.mockito.Matchers.any",
+      "org.mockito.Matchers.anyString",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.never",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_db108b88a66b3358e302",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\test\\java\\org\\sonar\\sslr\\internal\\toolkit\\ToolkitPresenterTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,85 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=0.750",
+      "line": 71,
+      "name": "toString",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.0,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 0.75,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public String toString()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.267; frequency=0; frequency_norm=0.000",
+      "line": 53,
+      "name": "compile",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.533333,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.266667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Instruction[] compile(CompilationHandler compiler)"
+    }
+  ],
+  "dataset_id": "c2t_680f399f0ddf36c22095",
+  "focal_class_name": "DelayedRuleInvocationExpression",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\com\\sonar\\sslr\\impl\\typed\\DelayedRuleInvocationExpression.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "toString",
+    "rank": 1
+  },
+  "labeled_focal_method": "toString",
+  "labeled_test_method": "test_toString",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 14,
+    "is_test": true,
+    "line": 88,
+    "name": "test_toString"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "DelayedRuleInvocationExpression"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:50Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertThrows",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.spy",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_680f399f0ddf36c22095",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\com\\sonar\\sslr\\impl\\typed\\DelayedRuleInvocationExpressionTest.java",
+  "top_k": 3
+}

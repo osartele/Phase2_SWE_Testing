@@ -1,0 +1,104 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.526; frequency=1; frequency_norm=0.500",
+      "line": 77,
+      "name": "apply",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.802632,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.526316,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Optional<TaupageYaml> apply(final EC2InstanceContext context)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.357; frequency=0; frequency_norm=0.000",
+      "line": 46,
+      "name": "getTaupageYaml",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.714286,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.357143,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private Optional<TaupageYaml> getTaupageYaml(@Nonnull final EC2InstanceContext context)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.333; frequency=0; frequency_norm=0.000",
+      "line": 36,
+      "name": "load",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.666667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public Optional<TaupageYaml> load(@Nonnull final EC2InstanceContext context) throws Exception"
+    }
+  ],
+  "dataset_id": "c2t_27d16cb8c7e791ecd76d",
+  "focal_class_name": "TaupageYamlProviderImpl",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32521417\\fullstop-plugins\\fullstop-instance-plugin-support\\src\\main\\java\\org\\zalando\\stups\\fullstop\\plugin\\provider\\impl\\TaupageYamlProviderImpl.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "apply",
+    "rank": 1
+  },
+  "labeled_focal_method": "apply",
+  "labeled_test_method": "testApplyWithNoAmi",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 12,
+    "is_test": true,
+    "line": 173,
+    "name": "testApplyWithNoAmi"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "TaupageYamlProviderImpl"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:47Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.assertj.core.api.Assertions.assertThat",
+      "org.mockito.Mockito.any",
+      "org.mockito.Mockito.eq",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_27d16cb8c7e791ecd76d",
+  "repo_id": "32521417",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32521417",
+  "repository_url": "https://github.com/zalando-stups/fullstop",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32521417\\fullstop-plugins\\fullstop-instance-plugin-support\\src\\test\\java\\org\\zalando\\stups\\fullstop\\plugin\\provider\\impl\\TaupageYamlProviderImplTest.java",
+  "top_k": 3
+}

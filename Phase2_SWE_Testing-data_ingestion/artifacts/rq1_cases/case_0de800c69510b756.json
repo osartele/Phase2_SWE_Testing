@@ -1,0 +1,62 @@
+{
+  "approaches": {
+    "healing": {
+      "agent_patch": {
+        "changed_files": [],
+        "files_changed": 0,
+        "lines_added": 0,
+        "lines_removed": 0
+      },
+      "agent_patch_path": "C:\\Users\\garre\\Desktop\\P2\\New folder\\artifacts\\healing\\case_0de800c69510b756\\iter_1\\patch.diff",
+      "available": true,
+      "iterations": 1,
+      "pass": false,
+      "similarity": {
+        "ast_similarity_enabled": true,
+        "ast_similarity_optional": 0.0,
+        "line_diff_jaccard": 0.0
+      },
+      "status": "ok",
+      "time_seconds": 3.953
+    },
+    "regen": {
+      "agent_patch": {
+        "changed_files": [],
+        "files_changed": 0,
+        "lines_added": 0,
+        "lines_removed": 0
+      },
+      "agent_patch_path": null,
+      "available": false,
+      "iterations": null,
+      "pass": null,
+      "similarity": {
+        "ast_similarity_enabled": true,
+        "ast_similarity_optional": null,
+        "line_diff_jaccard": null
+      },
+      "status": "missing_artifact",
+      "time_seconds": null
+    }
+  },
+  "base_commit": "669b302c106551287cf2352101f3e131bb858015",
+  "case_id": "case_0de800c69510b756",
+  "human_patch": {
+    "changed_files": [
+      "mysql/codec/src/test/java/org/adbcj/mysql/codec/IoUtilsTest.java"
+    ],
+    "files_changed": 1,
+    "lines_added": 1,
+    "lines_removed": 0
+  },
+  "human_run": {
+    "available": true,
+    "pass": false,
+    "status": "fail",
+    "time_seconds": 2.547
+  },
+  "human_update_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "modified_commit": "3364ba0df9504c7bd2f9cf6acb31e5e53b8e17a3",
+  "repo_id": "13899",
+  "test_file_path": "mysql/codec/src/test/java/org/adbcj/mysql/codec/IoUtilsTest.java"
+}

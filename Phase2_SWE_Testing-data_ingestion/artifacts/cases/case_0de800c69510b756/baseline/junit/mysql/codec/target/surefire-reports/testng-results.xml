@@ -1,0 +1,40 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="org.adbcj.mysql.codec.GreetingDecodeTest">
+        <test-method status="PASS" signature="decodeGreeting2()" name="decodeGreeting2" duration-ms="39" started-at="2026-03-01T21:28:36Z" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+        <test-method status="PASS" signature="decodeGreeting1()" name="decodeGreeting1" duration-ms="0" started-at="2026-03-01T21:28:36Z" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+      </class>
+      <class name="org.adbcj.mysql.codec.TestPasswordEncryption">
+        <test-method status="PASS" signature="testPasswordEncryption()" name="testPasswordEncryption" duration-ms="9" started-at="2026-03-01T21:28:36Z" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+      </class>
+      <class name="org.adbcj.mysql.codec.IoUtilsTest">
+        <test-method status="PASS" signature="testReadShort()" name="testReadShort" duration-ms="0" started-at="2026-03-01T21:28:36Z" depends-on-methods="org.adbcj.mysql.codec.IoUtilsTest.testSafeRead" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+        <test-method status="PASS" signature="readString()" name="readString" duration-ms="0" started-at="2026-03-01T21:28:36Z" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+        <test-method status="PASS" signature="testSafeRead()" name="testSafeRead" duration-ms="3" started-at="2026-03-01T21:28:36Z" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+        <test-method status="PASS" signature="testReadUnsignedShort()" name="testReadUnsignedShort" duration-ms="0" started-at="2026-03-01T21:28:36Z" depends-on-methods="org.adbcj.mysql.codec.IoUtilsTest.testSafeRead" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+      </class>
+      <class name="org.adbcj.mysql.codec.MysqlCharsetTest">
+        <test-method status="PASS" signature="testCharset()" name="testCharset" duration-ms="0" started-at="2026-03-01T21:28:36Z" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+      </class>
+      <class name="org.adbcj.mysql.codec.OkResponseDecodeTest">
+        <test-method status="PASS" signature="okResponseOneAffectedRow()" name="okResponseOneAffectedRow" duration-ms="0" started-at="2026-03-01T21:28:36Z" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+        <test-method status="PASS" signature="okRepsonseWithMessage()" name="okRepsonseWithMessage" duration-ms="1" started-at="2026-03-01T21:28:36Z" finished-at="2026-03-01T21:28:36Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

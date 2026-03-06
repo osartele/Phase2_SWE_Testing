@@ -1,0 +1,98 @@
+{
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=0; frequency_norm=0.000",
+      "line": 40,
+      "name": "JSON",
+      "param_count": 0,
+      "rank": 1,
+      "score": 2.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public JsonTree JSON()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.400; frequency=0; frequency_norm=0.000",
+      "line": 94,
+      "name": "STRING",
+      "param_count": 0,
+      "rank": 2,
+      "score": 0.8,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.4,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public LiteralTree STRING()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.200; frequency=0; frequency_norm=0.000",
+      "line": 99,
+      "name": "NUMBER",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.4,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.2,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public LiteralTree NUMBER()"
+    }
+  ],
+  "dataset_id": "c2t_a52e2f680f077e73db8b",
+  "focal_class_name": "JsonGrammar",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-examples\\src\\main\\java\\org\\sonar\\sslr\\examples\\grammars\\typed\\JsonGrammar.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "JSON",
+    "rank": 1
+  },
+  "labeled_focal_method": "JSON",
+  "labeled_test_method": "json",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 12,
+    "is_test": true,
+    "line": 119,
+    "name": "json"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "JsonGrammar"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:53Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat"
+    ]
+  },
+  "record_id": "c2t_a52e2f680f077e73db8b",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-examples\\src\\test\\java\\org\\sonar\\sslr\\examples\\grammars\\typed\\JsonGrammarTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,27 @@
+{
+  "base_commit": "bc2e2be93ca280f74f83d9c0307a9357240a33f9",
+  "build_commands": [
+    "mvn -B test"
+  ],
+  "case_id": "case_05fd23821e6941f1",
+  "focal_file_path": "jetstream-messaging/src/main/java/com/ebay/jetstream/event/channel/kafka/ZkCoordinator.java",
+  "mapped_focal_method": "isZkOwnerExist",
+  "mapped_test_method": "isZkOwnerExist",
+  "metadata": {
+    "baseline_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041046Z_30008530_test_run.json",
+    "baseline_test_status": "error",
+    "candidate_test_result_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\artifacts\\logs\\test_runs\\20260306T041048Z_30008530_test_run.json",
+    "candidate_test_status": "error",
+    "failures_appear": false,
+    "human_update_commit": "60903ec43911ada2c637efb3227f24779f0162fe",
+    "human_update_distance": 0,
+    "human_update_found": true,
+    "rank": 1,
+    "record_id": "c2t_23742e381efa5b4b6587",
+    "score": 3.0,
+    "touches_method_region": false
+  },
+  "modified_commit": "60903ec43911ada2c637efb3227f24779f0162fe",
+  "repo_id": "30008530",
+  "test_file_path": "jetstream-messaging/src/test/java/com/ebay/jetstream/event/channel/kafka/ZkCoordinatorTest.java"
+}

@@ -1,0 +1,101 @@
+{
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.305; frequency=1; frequency_norm=1.000",
+      "line": 71,
+      "name": "getAllRuleFields",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.860169,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.305085,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static List<Field> getAllRuleFields(Class grammarClass)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.500; frequency=0; frequency_norm=0.000",
+      "line": 83,
+      "name": "instanciateRuleFields",
+      "param_count": 0,
+      "rank": 2,
+      "score": 1.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.5,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void instanciateRuleFields()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.222; frequency=0; frequency_norm=0.000",
+      "line": 117,
+      "name": "getRootRule",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.444444,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.222222,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public abstract Rule getRootRule();"
+    }
+  ],
+  "dataset_id": "c2t_fd8a160c2cd39fcd1a6b",
+  "focal_class_name": "Grammar",
+  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\com\\sonar\\sslr\\api\\Grammar.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getAllRuleFields",
+    "rank": 1
+  },
+  "labeled_focal_method": "getAllRuleFields",
+  "labeled_test_method": "should_automatically_instanciate_lexerful_rules",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 53,
+    "name": "should_automatically_instanciate_lexerful_rules"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Grammar",
+      "grammar"
+    ],
+    "generated_at_utc": "2026-03-06T03:03:58Z",
+    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.fest.assertions.Assertions.assertThat",
+      "org.junit.Assert.assertThrows",
+      "org.mockito.Mockito.mock"
+    ]
+  },
+  "record_id": "c2t_fd8a160c2cd39fcd1a6b",
+  "repo_id": "4159017",
+  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repository_url": "https://github.com/SonarSource/sslr",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\com\\sonar\\sslr\\api\\GrammarTest.java",
+  "top_k": 3
+}
