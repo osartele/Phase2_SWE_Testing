@@ -1,0 +1,23 @@
+# Use a relative path so it automatically finds the 'repos' folder 
+# right next to where you run the command
+repos_root: "repos"
+
+dataset: "manifests"
+
+rq2:
+  top_k: 3
+
+sync:
+  regenerative:
+    max_iterations: 3
+  healing:
+    max_iterations: 5
+    reassert_command: ""
+
+rq3:
+  timeout_seconds: 3600
+
+tools:
+  evosuite:
+    jar_path: ""
+    download_url: ""
