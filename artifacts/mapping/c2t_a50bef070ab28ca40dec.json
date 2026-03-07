@@ -1,0 +1,106 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.860; frequency=1; frequency_norm=0.250",
+      "line": 68,
+      "name": "modifyBusinessObjectDefinitionInSearchIndex",
+      "param_count": 2,
+      "rank": 1,
+      "score": 8.22,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.25,
+        "name_similarity": 0.86,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void modifyBusinessObjectDefinitionInSearchIndex(BusinessObjectDefinitionEntity businessObjectDefinitionEntity, String modificationType)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.851; frequency=0; frequency_norm=0.000",
+      "line": 82,
+      "name": "modifyBusinessObjectDefinitionsInSearchIndex",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.70297,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.851485,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void modifyBusinessObjectDefinitionsInSearchIndex(List<BusinessObjectDefinitionEntity> businessObjectDefinitionEntityList, String modificationType)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.506; frequency=0; frequency_norm=0.000",
+      "line": 96,
+      "name": "modifyTagInSearchIndex",
+      "param_count": 2,
+      "rank": 3,
+      "score": 1.012658,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.506329,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void modifyTagInSearchIndex(TagEntity tagEntity, String modificationType)"
+    }
+  ],
+  "dataset_id": "c2t_a50bef070ab28ca40dec",
+  "focal_class_name": "SearchIndexUpdateHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\SearchIndexUpdateHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "modifyBusinessObjectDefinitionInSearchIndex",
+    "rank": 1
+  },
+  "labeled_focal_method": "modifyBusinessObjectDefinitionInSearchIndex",
+  "labeled_test_method": "testModifyBusinessObjectDefinitionInSearchIndexNoSqsQueueName",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 24,
+    "is_test": true,
+    "line": 129,
+    "name": "testModifyBusinessObjectDefinitionInSearchIndexNoSqsQueueName"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "SearchIndexUpdateHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:36Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.model.dto.SearchIndexUpdateDto.MESSAGE_TYPE_BUSINESS_OBJECT_DEFINITION_UPDATE",
+      "org.finra.herd.model.dto.SearchIndexUpdateDto.MESSAGE_TYPE_TAG_UPDATE",
+      "org.finra.herd.model.dto.SearchIndexUpdateDto.SEARCH_INDEX_UPDATE_TYPE_UPDATE",
+      "org.hamcrest.CoreMatchers.is",
+      "org.hamcrest.MatcherAssert.assertThat",
+      "org.junit.Assert.fail",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_a50bef070ab28ca40dec",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\SearchIndexUpdateHelperTest.java",
+  "top_k": 3
+}

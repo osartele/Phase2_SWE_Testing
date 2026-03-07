@@ -23,7 +23,7 @@
   ],
   "dataset_id": "c2t_eeec8c384c6587b06e7a",
   "focal_class_name": "OrdinalSmellTypeAnalysis",
-  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\175298978\\SmellTracker\\src\\main\\java\\fr\\inria\\sniffer\\tracker\\analysis\\query\\smell\\OrdinalSmellTypeAnalysis.java",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\175298978\\SmellTracker\\src\\main\\java\\fr\\inria\\sniffer\\tracker\\analysis\\query\\smell\\OrdinalSmellTypeAnalysis.java",
   "ground_truth": {
     "in_top_k": true,
     "labeled_focal_method": "query",
@@ -44,8 +44,8 @@
     "focal_aliases": [
       "OrdinalSmellTypeAnalysis"
     ],
-    "generated_at_utc": "2026-03-06T03:03:57Z",
-    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "generated_at_utc": "2026-03-07T01:19:54Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
     "static_imports": [
       "org.junit.Assert.assertEquals",
       "org.mockito.ArgumentMatchers.any",
@@ -56,9 +56,9 @@
   },
   "record_id": "c2t_eeec8c384c6587b06e7a",
   "repo_id": "175298978",
-  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\175298978",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\175298978",
   "repository_url": "https://github.com/HabchiSarra/Sniffer",
   "status": "ok",
-  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\175298978\\SmellTracker\\src\\test\\java\\fr\\inria\\sniffer\\tracker\\analysis\\query\\smell\\OrdinalSmellTypeAnalysisTest.java",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\175298978\\SmellTracker\\src\\test\\java\\fr\\inria\\sniffer\\tracker\\analysis\\query\\smell\\OrdinalSmellTypeAnalysisTest.java",
   "top_k": 3
 }

@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-manifest_path = Path("C:/Users/osart/Phase2_SWE_Testing-data_ingestion/Phase2_SWE_Testing-data_ingestion/phase2/data/processed/manifest.jsonl")
+manifest_path = Path("C:/Users/osart/Phase2_SWE_Testing-data_ingestion/phase2/data/processed/manifest.jsonl")
 
 print("=== Patching Manifest ===")
 with open(manifest_path, "r", encoding="utf-8") as f:

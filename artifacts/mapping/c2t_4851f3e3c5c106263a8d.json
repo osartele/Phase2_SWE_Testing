@@ -23,7 +23,7 @@
   ],
   "dataset_id": "c2t_4851f3e3c5c106263a8d",
   "focal_class_name": "SkipFromAstIfOnlyOneChild",
-  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\com\\sonar\\sslr\\impl\\ast\\SkipFromAstIfOnlyOneChild.java",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4159017\\sslr-core\\src\\main\\java\\com\\sonar\\sslr\\impl\\ast\\SkipFromAstIfOnlyOneChild.java",
   "ground_truth": {
     "in_top_k": true,
     "labeled_focal_method": "hasToBeSkippedFromAst",
@@ -44,8 +44,8 @@
     "focal_aliases": [
       "SkipFromAstIfOnlyOneChild"
     ],
-    "generated_at_utc": "2026-03-06T03:03:48Z",
-    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "generated_at_utc": "2026-03-07T01:19:15Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
     "static_imports": [
       "org.fest.assertions.Assertions.assertThat",
       "org.mockito.Mockito.mock",
@@ -54,9 +54,9 @@
   },
   "record_id": "c2t_4851f3e3c5c106263a8d",
   "repo_id": "4159017",
-  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4159017",
   "repository_url": "https://github.com/SonarSource/sslr",
   "status": "ok",
-  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\com\\sonar\\sslr\\impl\\ast\\SkipFromAstIfOnlyOneChildTest.java",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4159017\\sslr-core\\src\\test\\java\\com\\sonar\\sslr\\impl\\ast\\SkipFromAstIfOnlyOneChildTest.java",
   "top_k": 3
 }

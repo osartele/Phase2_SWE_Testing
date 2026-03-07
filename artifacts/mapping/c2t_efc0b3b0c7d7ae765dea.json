@@ -1,0 +1,79 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.615; frequency=1; frequency_norm=1.000",
+      "line": 55,
+      "name": "evaluate",
+      "param_count": 3,
+      "rank": 1,
+      "score": 8.480769,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.615385,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String evaluate(Reader templateReader, Map<String, Object> variables, String logTag)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.615; frequency=1; frequency_norm=1.000",
+      "line": 80,
+      "name": "evaluate",
+      "param_count": 3,
+      "rank": 2,
+      "score": 8.480769,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.615385,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String evaluate(String template, Map<String, Object> variables, String logTag)"
+    }
+  ],
+  "dataset_id": "c2t_efc0b3b0c7d7ae765dea",
+  "focal_class_name": "VelocityHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\VelocityHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "evaluate",
+    "rank": 1
+  },
+  "labeled_focal_method": "evaluate",
+  "labeled_test_method": "testEvaluateReflection",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 5,
+    "is_test": true,
+    "line": 42,
+    "name": "testEvaluateReflection"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "VelocityHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:54Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_efc0b3b0c7d7ae765dea",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\VelocityHelperTest.java",
+  "top_k": 3
+}

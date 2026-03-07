@@ -1,0 +1,101 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 93,
+      "name": "getDataProviders",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = \"/dataProviders\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_DATA_PROVIDERS_ALL_GET) public DataProviderKeys getDataProviders()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.968; frequency=0; frequency_norm=0.000",
+      "line": 67,
+      "name": "getDataProvider",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.935484,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.967742,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = \"/dataProviders/{dataProviderName}\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_DATA_PROVIDERS_GET) public DataProvider getDataProvider(@PathVariable(\"dataProviderName\") String dataProviderName)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.824; frequency=0; frequency_norm=0.000",
+      "line": 53,
+      "name": "createDataProvider",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.647059,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.823529,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = \"/dataProviders\", method = RequestMethod.POST, consumes = {\"application/xml\", \"application/json\"}) @Secured(SecurityFunctions.FN_DATA_PROVIDERS_POST) public DataProvider createDataProvider(@RequestBody DataProviderCreateRequest request)"
+    }
+  ],
+  "dataset_id": "c2t_a9aa27286d5336c1581b",
+  "focal_class_name": "DataProviderRestController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\DataProviderRestController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getDataProviders",
+    "rank": 1
+  },
+  "labeled_focal_method": "getDataProviders",
+  "labeled_test_method": "testGetDataProviders",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 109,
+    "name": "testGetDataProviders"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "DataProviderRestController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:38Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_a9aa27286d5336c1581b",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\DataProviderRestControllerTest.java",
+  "top_k": 3
+}

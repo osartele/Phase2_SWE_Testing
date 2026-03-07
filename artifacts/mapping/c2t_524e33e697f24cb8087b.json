@@ -1,0 +1,98 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.333; frequency=1; frequency_norm=0.200",
+      "line": 58,
+      "name": "process",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.116667,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.2,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void process(JCas jcas) throws AnalysisEngineProcessException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.353; frequency=0; frequency_norm=0.000",
+      "line": 95,
+      "name": "getAvg",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.705882,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.352941,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private double getAvg(List<Double> scores)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.353; frequency=0; frequency_norm=0.000",
+      "line": 91,
+      "name": "getMax",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.705882,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.352941,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private double getMax(List<Double> scores)"
+    }
+  ],
+  "dataset_id": "c2t_524e33e697f24cb8087b",
+  "focal_class_name": "TfidfRanking",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\ranking\\TfidfRanking.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "process",
+    "rank": 1
+  },
+  "labeled_focal_method": "process",
+  "labeled_test_method": "averageTest",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 16,
+    "is_test": true,
+    "line": 67,
+    "name": "averageTest"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "TfidfRanking"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:17Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals"
+    ]
+  },
+  "record_id": "c2t_524e33e697f24cb8087b",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\ranking\\TfidfRankingTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,101 @@
+{
+  "candidate_count": 14,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.333; frequency=1; frequency_norm=0.500",
+      "line": 67,
+      "name": "getProperty",
+      "param_count": 3,
+      "rank": 1,
+      "score": 9.416667,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static <T> T getProperty(ConfigurationValue configurationValue, Class<T> targetType, Environment environment)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=0; name_similarity=0.333; frequency=1; frequency_norm=0.500",
+      "line": 50,
+      "name": "getProperty",
+      "param_count": 2,
+      "rank": 2,
+      "score": 8.166667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static String getProperty(ConfigurationValue configurationValue, Environment environment)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=0; name_similarity=0.333; frequency=1; frequency_norm=0.500",
+      "line": 234,
+      "name": "getProperty",
+      "param_count": 1,
+      "rank": 3,
+      "score": 8.166667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public String getProperty(ConfigurationValue configurationValue)"
+    }
+  ],
+  "dataset_id": "c2t_791e868fb6b9e182395b",
+  "focal_class_name": "ConfigurationHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\main\\java\\org\\finra\\herd\\core\\helper\\ConfigurationHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getProperty",
+    "rank": 1
+  },
+  "labeled_focal_method": "getProperty",
+  "labeled_test_method": "testGetPropertyValidationThrowsWhenConfigurationValueIsNull",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 6,
+    "is_test": true,
+    "line": 118,
+    "name": "testGetPropertyValidationThrowsWhenConfigurationValueIsNull"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ConfigurationHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:24Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.assertNull",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_791e868fb6b9e182395b",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\test\\java\\org\\finra\\herd\\core\\helper\\ConfigurationHelperTest.java",
+  "top_k": 3
+}

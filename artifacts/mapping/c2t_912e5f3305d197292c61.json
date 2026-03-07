@@ -61,7 +61,7 @@
   ],
   "dataset_id": "c2t_912e5f3305d197292c61",
   "focal_class_name": "ArchaiusTypeConfigurationResolver",
-  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\16563359\\fabricator-archaius\\src\\main\\java\\com\\netflix\\fabricator\\archaius\\ArchaiusTypeConfigurationResolver.java",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\16563359\\fabricator-archaius\\src\\main\\java\\com\\netflix\\fabricator\\archaius\\ArchaiusTypeConfigurationResolver.java",
   "ground_truth": {
     "in_top_k": true,
     "labeled_focal_method": "getConfigurationFactory",
@@ -83,15 +83,15 @@
       "ArchaiusTypeConfigurationResolver",
       "resolver"
     ],
-    "generated_at_utc": "2026-03-06T03:03:52Z",
-    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "generated_at_utc": "2026-03-07T01:19:31Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
     "static_imports": []
   },
   "record_id": "c2t_912e5f3305d197292c61",
   "repo_id": "16563359",
-  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\16563359",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\16563359",
   "repository_url": "https://github.com/Netflix/fabricator",
   "status": "ok",
-  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\16563359\\fabricator-archaius\\src\\test\\java\\com\\netflix\\fabricator\\archaius\\ArchaiusTypeConfigurationResolverTest.java",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\16563359\\fabricator-archaius\\src\\test\\java\\com\\netflix\\fabricator\\archaius\\ArchaiusTypeConfigurationResolverTest.java",
   "top_k": 3
 }

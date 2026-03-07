@@ -1,0 +1,60 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.176; frequency=1; frequency_norm=1.000",
+      "line": 31,
+      "name": "afterPropertiesSet",
+      "param_count": 0,
+      "rank": 1,
+      "score": 7.602941,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.176471,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void afterPropertiesSet() throws Exception"
+    }
+  ],
+  "dataset_id": "c2t_358e6c14123a86f983a0",
+  "focal_class_name": "HerdRestControllerAdvice",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\HerdRestControllerAdvice.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "afterPropertiesSet",
+    "rank": 1
+  },
+  "labeled_focal_method": "afterPropertiesSet",
+  "labeled_test_method": "testIsLoggingEnabled",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 3,
+    "is_test": true,
+    "line": 40,
+    "name": "testIsLoggingEnabled"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HerdRestControllerAdvice"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:12Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_358e6c14123a86f983a0",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\HerdRestControllerAdviceTest.java",
+  "top_k": 3
+}

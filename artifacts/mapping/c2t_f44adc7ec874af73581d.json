@@ -1,0 +1,104 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.250",
+      "line": 113,
+      "name": "validateTagKey",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.5,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.25,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void validateTagKey(TagKey tagKey) throws IllegalArgumentException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.279; frequency=0; frequency_norm=0.000",
+      "line": 53,
+      "name": "executeFunctionForTagEntities",
+      "param_count": 3,
+      "rank": 2,
+      "score": 0.55814,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.27907,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void executeFunctionForTagEntities(final String indexName, final List<TagEntity> tagEntities, final TriConsumer<String, String, String> function)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.208; frequency=0; frequency_norm=0.000",
+      "line": 89,
+      "name": "safeObjectMapperWriteValueAsString",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.416667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.208333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String safeObjectMapperWriteValueAsString(final TagEntity tagEntity)"
+    }
+  ],
+  "dataset_id": "c2t_f44adc7ec874af73581d",
+  "focal_class_name": "TagHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\TagHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "validateTagKey",
+    "rank": 1
+  },
+  "labeled_focal_method": "validateTagKey",
+  "labeled_test_method": "testValidateTagKey",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 13,
+    "is_test": true,
+    "line": 123,
+    "name": "testValidateTagKey"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "TagHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:55Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.fail",
+      "org.mockito.ArgumentMatchers.any",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_f44adc7ec874af73581d",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\TagHelperTest.java",
+  "top_k": 3
+}

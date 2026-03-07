@@ -1,0 +1,100 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=0; frequency_norm=0.000",
+      "line": 87,
+      "name": "getBusinessObjectDataVersions",
+      "param_count": 1,
+      "rank": 1,
+      "score": 2.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public BusinessObjectDataVersions getBusinessObjectDataVersions(BusinessObjectDataKey businessObjectDataKey) throws ApiException, URISyntaxException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.697; frequency=0; frequency_norm=0.000",
+      "line": 63,
+      "name": "getBusinessObjectDataUploadCredential",
+      "param_count": 3,
+      "rank": 2,
+      "score": 1.393939,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.69697,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public StorageUnitUploadCredential getBusinessObjectDataUploadCredential(DataBridgeBaseManifestDto manifest, String storageName, Integer businessObjectDataVersion) throws ApiException, URISyntaxException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.622; frequency=0; frequency_norm=0.000",
+      "line": 111,
+      "name": "updateBusinessObjectDataStatusIgnoreException",
+      "param_count": 2,
+      "rank": 3,
+      "score": 1.243243,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.621622,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void updateBusinessObjectDataStatusIgnoreException(BusinessObjectDataKey businessObjectDataKey, String businessObjectDataStatus)"
+    }
+  ],
+  "dataset_id": "c2t_c637237dc20bf5341d35",
+  "focal_class_name": "UploaderWebClient",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-tools\\herd-uploader\\src\\main\\java\\org\\finra\\herd\\tools\\uploader\\UploaderWebClient.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getBusinessObjectDataVersions",
+    "rank": 1
+  },
+  "labeled_focal_method": "getBusinessObjectDataVersions",
+  "labeled_test_method": "testGetBusinessObjectDataVersions",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 1,
+    "is_test": true,
+    "line": 117,
+    "name": "testGetBusinessObjectDataVersions"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "UploaderWebClient"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:44Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_c637237dc20bf5341d35",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-tools\\herd-uploader\\src\\test\\java\\org\\finra\\herd\\tools\\uploader\\UploaderWebClientTest.java",
+  "top_k": 3
+}

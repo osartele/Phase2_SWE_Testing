@@ -1,0 +1,101 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=0; frequency_norm=0.000",
+      "line": 99,
+      "name": "process",
+      "param_count": 1,
+      "rank": 1,
+      "score": 2.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void process(JCas jcas) throws AnalysisEngineProcessException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.429; frequency=0; frequency_norm=0.000",
+      "line": 212,
+      "name": "compare",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.857143,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.428571,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public int compare(Keyphrase k1, Keyphrase k2)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.296; frequency=0; frequency_norm=0.000",
+      "line": 185,
+      "name": "removeFullyContained",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.592593,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.296296,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private List<Keyphrase> removeFullyContained(List<Keyphrase> keyphrases)"
+    }
+  ],
+  "dataset_id": "c2t_9911db0c050241efb2b1",
+  "focal_class_name": "KeyphraseWriter",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\evaluator\\KeyphraseWriter.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "process",
+    "rank": 1
+  },
+  "labeled_focal_method": "process",
+  "labeled_test_method": "process",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 21,
+    "is_test": true,
+    "line": 33,
+    "name": "process"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "KeyphraseWriter"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:33Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine",
+      "org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription",
+      "org.apache.uima.fit.factory.CollectionReaderFactory.createReader",
+      "org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription"
+    ]
+  },
+  "record_id": "c2t_9911db0c050241efb2b1",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\evaluator\\KeyphraseWriterTest.java",
+  "top_k": 3
+}

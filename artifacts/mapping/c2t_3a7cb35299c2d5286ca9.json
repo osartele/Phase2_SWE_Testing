@@ -1,0 +1,100 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=0; frequency_norm=0.000",
+      "line": 109,
+      "name": "performUpload",
+      "param_count": 7,
+      "rank": 1,
+      "score": 2.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@SuppressFBWarnings(value = \"BC_UNCONFIRMED_CAST_OF_RETURN_VALUE\", justification = \"manifestReader.readJsonManifest will always return an UploaderInputManifestDto object.\") public void performUpload(RegServerAccessParamsDto regServerAccessParamsDto, File manifestPath, S3FileTransferRequestParamsDto params, Boolean createNewVersion, Boolean force, Integer maxRetryAttempts, Integer retryDelaySecs) throws ApiException, IOException, InterruptedException, URISyntaxException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.323; frequency=0; frequency_norm=0.000",
+      "line": 361,
+      "name": "findDuplicateFiles",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.645161,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.322581,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private List<File> findDuplicateFiles(List<File> files)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.229; frequency=0; frequency_norm=0.000",
+      "line": 391,
+      "name": "getValidatedLocalFiles",
+      "param_count": 2,
+      "rank": 3,
+      "score": 0.457143,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.228571,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private List<File> getValidatedLocalFiles(String localDir, List<ManifestFile> manifestFiles) throws IllegalArgumentException, IOException"
+    }
+  ],
+  "dataset_id": "c2t_3a7cb35299c2d5286ca9",
+  "focal_class_name": "UploaderController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-tools\\herd-uploader\\src\\main\\java\\org\\finra\\herd\\tools\\uploader\\UploaderController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "performUpload",
+    "rank": 1
+  },
+  "labeled_focal_method": "performUpload",
+  "labeled_test_method": "testPerformUpload",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 65,
+    "name": "testPerformUpload"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "UploaderController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:13Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertTrue",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_3a7cb35299c2d5286ca9",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-tools\\herd-uploader\\src\\test\\java\\org\\finra\\herd\\tools\\uploader\\UploaderControllerTest.java",
+  "top_k": 3
+}

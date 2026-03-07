@@ -1,0 +1,58 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.471; frequency=1; frequency_norm=0.333",
+      "line": 32,
+      "name": "validate",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.52451,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.333333,
+        "name_similarity": 0.470588,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void validate(S3PropertiesLocation s3PropertiesLocation)"
+    }
+  ],
+  "dataset_id": "c2t_119a85da4d0d34e83267",
+  "focal_class_name": "S3PropertiesLocationHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\S3PropertiesLocationHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "validate",
+    "rank": 1
+  },
+  "labeled_focal_method": "validate",
+  "labeled_test_method": "testValidateNoErrorsAndTrimmed",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 13,
+    "is_test": true,
+    "line": 30,
+    "name": "testValidateNoErrorsAndTrimmed"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "S3PropertiesLocationHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:04Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_119a85da4d0d34e83267",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\S3PropertiesLocationHelperTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,61 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.214; frequency=1; frequency_norm=1.000",
+      "line": 36,
+      "name": "service",
+      "param_count": 2,
+      "rank": 1,
+      "score": 7.678571,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.214286,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void service(HttpRequest request, HttpResponse response) throws IOException"
+    }
+  ],
+  "dataset_id": "c2t_ac700fc8fa28ad1a86ec",
+  "focal_class_name": "HelloHttp",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\32895424\\functions\\helloworld\\hello-http-gradle\\src\\main\\java\\functions\\HelloHttp.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "service",
+    "rank": 1
+  },
+  "labeled_focal_method": "service",
+  "labeled_test_method": "helloHttp_urlParamsGet",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 72,
+    "name": "helloHttp_urlParamsGet"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HelloHttp"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:38Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "com.google.common.truth.Truth.assertThat",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_ac700fc8fa28ad1a86ec",
+  "repo_id": "32895424",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\32895424",
+  "repository_url": "https://github.com/GoogleCloudPlatform/java-docs-samples",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\32895424\\functions\\helloworld\\hello-http-gradle\\src\\test\\java\\functions\\HelloHttpTest.java",
+  "top_k": 3
+}

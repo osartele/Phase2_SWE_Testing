@@ -1,0 +1,97 @@
+{
+  "candidate_count": 35,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.500; frequency=1; frequency_norm=0.043",
+      "line": 348,
+      "name": "nodeRank",
+      "param_count": 5,
+      "rank": 1,
+      "score": 9.293478,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.043478,
+        "name_similarity": 0.5,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "protected void nodeRank(FlexCompColMatrix transitionMatrix, double d, DenseVector biasVector, Vector scoreVector, double threshold)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.412; frequency=1; frequency_norm=0.043",
+      "line": 295,
+      "name": "createTransitionMatrix",
+      "param_count": 3,
+      "rank": 2,
+      "score": 9.117008,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.043478,
+        "name_similarity": 0.411765,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "protected FlexCompColMatrix createTransitionMatrix(FlexCompColMatrix adjacentMatrix, Vector degreeVector, int degree)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.296; frequency=1; frequency_norm=0.043",
+      "line": 326,
+      "name": "getDegreeVector",
+      "param_count": 2,
+      "rank": 3,
+      "score": 8.886071,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.043478,
+        "name_similarity": 0.296296,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "protected Vector getDegreeVector(int tokenSize, FlexCompColMatrix adjacentMatrix)"
+    }
+  ],
+  "dataset_id": "c2t_247317467eac2252d72b",
+  "focal_class_name": "PageRank",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.textgraphs-gpl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\textgraphs\\util\\PageRank.java",
+  "ground_truth": {
+    "in_top_k": false,
+    "labeled_focal_method": "PageRank",
+    "rank": null
+  },
+  "labeled_focal_method": "PageRank",
+  "labeled_test_method": "pageRankTest",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 31,
+    "is_test": true,
+    "line": 27,
+    "name": "pageRankTest"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "PageRank",
+      "textRank"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:08Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_247317467eac2252d72b",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.textgraphs-gpl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\textgraphs\\util\\PageRankTest.java",
+  "top_k": 3
+}

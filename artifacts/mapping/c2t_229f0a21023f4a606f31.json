@@ -1,0 +1,101 @@
+{
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.000; frequency=1; frequency_norm=1.000",
+      "line": 266,
+      "name": "getExampleXml",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public String getExampleXml()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.000; frequency=0; frequency_norm=0.000",
+      "line": 81,
+      "name": "generateExampleXml",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void generateExampleXml(Class<?> clazz) throws MojoExecutionException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.000; frequency=0; frequency_norm=0.000",
+      "line": 247,
+      "name": "objectToXml",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private String objectToXml(Object object) throws JAXBException"
+    }
+  ],
+  "dataset_id": "c2t_229f0a21023f4a606f31",
+  "focal_class_name": "ExampleXmlGenerator",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-build\\herd-swaggergen-maven-plugin\\src\\main\\java\\org\\finra\\herd\\swaggergen\\ExampleXmlGenerator.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getExampleXml",
+    "rank": 1
+  },
+  "labeled_focal_method": "getExampleXml",
+  "labeled_test_method": "test_2",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 5,
+    "is_test": true,
+    "line": 46,
+    "name": "test_2"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ExampleXmlGenerator",
+      "exampleXmlGenerator"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:07Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertTrue",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_229f0a21023f4a606f31",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-build\\herd-swaggergen-maven-plugin\\src\\test\\java\\org\\finra\\herd\\swaggergen\\ExampleXmlGeneratorTest.java",
+  "top_k": 3
+}

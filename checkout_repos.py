@@ -2,8 +2,8 @@ import json
 import subprocess
 from pathlib import Path
 
-manifest_path = "C:/Users/osart/Phase2_SWE_Testing-data_ingestion/Phase2_SWE_Testing-data_ingestion/phase2/data/processed/manifest.jsonl"
-repos_dir = Path("C:/Users/osart/phase2_repos")
+manifest_path = "C:/Users/osart/Phase2_SWE_Testing-data_ingestion/phase2/data/processed/manifest.jsonl"
+repos_dir = Path("C:/Users/osart/Phase2_SWE_Testing-data_ingestion/repos")
 
 print("=== Starting Git Checkout ===")
 

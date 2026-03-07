@@ -1,0 +1,104 @@
+{
+  "candidate_count": 37,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.364; frequency=1; frequency_norm=1.000",
+      "line": 588,
+      "name": "getBvUserProvidedData",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.977273,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.363636,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "BVUserProvidedData getBvUserProvidedData()"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.469; frequency=1; frequency_norm=1.000",
+      "line": 340,
+      "name": "apiKeyConversations",
+      "param_count": 1,
+      "rank": 2,
+      "score": 8.1875,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.46875,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public Builder apiKeyConversations(String apiKeyConversations)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.290; frequency=1; frequency_norm=1.000",
+      "line": 323,
+      "name": "apiKeyShopperAdvertising",
+      "param_count": 1,
+      "rank": 3,
+      "score": 7.82971,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.289855,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public Builder apiKeyShopperAdvertising(String apiKeyShopperAdvertising)"
+    }
+  ],
+  "dataset_id": "c2t_dbd4e37f8e3022245ef5",
+  "focal_class_name": "BVSDK",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\BVSDK.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getBvUserProvidedData",
+    "rank": 1
+  },
+  "labeled_focal_method": "getBvUserProvidedData",
+  "labeled_test_method": "bvSdkShouldSetupConversationsApiKeyDeprecated",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 162,
+    "name": "bvSdkShouldSetupConversationsApiKeyDeprecated"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BVSDK",
+      "bvsdk"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:50Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "junit.framework.Assert.assertEquals",
+      "org.mockito.Matchers.any",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.when",
+      "org.mockito.MockitoAnnotations.initMocks"
+    ]
+  },
+  "record_id": "c2t_dbd4e37f8e3022245ef5",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\BVSDKTest.java",
+  "top_k": 3
+}

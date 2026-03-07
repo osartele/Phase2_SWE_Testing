@@ -1,0 +1,100 @@
+{
+  "candidate_count": 47,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.059; frequency=1; frequency_norm=0.333",
+      "line": 236,
+      "name": "create",
+      "param_count": 1,
+      "rank": 1,
+      "score": 6.70098,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.333333,
+        "name_similarity": 0.058824,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public <RequestType extends ConversationsRequest> Request create(RequestType request)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.374; frequency=0; frequency_norm=0.000",
+      "line": 1370,
+      "name": "addSubmissionPhotosFormParams",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.747253,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.373626,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private static void addSubmissionPhotosFormParams(FormBody.Builder formBodyBuilder, ConversationsSubmissionRequest request)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.330; frequency=0; frequency_norm=0.000",
+      "line": 1384,
+      "name": "addSubmissionVideosFormParams",
+      "param_count": 2,
+      "rank": 3,
+      "score": 0.659341,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.32967,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private static void addSubmissionVideosFormParams(FormBody.Builder formBodyBuilder, ConversationsSubmissionRequest request)"
+    }
+  ],
+  "dataset_id": "c2t_7dead79b72282811157e",
+  "focal_class_name": "BasicRequestFactory",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvconversations\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\BasicRequestFactory.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "create",
+    "rank": 1
+  },
+  "labeled_focal_method": "create",
+  "labeled_test_method": "submissionBvHostedAuthStage2_shouldChooseHostedAuthProviderOnly",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 413,
+    "name": "submissionBvHostedAuthStage2_shouldChooseHostedAuthProviderOnly"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BasicRequestFactory"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:25Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_7dead79b72282811157e",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvconversations\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\BasicRequestFactoryTest.java",
+  "top_k": 3
+}

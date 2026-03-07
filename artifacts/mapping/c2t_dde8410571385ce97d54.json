@@ -1,0 +1,100 @@
+{
+  "candidate_count": 47,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.245; frequency=1; frequency_norm=1.000",
+      "line": 236,
+      "name": "create",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.739796,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.244898,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public <RequestType extends ConversationsRequest> Request create(RequestType request)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.487; frequency=0; frequency_norm=0.000",
+      "line": 810,
+      "name": "createFromProductDisplayPageRequest",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.974359,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.487179,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private Request createFromProductDisplayPageRequest(ProductDisplayPageRequest request)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.423; frequency=0; frequency_norm=0.000",
+      "line": 1045,
+      "name": "createFromVideoUploadRequest",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.84507,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.422535,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private Request createFromVideoUploadRequest(VideoUploadRequest request)"
+    }
+  ],
+  "dataset_id": "c2t_dde8410571385ce97d54",
+  "focal_class_name": "BasicRequestFactory",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvconversations\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\BasicRequestFactory.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "create",
+    "rank": 1
+  },
+  "labeled_focal_method": "create",
+  "labeled_test_method": "reviewDisplayRequestCreateRequestWithFilter",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 5,
+    "is_test": true,
+    "line": 157,
+    "name": "reviewDisplayRequestCreateRequestWithFilter"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BasicRequestFactory"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:50Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_dde8410571385ce97d54",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvconversations\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\BasicRequestFactoryTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,81 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 64,
+      "name": "getConfigurationEntries",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = CONFIGURATION_ENTRIES_URI_PREFIX, method = RequestMethod.GET) @Secured(SecurityFunctions.FN_CONFIGURATION_ENTRIES_ALL_GET) public ConfigurationEntryKeys getConfigurationEntries()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.909; frequency=0; frequency_norm=0.000",
+      "line": 52,
+      "name": "getConfigurationEntry",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.818182,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.909091,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = CONFIGURATION_ENTRIES_URI_PREFIX + \"/{configurationEntryKey}\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_CONFIGURATION_ENTRIES_GET) public ConfigurationEntry getConfigurationEntry(@PathVariable(\"configurationEntryKey\") String configurationEntryKey)"
+    }
+  ],
+  "dataset_id": "c2t_92b638a48ea1b40b8288",
+  "focal_class_name": "ConfigurationEntryRestController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\ConfigurationEntryRestController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getConfigurationEntries",
+    "rank": 1
+  },
+  "labeled_focal_method": "getConfigurationEntries",
+  "labeled_test_method": "testGetConfigurationEntries",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 75,
+    "name": "testGetConfigurationEntries"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ConfigurationEntryRestController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:31Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_92b638a48ea1b40b8288",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\ConfigurationEntryRestControllerTest.java",
+  "top_k": 3
+}

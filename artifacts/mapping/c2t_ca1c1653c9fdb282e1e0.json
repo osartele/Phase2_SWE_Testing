@@ -1,0 +1,99 @@
+{
+  "candidate_count": 18,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.757; frequency=1; frequency_norm=1.000",
+      "line": 213,
+      "name": "handleNotFoundException",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.763514,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.756757,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@ExceptionHandler(value = {org.hibernate.ObjectNotFoundException.class, ObjectNotFoundException.class}) @ResponseStatus(HttpStatus.NOT_FOUND) @ResponseBody public ErrorInformation handleNotFoundException(RuntimeException exception)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.486; frequency=0; frequency_norm=0.000",
+      "line": 190,
+      "name": "handleConflictException",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.972973,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.486486,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@ExceptionHandler(value = {AlreadyExistsException.class, ObjectAlreadyExistsException.class, OptimisticLockException.class}) @ResponseStatus(HttpStatus.CONFLICT) @ResponseBody public ErrorInformation handleConflictException(Exception exception)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.458; frequency=0; frequency_norm=0.000",
+      "line": 201,
+      "name": "handleInternalServerErrorException",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.916667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.458333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@ExceptionHandler(value = Exception.class) @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR) @ResponseBody public ErrorInformation handleInternalServerErrorException(Exception exception)"
+    }
+  ],
+  "dataset_id": "c2t_ca1c1653c9fdb282e1e0",
+  "focal_class_name": "HerdErrorInformationExceptionHandler",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\HerdErrorInformationExceptionHandler.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "handleNotFoundException",
+    "rank": 1
+  },
+  "labeled_focal_method": "handleNotFoundException",
+  "labeled_test_method": "testHandleNotFound",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 156,
+    "name": "testHandleNotFound"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HerdErrorInformationExceptionHandler"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:46Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_ca1c1653c9fdb282e1e0",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\HerdErrorInformationExceptionHandlerTest.java",
+  "top_k": 3
+}

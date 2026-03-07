@@ -1,0 +1,100 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.480; frequency=1; frequency_norm=0.500",
+      "line": 45,
+      "name": "getAdId",
+      "param_count": 1,
+      "rank": 1,
+      "score": 6.46,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.48,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "static AdIdResult getAdId(Context applicationContext)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.294; frequency=0; frequency_norm=0.000",
+      "line": 83,
+      "name": "onAdInfoComplete",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.588235,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.294118,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "void onAdInfoComplete(AdIdResult result);"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.194; frequency=0; frequency_norm=0.000",
+      "line": 70,
+      "name": "onPostExecute",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.387097,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.193548,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override protected void onPostExecute(AdIdResult result)"
+    }
+  ],
+  "dataset_id": "c2t_bada9eee50945d5c55f8",
+  "focal_class_name": "AdIdRequestTask",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\AdIdRequestTask.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getAdId",
+    "rank": 1
+  },
+  "labeled_focal_method": "getAdId",
+  "labeled_test_method": "shouldReturnAnAdId",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 35,
+    "name": "shouldReturnAnAdId"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "AdIdRequestTask",
+      "adIdRequestTask"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:42Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "junit.framework.TestCase.assertEquals",
+      "junit.framework.TestCase.assertNotNull"
+    ]
+  },
+  "record_id": "c2t_bada9eee50945d5c55f8",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\AdIdRequestTaskTest.java",
+  "top_k": 3
+}

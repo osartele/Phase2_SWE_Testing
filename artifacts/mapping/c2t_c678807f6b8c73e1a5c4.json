@@ -61,7 +61,7 @@
   ],
   "dataset_id": "c2t_c678807f6b8c73e1a5c4",
   "focal_class_name": "ResourceInjector",
-  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32488797\\vitaminsaber\\src\\main\\java\\com\\w2ji\\vitaminsaber\\internal\\ResourceInjector.java",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\32488797\\vitaminsaber\\src\\main\\java\\com\\w2ji\\vitaminsaber\\internal\\ResourceInjector.java",
   "ground_truth": {
     "in_top_k": true,
     "labeled_focal_method": "emitHumanDescription",
@@ -82,8 +82,8 @@
     "focal_aliases": [
       "ResourceInjector"
     ],
-    "generated_at_utc": "2026-03-06T03:03:55Z",
-    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "generated_at_utc": "2026-03-07T01:19:44Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
     "static_imports": [
       "java.util.Arrays.asList",
       "org.fest.assertions.api.Assertions.assertThat",
@@ -92,9 +92,9 @@
   },
   "record_id": "c2t_c678807f6b8c73e1a5c4",
   "repo_id": "32488797",
-  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32488797",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\32488797",
   "repository_url": "https://github.com/w2ji/VitaminSaber",
   "status": "ok",
-  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\32488797\\vitaminsaber\\src\\test\\java\\com\\w2ji\\vitaminsaber\\internal\\ResourceInjectorTest.java",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\32488797\\vitaminsaber\\src\\test\\java\\com\\w2ji\\vitaminsaber\\internal\\ResourceInjectorTest.java",
   "top_k": 3
 }

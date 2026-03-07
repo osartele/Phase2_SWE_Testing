@@ -1,0 +1,100 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.400; frequency=1; frequency_norm=0.167",
+      "line": 46,
+      "name": "process",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.216667,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.166667,
+        "name_similarity": 0.4,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void process(JCas jcas) throws AnalysisEngineProcessException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.261; frequency=0; frequency_norm=0.000",
+      "line": 38,
+      "name": "initialize",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.521739,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.26087,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void initialize(UimaContext context) throws ResourceInitializationException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.240; frequency=0; frequency_norm=0.000",
+      "line": 64,
+      "name": "addKeyphrase",
+      "param_count": 2,
+      "rank": 3,
+      "score": 0.48,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.24,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void addKeyphrase(JCas jcas, TermRank termRank)"
+    }
+  ],
+  "dataset_id": "c2t_182e9eb5875543a9cfac",
+  "focal_class_name": "PageRankRanking",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.textgraphs-gpl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\ranking\\PageRankRanking.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "process",
+    "rank": 1
+  },
+  "labeled_focal_method": "process",
+  "labeled_test_method": "PosFilterTest",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 29,
+    "is_test": true,
+    "line": 43,
+    "name": "PosFilterTest"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "PageRankRanking"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:05Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_182e9eb5875543a9cfac",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.textgraphs-gpl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\ranking\\PageRankRankingTest.java",
+  "top_k": 3
+}

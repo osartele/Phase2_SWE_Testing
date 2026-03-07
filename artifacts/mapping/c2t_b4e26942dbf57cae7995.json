@@ -1,0 +1,111 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.556; frequency=1; frequency_norm=0.500",
+      "line": 186,
+      "name": "checkPropertiesFile",
+      "param_count": 2,
+      "rank": 1,
+      "score": 7.861111,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.555556,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "void checkPropertiesFile(PropertiesHelper propertiesHelper, Boolean messageFlag) throws ApiException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.294; frequency=0; frequency_norm=0.000",
+      "line": 169,
+      "name": "mapJsontoBdataKey",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.588235,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.294118,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "JsonSqsMessageBody mapJsontoBdataKey(String messageBody) throws IOException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.286; frequency=0; frequency_norm=0.000",
+      "line": 242,
+      "name": "currentUserGetCurrentUser",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.571429,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.285714,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "UserAuthorizations currentUserGetCurrentUser(CurrentUserApi currentUserApi) throws ApiException"
+    }
+  ],
+  "dataset_id": "c2t_b4e26942dbf57cae7995",
+  "focal_class_name": "HerdApiClientOperations",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-tools\\herd-access-validator\\src\\main\\java\\org\\finra\\herd\\tools\\access\\validator\\HerdApiClientOperations.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "checkPropertiesFile",
+    "rank": 1
+  },
+  "labeled_focal_method": "checkPropertiesFile",
+  "labeled_test_method": "testMissingProperties",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 12,
+    "is_test": true,
+    "line": 83,
+    "name": "testMissingProperties"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HerdApiClientOperations"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:40Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.tools.access.validator.PropertiesHelper.AWS_REGION_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.AWS_ROLE_ARN_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.AWS_SQS_QUEUE_URL_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.BUSINESS_OBJECT_DEFINITION_NAME_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.BUSINESS_OBJECT_FORMAT_FILE_TYPE_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.BUSINESS_OBJECT_FORMAT_USAGE_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.HERD_BASE_URL_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.HERD_PASSWORD_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.HERD_USERNAME_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.NAMESPACE_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.PRIMARY_PARTITION_VALUE_PROPERTY",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_b4e26942dbf57cae7995",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-tools\\herd-access-validator\\src\\test\\java\\org\\finra\\herd\\tools\\access\\validator\\HerdApiClientOperationsTest.java",
+  "top_k": 3
+}

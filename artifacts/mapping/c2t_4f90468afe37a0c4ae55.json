@@ -1,0 +1,96 @@
+{
+  "candidate_count": 12,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.714; frequency=1; frequency_norm=0.500",
+      "line": 98,
+      "name": "invalidateUnregisteredBusinessObjectData",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.178571,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.714286,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public BusinessObjectDataInvalidateUnregisteredResponse invalidateUnregisteredBusinessObjectData( BusinessObjectDataInvalidateUnregisteredRequest businessObjectDataInvalidateUnregisteredRequest)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.587; frequency=0; frequency_norm=0.000",
+      "line": 271,
+      "name": "getUnregisteredBusinessObjectDataKeys",
+      "param_count": 4,
+      "rank": 2,
+      "score": 1.174312,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.587156,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private List<BusinessObjectDataKey> getUnregisteredBusinessObjectDataKeys(BusinessObjectDataInvalidateUnregisteredRequest request, StorageEntity storageEntity, BusinessObjectFormatEntity businessObjectFormatEntity, Integer latestRegisteredBusinessObjectDataVersion)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.533; frequency=0; frequency_norm=0.000",
+      "line": 234,
+      "name": "getLatestBusinessObjectDataEntity",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.066667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.533333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private BusinessObjectDataEntity getLatestBusinessObjectDataEntity( BusinessObjectDataInvalidateUnregisteredRequest businessObjectDataInvalidateUnregisteredRequest)"
+    }
+  ],
+  "dataset_id": "c2t_4f90468afe37a0c4ae55",
+  "focal_class_name": "BusinessObjectDataInvalidateUnregisteredHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDataInvalidateUnregisteredHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "invalidateUnregisteredBusinessObjectData",
+    "rank": 1
+  },
+  "labeled_focal_method": "invalidateUnregisteredBusinessObjectData",
+  "labeled_test_method": "testInvalidateUnregisteredBusinessObjectDataValidationPartitionValueRequired",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 7,
+    "is_test": true,
+    "line": 661,
+    "name": "testInvalidateUnregisteredBusinessObjectDataValidationPartitionValueRequired"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BusinessObjectDataInvalidateUnregisteredHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:16Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_4f90468afe37a0c4ae55",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDataInvalidateUnregisteredHelperTest.java",
+  "top_k": 3
+}

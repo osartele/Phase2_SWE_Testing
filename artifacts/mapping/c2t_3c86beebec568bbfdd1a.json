@@ -1,0 +1,99 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.500",
+      "line": 104,
+      "name": "validateBusinessObjectDataSearchKey",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.75,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "void validateBusinessObjectDataSearchKey(BusinessObjectDataSearchKey businessObjectDataSearchKey)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.892; frequency=0; frequency_norm=0.000",
+      "line": 51,
+      "name": "validateBusinessObjectDataSearchRequest",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.783784,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.891892,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void validateBusinessObjectDataSearchRequest(BusinessObjectDataSearchRequest businessObjectDataSearchRequest)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.448; frequency=0; frequency_norm=0.000",
+      "line": 81,
+      "name": "validatePagingParameter",
+      "param_count": 4,
+      "rank": 3,
+      "score": 0.896552,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.448276,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public Integer validatePagingParameter(String parameterName, Integer parameterValue, Integer defaultParameterValue, Integer maxParameterValue)"
+    }
+  ],
+  "dataset_id": "c2t_3c86beebec568bbfdd1a",
+  "focal_class_name": "BusinessObjectDataSearchHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDataSearchHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "validateBusinessObjectDataSearchKey",
+    "rank": 1
+  },
+  "labeled_focal_method": "validateBusinessObjectDataSearchKey",
+  "labeled_test_method": "testValidateBusinessObjectDataSearchKey",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 27,
+    "name": "testValidateBusinessObjectDataSearchKey"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BusinessObjectDataSearchHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:13Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_3c86beebec568bbfdd1a",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDataSearchHelperTest.java",
+  "top_k": 3
+}

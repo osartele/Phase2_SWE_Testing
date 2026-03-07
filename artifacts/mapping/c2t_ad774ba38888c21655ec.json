@@ -1,0 +1,104 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.333",
+      "line": 99,
+      "name": "getXmlClobPropertyAndUnmarshallToObject",
+      "param_count": 2,
+      "rank": 1,
+      "score": 8.583333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.333333,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@SuppressWarnings(\"unchecked\") public <T> T getXmlClobPropertyAndUnmarshallToObject(Class<T> classType, String configurationKey)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.556; frequency=0; frequency_norm=0.000",
+      "line": 78,
+      "name": "getClobProperty",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.111111,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.555556,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getClobProperty(String configurationKey)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.233; frequency=0; frequency_norm=0.000",
+      "line": 55,
+      "name": "checkNotAllowedMethod",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.466667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.233333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void checkNotAllowedMethod(String methodName) throws MethodNotAllowedException"
+    }
+  ],
+  "dataset_id": "c2t_ad774ba38888c21655ec",
+  "focal_class_name": "ConfigurationDaoHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\ConfigurationDaoHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getXmlClobPropertyAndUnmarshallToObject",
+    "rank": 1
+  },
+  "labeled_focal_method": "getXmlClobPropertyAndUnmarshallToObject",
+  "labeled_test_method": "testGetXmlClobPropertyAndUnmarshallToObject",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 17,
+    "is_test": true,
+    "line": 216,
+    "name": "testGetXmlClobPropertyAndUnmarshallToObject"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ConfigurationDaoHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:39Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNull",
+      "org.junit.Assert.fail",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_ad774ba38888c21655ec",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\ConfigurationDaoHelperTest.java",
+  "top_k": 3
+}

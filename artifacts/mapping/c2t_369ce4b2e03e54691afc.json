@@ -1,0 +1,99 @@
+{
+  "candidate_count": 11,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=1; name_similarity=0.290; frequency=2; frequency_norm=0.400",
+      "line": 56,
+      "name": "getAveragedPerformanceMeasures",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.22971,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.4,
+        "name_similarity": 0.289855,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public AveragedPerformanceMeasures getAveragedPerformanceMeasures(int retrievedCount)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=1; name_similarity=0.290; frequency=2; frequency_norm=0.400",
+      "line": 70,
+      "name": "getAveragedPerformanceMeasures",
+      "param_count": 1,
+      "rank": 2,
+      "score": 9.22971,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.4,
+        "name_similarity": 0.289855,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public AveragedPerformanceMeasures getAveragedPerformanceMeasures(double retrievedPercentage)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=0; name_similarity=0.290; frequency=2; frequency_norm=0.400",
+      "line": 82,
+      "name": "getAveragedPerformanceMeasures",
+      "param_count": 0,
+      "rank": 3,
+      "score": 7.97971,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.4,
+        "name_similarity": 0.289855,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public AveragedPerformanceMeasures getAveragedPerformanceMeasures()"
+    }
+  ],
+  "dataset_id": "c2t_369ce4b2e03e54691afc",
+  "focal_class_name": "CollectionPerformanceResult",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.bookindexing-gpl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\bookindexing\\evaluation\\performancemeasures\\CollectionPerformanceResult.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getAveragedPerformanceMeasures",
+    "rank": 1
+  },
+  "labeled_focal_method": "getAveragedPerformanceMeasures",
+  "labeled_test_method": "instantiationAndCalculation_TwoDocuments",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 58,
+    "name": "instantiationAndCalculation_TwoDocuments"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "CollectionPerformanceResult",
+      "collectionPerformanceResult"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:12Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals"
+    ]
+  },
+  "record_id": "c2t_369ce4b2e03e54691afc",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.bookindexing-gpl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\bookindexing\\evaluation\\performancemeasures\\CollectionPerformanceResultTest.java",
+  "top_k": 3
+}

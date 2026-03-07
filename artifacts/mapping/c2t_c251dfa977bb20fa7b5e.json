@@ -1,0 +1,100 @@
+{
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=3); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 15,
+      "name": "isEmpty",
+      "param_count": 1,
+      "rank": 1,
+      "score": 11.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 3,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "static boolean isEmpty(String input)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.357; frequency=0; frequency_norm=0.000",
+      "line": 19,
+      "name": "componentsSeparatedBy",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.714286,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.357143,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "static String componentsSeparatedBy(@NonNull List list, String splitBy)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.357; frequency=0; frequency_norm=0.000",
+      "line": 28,
+      "name": "componentsSeparatedBy",
+      "param_count": 3,
+      "rank": 3,
+      "score": 0.714286,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.357143,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private static String componentsSeparatedBy(List list, String splitBy, boolean shouldEscape)"
+    }
+  ],
+  "dataset_id": "c2t_c251dfa977bb20fa7b5e",
+  "focal_class_name": "StringUtils",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\StringUtils.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "isEmpty",
+    "rank": 1
+  },
+  "labeled_focal_method": "isEmpty",
+  "labeled_test_method": "isEmpty",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 6,
+    "is_test": true,
+    "line": 13,
+    "name": "isEmpty"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "StringUtils"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:43Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "junit.framework.Assert.assertEquals",
+      "junit.framework.Assert.assertFalse",
+      "junit.framework.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_c251dfa977bb20fa7b5e",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\StringUtilsTest.java",
+  "top_k": 3
+}

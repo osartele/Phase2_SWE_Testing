@@ -1,0 +1,100 @@
+{
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.200; frequency=1; frequency_norm=0.500",
+      "line": 106,
+      "name": "doFilter",
+      "param_count": 3,
+      "rank": 1,
+      "score": 7.15,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.2,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override @SuppressFBWarnings(value = \"BC_UNCONFIRMED_CAST\", justification = \"The ServletRequest is cast to an HttpServletRequest which is always the case since all requests use the HTTP protocol.\") public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.364; frequency=0; frequency_norm=0.000",
+      "line": 185,
+      "name": "authenticateUser",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.727273,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.363636,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void authenticateUser(HttpServletRequest servletRequest)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.327; frequency=0; frequency_norm=0.000",
+      "line": 269,
+      "name": "getExistingSessionInitTime",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.653061,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.326531,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "protected Date getExistingSessionInitTime()"
+    }
+  ],
+  "dataset_id": "c2t_8f07e842a3e9656f7c96",
+  "focal_class_name": "HttpHeaderAuthenticationFilter",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-app\\src\\main\\java\\org\\finra\\herd\\app\\security\\HttpHeaderAuthenticationFilter.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "doFilter",
+    "rank": 1
+  },
+  "labeled_focal_method": "doFilter",
+  "labeled_test_method": "testHttpHeaderAuthenticationFilterUserAuthorizationInvalidConfigurationValue",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 18,
+    "is_test": true,
+    "line": 215,
+    "name": "testHttpHeaderAuthenticationFilterUserAuthorizationInvalidConfigurationValue"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HttpHeaderAuthenticationFilter"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:30Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNull",
+      "org.mockito.ArgumentMatchers.any"
+    ]
+  },
+  "record_id": "c2t_8f07e842a3e9656f7c96",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-app\\src\\test\\java\\org\\finra\\herd\\app\\security\\HttpHeaderAuthenticationFilterTest.java",
+  "top_k": 3
+}

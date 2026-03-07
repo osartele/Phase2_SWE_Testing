@@ -1,0 +1,61 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.542; frequency=1; frequency_norm=0.500",
+      "line": 49,
+      "name": "logMethodTime",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.833333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.541667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Around(\"serviceMethods()\") public Object logMethodTime(ProceedingJoinPoint pjp) throws Throwable"
+    }
+  ],
+  "dataset_id": "c2t_bd19c32530543ad11444",
+  "focal_class_name": "StopWatchAdvice",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\advice\\StopWatchAdvice.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "logMethodTime",
+    "rank": 1
+  },
+  "labeled_focal_method": "logMethodTime",
+  "labeled_test_method": "testLogMethodTimeWithInfoLoggingEnabled",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 6,
+    "is_test": true,
+    "line": 120,
+    "name": "testLogMethodTimeWithInfoLoggingEnabled"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "StopWatchAdvice"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:43Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_bd19c32530543ad11444",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\advice\\StopWatchAdviceTest.java",
+  "top_k": 3
+}

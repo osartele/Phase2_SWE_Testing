@@ -1,0 +1,100 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.741; frequency=1; frequency_norm=0.083",
+      "line": 58,
+      "name": "validateAndTrimBusinessObjectDataStorageFileKey",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.816092,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.083333,
+        "name_similarity": 0.741379,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void validateAndTrimBusinessObjectDataStorageFileKey(BusinessObjectDataStorageFileKey businessObjectDataStorageFileKey)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.708; frequency=0; frequency_norm=0.000",
+      "line": 44,
+      "name": "validateAndTrimDownloadBusinessObjectDataStorageFileSingleInitiationRequest",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.416667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.708333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void validateAndTrimDownloadBusinessObjectDataStorageFileSingleInitiationRequest( DownloadBusinessObjectDataStorageFileSingleInitiationRequest downloadBusinessObjectDataStorageFileSingleInitiationRequest)"
+    }
+  ],
+  "dataset_id": "c2t_16e8a8a0ac0d0cdc08b6",
+  "focal_class_name": "UploadDownloadHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\UploadDownloadHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "validateAndTrimBusinessObjectDataStorageFileKey",
+    "rank": 1
+  },
+  "labeled_focal_method": "validateAndTrimBusinessObjectDataStorageFileKey",
+  "labeled_test_method": "testValidateAndTrimBusinessObjectStorageFileKeyWithNullSubPartitionValues",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 34,
+    "is_test": true,
+    "line": 188,
+    "name": "testValidateAndTrimBusinessObjectStorageFileKeyWithNullSubPartitionValues"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "UploadDownloadHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:05Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.dao.AbstractDaoTest.BDEF_NAME",
+      "org.finra.herd.dao.AbstractDaoTest.BDEF_NAME_2",
+      "org.finra.herd.dao.AbstractDaoTest.DATA_VERSION",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_FILE_TYPE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_FILE_TYPE_CODE_2",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_USAGE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_USAGE_CODE_2",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_VERSION",
+      "org.finra.herd.dao.AbstractDaoTest.LOCAL_FILE",
+      "org.finra.herd.dao.AbstractDaoTest.NAMESPACE",
+      "org.finra.herd.dao.AbstractDaoTest.NAMESPACE_2",
+      "org.finra.herd.dao.AbstractDaoTest.PARTITION_VALUE",
+      "org.finra.herd.dao.AbstractDaoTest.PARTITION_VALUE_2",
+      "org.finra.herd.dao.AbstractDaoTest.STORAGE_NAME",
+      "org.finra.herd.dao.AbstractDaoTest.STORAGE_NAME_2",
+      "org.finra.herd.dao.AbstractDaoTest.SUBPARTITION_VALUES",
+      "org.finra.herd.dao.AbstractDaoTest.SUBPARTITION_VALUES_2",
+      "org.finra.herd.dao.AbstractDaoTest.TEST_S3_KEY_PREFIX",
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_16e8a8a0ac0d0cdc08b6",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\UploadDownloadHelperTest.java",
+  "top_k": 3
+}

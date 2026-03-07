@@ -1,0 +1,87 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.840; frequency=1; frequency_norm=0.500",
+      "line": 83,
+      "name": "getBusinessObjectDefinitionDescriptionSuggestionsByBusinessObjectDefinitionAndStatus",
+      "param_count": 2,
+      "rank": 1,
+      "score": 8.43,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.84,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public List<BusinessObjectDefinitionDescriptionSuggestionEntity> getBusinessObjectDefinitionDescriptionSuggestionsByBusinessObjectDefinitionAndStatus( final BusinessObjectDefinitionKey businessObjectDefinitionKey, final String status)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.612; frequency=0; frequency_norm=0.000",
+      "line": 57,
+      "name": "getBusinessObjectDefinitionDescriptionSuggestionEntity",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.223529,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.611765,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public BusinessObjectDefinitionDescriptionSuggestionEntity getBusinessObjectDefinitionDescriptionSuggestionEntity( final BusinessObjectDefinitionEntity businessObjectDefinitionEntity, final String userId)"
+    }
+  ],
+  "dataset_id": "c2t_17fa34e051ad412fe86b",
+  "focal_class_name": "BusinessObjectDefinitionDescriptionSuggestionDaoHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDefinitionDescriptionSuggestionDaoHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getBusinessObjectDefinitionDescriptionSuggestionsByBusinessObjectDefinitionAndStatus",
+    "rank": 1
+  },
+  "labeled_focal_method": "getBusinessObjectDefinitionDescriptionSuggestionsByBusinessObjectDefinitionAndStatus",
+  "labeled_test_method": "testGetBusinessObjectDefinitionDescriptionSuggestionsByBusinessObjectDefinitionAndStatusWithNullBusinessObjectDefinition",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 11,
+    "is_test": true,
+    "line": 385,
+    "name": "testGetBusinessObjectDefinitionDescriptionSuggestionsByBusinessObjectDefinitionAndStatusWithNullBusinessObjectDefinition"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BusinessObjectDefinitionDescriptionSuggestionDaoHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:05Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.hamcrest.CoreMatchers.equalTo",
+      "org.hamcrest.CoreMatchers.is",
+      "org.junit.Assert.assertThat",
+      "org.junit.Assert.fail",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.reset",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_17fa34e051ad412fe86b",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDefinitionDescriptionSuggestionDaoHelperTest.java",
+  "top_k": 3
+}

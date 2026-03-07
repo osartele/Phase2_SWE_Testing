@@ -2770,3 +2770,1543 @@ subprocess.CalledProcessError: Command '['git', 'rev-parse', 'HEAD']' returned n
 2026-03-06 19:19:16,600 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
 2026-03-06 19:27:49,121 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
 2026-03-06 19:27:49,121 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
+2026-03-06 19:56:41,825 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
+2026-03-06 19:56:41,826 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
+2026-03-06 19:57:04,997 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
+2026-03-06 19:57:04,998 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
+2026-03-06 19:57:05,044 | INFO | phase2.repo | Cloning https://github.com/kh498/BukkitUtil into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\105200994
+2026-03-06 19:57:07,514 | INFO | phase2.repo | Cloning https://github.com/graalvm/graal-js-archetype into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\109219866
+2026-03-06 19:57:08,875 | INFO | phase2.repo | Cloning https://github.com/europeana/europeana-client into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\11613195
+2026-03-06 19:57:10,713 | INFO | phase2.repo | Cloning https://github.com/eldermoraes/javaee-nosql into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\116163042
+2026-03-06 19:57:12,195 | INFO | phase2.repo | Cloning https://github.com/PicnicSupermarket/reactive-support into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\120003293
+2026-03-06 19:57:13,635 | INFO | phase2.repo | Cloning https://github.com/Monnoroch/android-testing into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\122467588
+2026-03-06 19:57:15,502 | INFO | phase2.repo | Cloning https://github.com/UnknownDomainGame/PanguEngine into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\128403104
+2026-03-06 19:57:20,996 | INFO | phase2.repo | Cloning https://github.com/iooifun/Spring into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\144361208
+2026-03-06 19:57:33,016 | INFO | phase2.repo | Cloning https://github.com/stanford-futuredata/momentsketch into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\147378679
+2026-03-06 19:57:34,502 | INFO | phase2.repo | Cloning https://github.com/alibaba/Alink into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\150938406
+2026-03-06 19:57:57,845 | INFO | phase2.repo | Cloning https://github.com/terrestris/shogun-core into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\15997656
+2026-03-06 19:58:03,521 | INFO | phase2.repo | Cloning https://github.com/nervosnetwork/ckb-sdk-java into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\162657830
+2026-03-06 19:58:09,938 | INFO | phase2.repo | Cloning https://github.com/apache/incubator-dlab into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\165292138
+2026-03-06 19:58:53,573 | INFO | phase2.repo | Cloning https://github.com/Netflix/fabricator into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\16563359
+2026-03-06 19:58:57,776 | INFO | phase2.repo | Reusing existing clone at C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\175086428
+2026-03-06 19:59:00,105 | INFO | phase2.repo | Cloning https://github.com/HabchiSarra/Sniffer into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\175298978
+2026-03-06 19:59:03,990 | INFO | phase2.repo | Cloning https://github.com/zendesk/android-autoprovider into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\17990464
+2026-03-06 19:59:07,004 | WARNING | phase2.repo | Skipping dead repository https://github.com/zendesk/android-autoprovider. Git error code: 128
+2026-03-06 19:59:07,011 | INFO | phase2.repo | Cloning https://github.com/powermock/powermock into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\20249391
+2026-03-06 19:59:15,062 | INFO | phase2.repo | Cloning https://github.com/commons-rdf/commons-rdf into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\20555659
+2026-03-06 19:59:19,149 | INFO | phase2.repo | Cloning https://github.com/dice-group/IGUANA into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\20746753
+2026-03-06 20:00:19,853 | INFO | phase2.repo | Cloning https://github.com/oprisnik/semdroid into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\23257998
+2026-03-06 20:00:21,796 | INFO | phase2.repo | Cloning https://github.com/moquette-io/moquette into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\24653868
+2026-03-06 20:00:24,943 | INFO | phase2.repo | Cloning https://github.com/hadoop002/smart-retry into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\248529016
+2026-03-06 20:00:26,232 | WARNING | phase2.repo | Skipping dead repository https://github.com/hadoop002/smart-retry. Git error code: 128
+2026-03-06 20:00:26,234 | INFO | phase2.repo | Cloning https://github.com/googleapis/google-http-java-client into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\28992330
+2026-03-06 20:00:30,459 | INFO | phase2.repo | Cloning https://github.com/hpadmanabhan/rdrand-util into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\30000823
+2026-03-06 20:00:31,984 | INFO | phase2.repo | Cloning https://github.com/pulsarIO/jetstream into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\30008530
+2026-03-06 20:00:35,039 | INFO | phase2.repo | Cloning https://github.com/w2ji/VitaminSaber into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\32488797
+2026-03-06 20:00:36,523 | INFO | phase2.repo | Cloning https://github.com/zalando-stups/fullstop into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\32521417
+2026-03-06 20:00:39,860 | INFO | phase2.repo | Cloning https://github.com/GoogleCloudPlatform/java-docs-samples into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\32895424
+2026-03-06 20:01:13,708 | INFO | phase2.repo | Cloning https://github.com/Smartling/smartling-keycloak-extras into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\35515269
+2026-03-06 20:01:15,159 | INFO | phase2.repo | Cloning https://github.com/nxparser/nxparser into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\35897457
+2026-03-06 20:01:17,216 | INFO | phase2.repo | Cloning https://github.com/MammatusTech/qbit-microservices-examples into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\39970786
+2026-03-06 20:01:18,943 | INFO | phase2.repo | Cloning https://github.com/dkpro/dkpro-keyphrases into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\40266095
+2026-03-06 20:01:27,785 | INFO | phase2.repo | Cloning https://github.com/SonarSource/sslr into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\4159017
+2026-03-06 20:01:30,780 | INFO | phase2.repo | Cloning https://github.com/orange-cloudfoundry/spring-cloud-s3-connectors into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\42510870
+2026-03-06 20:01:32,180 | INFO | phase2.repo | Cloning https://github.com/FINRAOS/herd into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\42949039
+2026-03-06 20:01:58,042 | INFO | phase2.repo | Cloning https://github.com/bazaarvoice/bv-android-sdk into C:\Users\osart\Phase2_SWE_Testing-data_ingestion\repos\4398263
+2026-03-06 20:02:19,872 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
+2026-03-06 20:02:19,873 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
+2026-03-06 20:10:38,815 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
+2026-03-06 20:10:38,816 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
+2026-03-06 20:11:02,350 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
+2026-03-06 20:11:02,351 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
+2026-03-06 20:12:08,329 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
+2026-03-06 20:12:08,330 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
+2026-03-06 20:15:39,804 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
+2026-03-06 20:15:39,804 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
+2026-03-06 20:15:39,981 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_0162c420bd6e6daa59bf
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:40,077 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_0190aa40a409ff3bbed0
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:40,238 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_08003cf3754fa444587f
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:40,335 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_08fc1059f3ecb89e75dc
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:40,420 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_09f5678cc49a9cc01922
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:40,502 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_0a27d8abdb75b4b3fa27
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:40,587 | ERROR | phase2.pinning | Pin verification failed for repo_id=35897457 dataset_id=c2t_0a557a0fabf5f45d9fb1
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:40,708 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_0c4eeab4839f845d9f1b
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:40,831 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_0f095b5bfc20a5502490
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:40,919 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_0f50b61b2e3be0dc4f04
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:41,035 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_1151a7d6bd2f1d683603
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:41,124 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_11cbe9006af3072fc1c8
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:41,246 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_1728830f38c62e7177dc
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:41,368 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_19b2f8e3d6d71717ee4d
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:41,529 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_1b2b495267aa5b70c225
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:41,652 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_1bff7e22319b31c7c2d0
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:41,811 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_1e00fa666df52895b0b6
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:42,061 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_1f97cda85380c03e160d
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:42,275 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_2239fe4934a0fabe551a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:42,382 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_231a7d3cfc1af0b58a70
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:42,565 | ERROR | phase2.pinning | Pin verification failed for repo_id=165292138 dataset_id=c2t_242f67582f27d83c3771
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:42,661 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_24e9f5ef83cdb39d5595
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:42,758 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_2536a73f38dd45e5a0a0
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:42,844 | ERROR | phase2.pinning | Pin verification failed for repo_id=35515269 dataset_id=c2t_263793028cfaf8dd2158
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:42,978 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_276c6ad4ba458d7219fa
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:43,233 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_296748331e8cf876c5a7
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:43,345 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_2a2d1cfba71726cd9271
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:43,469 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_2bcf684927c9633ec630
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:43,756 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_2f1de3e2e852e8258984
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:43,850 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_2fe5fd40496d27250ec1
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:43,964 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_30369270d00ec5ad6673
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:44,069 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_317fe9c433774f441644
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:44,175 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_3352a8a9f8562e6b58bd
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:44,302 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_33e624b0584b5949b673
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:44,408 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_35c89aa7f11d11310926
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:44,504 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_35e506a60a0a54a50557
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:44,597 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_360466b9e722f9822237
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:44,753 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_3800a105a90e652974e4
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:44,885 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_391876f77a0153d20ea7
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:45,107 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_3b33cc0075d893a775a1
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:45,201 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_3d478a743e662307e05f
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:45,307 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_3e06524ae6f527619df3
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:45,390 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_3e430c347fd7680987c5
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:45,550 | ERROR | phase2.pinning | Pin verification failed for repo_id=150938406 dataset_id=c2t_3eb59e18f5df1a7c67fe
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:45,660 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_403f74e7cfe35087dcba
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:45,766 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_415784c4098ac0e9eee5
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:45,858 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_43538f7ed3bd4eec2d17
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:45,944 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_4385bef15c8ad205598c
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:46,050 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_46fdf212432faa52716f
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:46,147 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_475e06dcf3c541e8bcf4
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:46,328 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_4a6456db60c5d0383d2d
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:46,423 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_4bfc083adb21c38ffe45
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:46,527 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_4cef2c8fb0c395a1c30d
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:46,623 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_4d1e290d9d7342b30335
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:46,780 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_4f62924b785f7f7410e6
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:46,898 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_510a43365e7bbe52434a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:46,985 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_5118f61c1c7c7a9398ec
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:47,203 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_554390384fc28c7453d9
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:47,307 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_56e079e0335be28819ae
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:47,431 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_59560f33692a9024599f
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:47,717 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_59ea478725d37ff5c23a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:47,809 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_59f3b1a48e7a7d69ab32
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:47,889 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_59f6be2f71180018b22a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:48,008 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_5c5e8705f7f1192cb7e3
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:48,086 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_5c79ec4963840ebbc563
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:48,233 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_5cfe1fc6a05ffdf02f75
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:48,326 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_5ea683d927158ab81d09
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:48,409 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_5eece5fdb17822b47323
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:48,531 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_5ff556bb8e601d3aa9cc
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:48,654 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_603db3df5360f299fe80
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:48,749 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_60cc55146faeebcc2ce8
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:48,925 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_62efcdcfb7ff8328e0c5
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:49,068 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_64fc4f0d25d58eb9eab5
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:49,172 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_65539a68ee83bb6f71aa
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:49,310 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_66da62384d7988ec45d7
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:49,463 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_6c7b2690a4a8da8c46f9
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:49,563 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_6cb2b503ef485c30e991
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:49,729 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_6fb552c059ff3346d3c8
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:49,823 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_701cb775d4e757ad94c9
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:49,905 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_71144606ba9b7764569d
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,002 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_719188ca609cf7eb461b
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,089 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_7358e42bdb8b31432e7e
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,172 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_73834ab6f84495c5a488
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,319 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_75cc1ba60860568de785
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,401 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_764089c3e59f1ce2ae2a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,511 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_764760f0b6411bddbdc4
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,598 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_77315e5f1828e01ca451
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,688 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_782eb2acca9e6b4ce340
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,784 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_79c754553889e9928484
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,879 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_7af380c5b73ca839406a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:50,980 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_7c7436eb2db7c7d0c87e
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:51,213 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_800e7df040e74918e924
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:51,351 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_832d507a3f9f8587fd4a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:51,514 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_86c6f66fa7b28100e8a1
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:51,608 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_86ca75ecbe1168d5990b
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:51,708 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_876a425078fc35a119fc
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:51,873 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_88b378e26ab58a1b3619
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:51,956 | ERROR | phase2.pinning | Pin verification failed for repo_id=35515269 dataset_id=c2t_89605711b9e53c985f88
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:52,065 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_8c6d658fa0d17542c3ef
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:52,220 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_8e1d1eeb8bc24f4c305a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:52,567 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_93b81da019898570c5fc
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:52,675 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_93d9546f643560adedc2
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:52,789 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_959b08584c2b9bed7266
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:52,934 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_9718297eeb27c5929ebc
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:53,075 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_97391118c8367c636062
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:53,201 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_981742622f99cd61b745
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:53,329 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_992d963caf6cf81f850b
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:53,477 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_9f08bcb65d519ec2d555
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:53,574 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_9fdfcc29c928656854a4
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:53,660 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_a01db5b22694c9a4125a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:53,844 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_a1f971681e8574219b40
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:53,950 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_a3f146fec6530521fafa
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:54,199 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_a97086de0805c294150e
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:54,289 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_a9cff895a799766c3769
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:54,399 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_acfde2fb6604e9cc8f96
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:54,499 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_adf41d06b1bbfe402941
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:54,595 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_aeeb3cd2fbe6c338a489
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:54,690 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_af88b832a7afd3324f6a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:54,861 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_b29799f83029d33f3d8f
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:54,984 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_b2f2216ae6a1c1c9f6da
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:55,083 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_b387be426b31dc4049fc
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:55,215 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_b3bf3bf851e516bda3f8
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:55,323 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_b3cd2afba6228b41605d
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:55,433 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_b4dc847786d066670a60
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:55,614 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_b50dfeb6aa0899948a7e
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:55,709 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_b6c13c22ad3e99706de5
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:55,900 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_b86bca69a3e69511c5c5
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:56,036 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_bc3cbd0c1b9c2a838784
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:56,127 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_bdad15dd15b280909b60
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:56,230 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_bf538c2251ea438f6840
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:56,341 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_bfe30a4f54662787c0ae
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:56,434 | ERROR | phase2.pinning | Pin verification failed for repo_id=4398263 dataset_id=c2t_bff0825b296e3f2efa73
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:56,592 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_c5428ffb6bdb2c72dcef
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:56,733 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_c8059efa200b33d566b1
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:56,863 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_c8e150baab7970839d76
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:57,011 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_cbfb900f3bcfa98b2e3a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:57,089 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_cc3e8b72f917e8253745
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:57,236 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_cfe116164d195825cb3a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:57,332 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_d0bd5a50f19c9fddde26
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:57,509 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_d38ddebd92b2c57043cd
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:57,610 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_d46aa97c2fcb7b814187
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:57,736 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_d5f158bf365dd1929f00
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:57,815 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_d60ae2170f2822b445b4
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:57,920 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_d83dfcba2a73ecc745e5
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:58,015 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_d9e7528987cb6a01a6d9
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:58,138 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_dc85d07afc0250d7a8ca
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:58,254 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_dfe71e873dbf630c445c
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:58,353 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_e1a7c28635ea92da3b59
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:58,466 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_e3ff8bbf8dac94f98834
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:58,639 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_e87ef66f7d5d2a20f7d7
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:58,731 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_e9a57ac85dbfab80edf3
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:58,845 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_ed19a55ea46ed3fec9ff
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:58,939 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_ed260867dd3b4c33191a
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:59,026 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_ed29c75dd2af32979881
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:59,113 | ERROR | phase2.pinning | Pin verification failed for repo_id=4398263 dataset_id=c2t_ee40023c70444636b35e
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:59,246 | ERROR | phase2.pinning | Pin verification failed for repo_id=20746753 dataset_id=c2t_f0eddbaeeed7fcd4b229
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:59,353 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_f1b54c60b8b8fc893fc0
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:59,480 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_f3787786ee59db31420b
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:59,586 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_f396b9d0ce3cae7c0684
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:59,686 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_f3b042fd790c1ac300a2
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:59,840 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_f726e63834d1fb9909e0
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:15:59,980 | ERROR | phase2.pinning | Pin verification failed for repo_id=120003293 dataset_id=c2t_f73e3bbac0a7e586c800
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:16:00,075 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_f7b54a9d76f4d69878b5
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:16:00,235 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_fa2808a139121f8ef118
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:16:00,358 | ERROR | phase2.pinning | Pin verification failed for repo_id=42949039 dataset_id=c2t_fe3fc6493ad6dae686f5
+Traceback (most recent call last):
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 246, in verify_base_commit_pins
+    for candidate_sha in _candidate_commits(repo_path, start_sha, search_window):
+                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\osart\Phase2_SWE_Testing-data_ingestion\src\phase2\pinning.py", line 162, in _candidate_commits
+    commits = [line.strip() for line in output.splitlines() if line.strip()]
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'CompletedProcess' object has no attribute 'splitlines'
+2026-03-06 20:19:00,884 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
+2026-03-06 20:19:00,885 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log

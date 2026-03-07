@@ -1,0 +1,68 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.333",
+      "line": 53,
+      "name": "getBusinessObjectFormatExternalInterfaceEntity",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.583333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.333333,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public BusinessObjectFormatExternalInterfaceEntity getBusinessObjectFormatExternalInterfaceEntity( BusinessObjectFormatExternalInterfaceKey businessObjectFormatExternalInterfaceKey)"
+    }
+  ],
+  "dataset_id": "c2t_2695259066b9d3f05e87",
+  "focal_class_name": "BusinessObjectFormatExternalInterfaceDaoHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectFormatExternalInterfaceDaoHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getBusinessObjectFormatExternalInterfaceEntity",
+    "rank": 1
+  },
+  "labeled_focal_method": "getBusinessObjectFormatExternalInterfaceEntity",
+  "labeled_test_method": "testGetBusinessObjectFormatExternalInterfaceEntity",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 18,
+    "is_test": true,
+    "line": 54,
+    "name": "testGetBusinessObjectFormatExternalInterfaceEntity"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BusinessObjectFormatExternalInterfaceDaoHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:08Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.dao.AbstractDaoTest.BDEF_NAME",
+      "org.finra.herd.dao.AbstractDaoTest.EXTERNAL_INTERFACE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_FILE_TYPE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_USAGE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.NAMESPACE",
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_2695259066b9d3f05e87",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectFormatExternalInterfaceDaoHelperTest.java",
+  "top_k": 3
+}

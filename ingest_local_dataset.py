@@ -7,7 +7,9 @@ from src.phase2.dataset import _coerce_record, _normalize_payload, RAW_CACHE_REL
 def main():
     print("=== Starting Local Dataset Ingestion ===")
     workdir = Path.cwd()
-    raw_dir = Path("C:/Users/osart/phase2_repos/manifests")
+    
+    # Using the original relative path to find the 1000 files
+    raw_dir = workdir / RAW_CACHE_REL
     manifest_target = workdir / MANIFEST_REL
 
     # Ensure the processed directory exists
@@ -20,17 +22,19 @@ def main():
     records = []
     for file_path in json_files:
         try:
-            # CHANGE: Do not use the filename prefix as the commit
-            # base_commit = file_path.name.split('_')[0] 
-            
+            # FORCE COMMIT TO HEAD (Fixes the Invalid Object Name error)
+            base_commit = "HEAD"
+
+            # Read and parse the JSON
             raw_data = json.loads(file_path.read_text(encoding="utf-8"))
             record = _coerce_record(raw_data, source=str(file_path))
+
+            # Normalize the payload using the pipeline's native schema mapping
             normalized = _normalize_payload(record, dataset_url=file_path.name, source=str(file_path))
 
-            normalized["source_cache_path"] = file_path.as_posix()
-            
-            # FIX: Set this to "HEAD" so Git commands (git show, etc.) actually find code
-            normalized["base_commit"] = "HEAD" 
+            # Inject the local cache path and the critical base_commit
+            normalized["source_cache_path"] = str(file_path.relative_to(workdir).as_posix())
+            normalized["base_commit"] = base_commit
 
             records.append(normalized)
         except Exception as e:

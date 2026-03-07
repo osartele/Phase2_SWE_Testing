@@ -1,0 +1,81 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=7); static_import_match=0; arg_count_match=1; name_similarity=0.462; frequency=7; frequency_norm=1.000",
+      "line": 31,
+      "name": "unmarshal",
+      "param_count": 1,
+      "rank": 1,
+      "score": 10.173077,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 7,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.461538,
+        "qualifier_hits": 7,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public XMLGregorianCalendar unmarshal(String datetime) throws Exception"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.378; frequency=0; frequency_norm=0.000",
+      "line": 61,
+      "name": "marshal",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.756757,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.378378,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public String marshal(XMLGregorianCalendar xmlGregorianCalendar) throws Exception"
+    }
+  ],
+  "dataset_id": "c2t_c438f457d880fa531c24",
+  "focal_class_name": "RegistrationDateAdapter",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-model-api-15\\src\\main\\java\\org\\finra\\herd\\model\\api\\adapters\\RegistrationDateAdapter.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "unmarshal",
+    "rank": 1
+  },
+  "labeled_focal_method": "unmarshal",
+  "labeled_test_method": "unmarshalAllAllowedFormatsTest",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 14,
+    "is_test": true,
+    "line": 29,
+    "name": "unmarshalAllAllowedFormatsTest"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "RegistrationDateAdapter",
+      "adapter"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:44Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_c438f457d880fa531c24",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-model-api-15\\src\\test\\java\\org\\finra\\herd\\model\\api\\adapters\\RegistrationDateAdapterTest.java",
+  "top_k": 3
+}

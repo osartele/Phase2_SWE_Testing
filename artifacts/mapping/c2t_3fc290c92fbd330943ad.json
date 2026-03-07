@@ -1,0 +1,98 @@
+{
+  "candidate_count": 7,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.364; frequency=1; frequency_norm=0.200",
+      "line": 58,
+      "name": "process",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.177273,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.2,
+        "name_similarity": 0.363636,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void process(JCas jcas) throws AnalysisEngineProcessException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.429; frequency=0; frequency_norm=0.000",
+      "line": 151,
+      "name": "updateTerm",
+      "param_count": 3,
+      "rank": 2,
+      "score": 0.857143,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.428571,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void updateTerm(String t1, String t2, double score)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.400; frequency=0; frequency_norm=0.000",
+      "line": 129,
+      "name": "update",
+      "param_count": 5,
+      "rank": 3,
+      "score": 0.8,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.4,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void update(String t1, String t2, int[] offset1, int[] offset2, double score)"
+    }
+  ],
+  "dataset_id": "c2t_3fc290c92fbd330943ad",
+  "focal_class_name": "NodeDegreeRanking",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.textgraphs-gpl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\ranking\\NodeDegreeRanking.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "process",
+    "rank": 1
+  },
+  "labeled_focal_method": "process",
+  "labeled_test_method": "test",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 29,
+    "is_test": true,
+    "line": 44,
+    "name": "test"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "NodeDegreeRanking"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:14Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription"
+    ]
+  },
+  "record_id": "c2t_3fc290c92fbd330943ad",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.textgraphs-gpl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\ranking\\NodeDegreeRankingTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,58 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.769; frequency=1; frequency_norm=1.000",
+      "line": 7,
+      "name": "getFeatureConfigUrl",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.788462,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.769231,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "static String getFeatureConfigUrl(String remoteFeatureName, String remoteFileName)"
+    }
+  ],
+  "dataset_id": "c2t_2d9f29bb5b532377c646",
+  "focal_class_name": "BVRemoteConfig",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvnotifications\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\BVRemoteConfig.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getFeatureConfigUrl",
+    "rank": 1
+  },
+  "labeled_focal_method": "getFeatureConfigUrl",
+  "labeled_test_method": "generatePinConfigUrl",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 4,
+    "is_test": true,
+    "line": 23,
+    "name": "generatePinConfigUrl"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BVRemoteConfig"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:10Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_2d9f29bb5b532377c646",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvnotifications\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\BVRemoteConfigTest.java",
+  "top_k": 3
+}

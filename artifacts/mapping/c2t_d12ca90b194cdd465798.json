@@ -1,0 +1,101 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=0; frequency_norm=0.000",
+      "line": 150,
+      "name": "collectionProcessComplete",
+      "param_count": 0,
+      "rank": 1,
+      "score": 2.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void collectionProcessComplete() throws AnalysisEngineProcessException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.438; frequency=0; frequency_norm=0.000",
+      "line": 103,
+      "name": "process",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.875,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.4375,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void process(final JCas jcas) throws AnalysisEngineProcessException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.333; frequency=0; frequency_norm=0.000",
+      "line": 201,
+      "name": "getNrOfTokensPerKeyphraseHistogramm",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.666667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.333333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private String getNrOfTokensPerKeyphraseHistogramm()"
+    }
+  ],
+  "dataset_id": "c2t_d12ca90b194cdd465798",
+  "focal_class_name": "KeyphraseDatasetStatistics",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\evaluator\\KeyphraseDatasetStatistics.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "collectionProcessComplete",
+    "rank": 1
+  },
+  "labeled_focal_method": "collectionProcessComplete",
+  "labeled_test_method": "testCollectionProcessComplete",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 16,
+    "is_test": true,
+    "line": 27,
+    "name": "testCollectionProcessComplete"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "KeyphraseDatasetStatistics"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:47Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine",
+      "org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription",
+      "org.apache.uima.fit.factory.CollectionReaderFactory.createReader",
+      "org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription"
+    ]
+  },
+  "record_id": "c2t_d12ca90b194cdd465798",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\evaluator\\KeyphraseDatasetStatisticsTest.java",
+  "top_k": 3
+}

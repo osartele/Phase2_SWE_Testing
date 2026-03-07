@@ -1,0 +1,112 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.100",
+      "line": 73,
+      "name": "validateAndTrimBusinessObjectFormatExternalInterfaceCreateRequest",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.35,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.1,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void validateAndTrimBusinessObjectFormatExternalInterfaceCreateRequest( BusinessObjectFormatExternalInterfaceCreateRequest businessObjectFormatExternalInterfaceCreateRequest)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.883; frequency=0; frequency_norm=0.000",
+      "line": 87,
+      "name": "validateAndTrimBusinessObjectFormatExternalInterfaceKey",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.766667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.883333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void validateAndTrimBusinessObjectFormatExternalInterfaceKey(BusinessObjectFormatExternalInterfaceKey businessObjectFormatExternalInterfaceKey)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.746; frequency=0; frequency_norm=0.000",
+      "line": 43,
+      "name": "createBusinessObjectFormatExternalInterfaceFromEntity",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.491525,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.745763,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public BusinessObjectFormatExternalInterface createBusinessObjectFormatExternalInterfaceFromEntity( BusinessObjectFormatExternalInterfaceEntity businessObjectFormatExternalInterfaceEntity)"
+    }
+  ],
+  "dataset_id": "c2t_3aab316f7e247a3af2e7",
+  "focal_class_name": "BusinessObjectFormatExternalInterfaceHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectFormatExternalInterfaceHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "validateAndTrimBusinessObjectFormatExternalInterfaceCreateRequest",
+    "rank": 1
+  },
+  "labeled_focal_method": "validateAndTrimBusinessObjectFormatExternalInterfaceCreateRequest",
+  "labeled_test_method": "testValidateAndTrimBusinessObjectFormatExternalInterfaceCreateRequest",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 28,
+    "is_test": true,
+    "line": 141,
+    "name": "testValidateAndTrimBusinessObjectFormatExternalInterfaceCreateRequest"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BusinessObjectFormatExternalInterfaceHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:13Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.dao.AbstractDaoTest.BDEF_NAME",
+      "org.finra.herd.dao.AbstractDaoTest.BDEF_NAME_2",
+      "org.finra.herd.dao.AbstractDaoTest.EXTERNAL_INTERFACE",
+      "org.finra.herd.dao.AbstractDaoTest.EXTERNAL_INTERFACE_2",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_FILE_TYPE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_FILE_TYPE_CODE_2",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_USAGE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_USAGE_CODE_2",
+      "org.finra.herd.dao.AbstractDaoTest.NAMESPACE",
+      "org.finra.herd.dao.AbstractDaoTest.NAMESPACE_2",
+      "org.finra.herd.service.AbstractServiceTest.ID",
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_3aab316f7e247a3af2e7",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectFormatExternalInterfaceHelperTest.java",
+  "top_k": 3
+}

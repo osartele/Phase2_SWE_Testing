@@ -1,0 +1,104 @@
+{
+  "candidate_count": 37,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.611; frequency=2; frequency_norm=1.000",
+      "line": 123,
+      "name": "setUserAuthString",
+      "param_count": 1,
+      "rank": 1,
+      "score": 10.472222,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.611111,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@MainThread public void setUserAuthString(@NonNull String userAuthString)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.611; frequency=0; frequency_norm=0.000",
+      "line": 641,
+      "name": "getBvSdkUserAgent",
+      "param_count": 0,
+      "rank": 2,
+      "score": 1.222222,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.611111,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getBvSdkUserAgent()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.421; frequency=0; frequency_norm=0.000",
+      "line": 186,
+      "name": "confirmBVSDKCreated",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.842105,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.421053,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private static void confirmBVSDKCreated()"
+    }
+  ],
+  "dataset_id": "c2t_0780ef62f30ce5c8620c",
+  "focal_class_name": "BVSDK",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\BVSDK.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "setUserAuthString",
+    "rank": 1
+  },
+  "labeled_focal_method": "setUserAuthString",
+  "labeled_test_method": "bvSdkSetNewUserAuth",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 223,
+    "name": "bvSdkSetNewUserAuth"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BVSDK",
+      "bvsdk"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:02Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "junit.framework.Assert.assertEquals",
+      "org.mockito.Matchers.any",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.when",
+      "org.mockito.MockitoAnnotations.initMocks"
+    ]
+  },
+  "record_id": "c2t_0780ef62f30ce5c8620c",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\BVSDKTest.java",
+  "top_k": 3
+}

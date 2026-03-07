@@ -1,0 +1,99 @@
+{
+  "candidate_count": 18,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.350; frequency=1; frequency_norm=1.000",
+      "line": 151,
+      "name": "handleBadRequestException",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.95,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.35,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@ExceptionHandler(value = {IllegalArgumentException.class, MissingServletRequestParameterException.class, TypeMismatchException.class, UnsupportedEncodingException.class}) @ResponseStatus(HttpStatus.BAD_REQUEST) @ResponseBody public ErrorInformation handleBadRequestException(Exception exception)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.296; frequency=0; frequency_norm=0.000",
+      "line": 415,
+      "name": "getRootCause",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.592593,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.296296,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private Throwable getRootCause(Exception throwable)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.293; frequency=0; frequency_norm=0.000",
+      "line": 240,
+      "name": "handlePersistenceException",
+      "param_count": 2,
+      "rank": 3,
+      "score": 0.585366,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.292683,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@ExceptionHandler(value = {JpaSystemException.class, PersistenceException.class}) @ResponseBody public ErrorInformation handlePersistenceException(Exception exception, HttpServletResponse response)"
+    }
+  ],
+  "dataset_id": "c2t_f5350b7d3300466fb29f",
+  "focal_class_name": "HerdErrorInformationExceptionHandler",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\HerdErrorInformationExceptionHandler.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "handleBadRequestException",
+    "rank": 1
+  },
+  "labeled_focal_method": "handleBadRequestException",
+  "labeled_test_method": "testIllegalArgument",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 168,
+    "name": "testIllegalArgument"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HerdErrorInformationExceptionHandler"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:56Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_f5350b7d3300466fb29f",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\HerdErrorInformationExceptionHandlerTest.java",
+  "top_k": 3
+}

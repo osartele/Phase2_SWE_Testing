@@ -1,0 +1,100 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 131,
+      "name": "getJobDefinitionKey",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public JobDefinitionAlternateKeyDto getJobDefinitionKey(String processDefinitionKey)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 144,
+      "name": "getJobDefinitionKey",
+      "param_count": 2,
+      "rank": 2,
+      "score": 8.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public JobDefinitionAlternateKeyDto getJobDefinitionKey(String processDefinitionKey, Pattern regexPattern)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.667; frequency=0; frequency_norm=0.000",
+      "line": 73,
+      "name": "getActivitiJobDefinitionTemplate",
+      "param_count": 0,
+      "rank": 3,
+      "score": 1.333333,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.666667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getActivitiJobDefinitionTemplate()"
+    }
+  ],
+  "dataset_id": "c2t_1fbcc9fd06826a0f0b18",
+  "focal_class_name": "JobDefinitionHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\JobDefinitionHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getJobDefinitionKey",
+    "rank": 1
+  },
+  "labeled_focal_method": "getJobDefinitionKey",
+  "labeled_test_method": "testGetJobDefinitionKey",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 3,
+    "is_test": true,
+    "line": 63,
+    "name": "testGetJobDefinitionKey"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "JobDefinitionHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:07Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNull",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_1fbcc9fd06826a0f0b18",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\JobDefinitionHelperTest.java",
+  "top_k": 3
+}

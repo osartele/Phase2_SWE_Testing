@@ -1,0 +1,99 @@
+{
+  "candidate_count": 21,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.791; frequency=1; frequency_norm=1.000",
+      "line": 129,
+      "name": "setMaxPayloadLength",
+      "param_count": 1,
+      "rank": 1,
+      "score": 10.831395,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.790698,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public void setMaxPayloadLength(Integer maxPayloadLength)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.791; frequency=0; frequency_norm=0.000",
+      "line": 137,
+      "name": "getMaxPayloadLength",
+      "param_count": 0,
+      "rank": 2,
+      "score": 1.581395,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.790698,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "protected Integer getMaxPayloadLength()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.500; frequency=0; frequency_norm=0.000",
+      "line": 158,
+      "name": "doFilterInternal",
+      "param_count": 3,
+      "rank": 3,
+      "score": 1.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.5,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException"
+    }
+  ],
+  "dataset_id": "c2t_2e0d9e8881aa0b2c9168",
+  "focal_class_name": "RequestLoggingFilter",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-ui\\src\\main\\java\\org\\finra\\herd\\ui\\RequestLoggingFilter.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "setMaxPayloadLength",
+    "rank": 1
+  },
+  "labeled_focal_method": "setMaxPayloadLength",
+  "labeled_test_method": "testDoFilterMaxPayloadLength",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 5,
+    "is_test": true,
+    "line": 94,
+    "name": "testDoFilterMaxPayloadLength"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "RequestLoggingFilter",
+      "requestLoggingFilter"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:10Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals"
+    ]
+  },
+  "record_id": "c2t_2e0d9e8881aa0b2c9168",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-ui\\src\\test\\java\\org\\finra\\herd\\ui\\RequestLoggingFilterTest.java",
+  "top_k": 3
+}

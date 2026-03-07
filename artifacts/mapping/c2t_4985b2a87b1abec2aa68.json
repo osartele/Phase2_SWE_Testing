@@ -1,0 +1,83 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.829; frequency=1; frequency_norm=1.000",
+      "line": 115,
+      "name": "validateAttributesAgainstBusinessObjectDataAttributeDefinitions",
+      "param_count": 2,
+      "rank": 1,
+      "score": 8.907895,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.828947,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void validateAttributesAgainstBusinessObjectDataAttributeDefinitions(final List<Attribute> attributes, final Collection<BusinessObjectDataAttributeDefinitionEntity> businessObjectDataAttributeDefinitionEntities)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.520; frequency=0; frequency_norm=0.000",
+      "line": 49,
+      "name": "updateBusinessObjectDataAttributes",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.04065,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.520325,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void updateBusinessObjectDataAttributes(BusinessObjectDataEntity businessObjectDataEntity, final List<Attribute> attributes)"
+    }
+  ],
+  "dataset_id": "c2t_4985b2a87b1abec2aa68",
+  "focal_class_name": "AttributeDaoHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\AttributeDaoHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "validateAttributesAgainstBusinessObjectDataAttributeDefinitions",
+    "rank": 1
+  },
+  "labeled_focal_method": "validateAttributesAgainstBusinessObjectDataAttributeDefinitions",
+  "labeled_test_method": "testValidateAttributesAgainstBusinessObjectDataAttributeDefinitionsRequiredAttributeIsMissing",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 266,
+    "name": "testValidateAttributesAgainstBusinessObjectDataAttributeDefinitionsRequiredAttributeIsMissing"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "AttributeDaoHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:15Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.fail",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_4985b2a87b1abec2aa68",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\AttributeDaoHelperTest.java",
+  "top_k": 3
+}

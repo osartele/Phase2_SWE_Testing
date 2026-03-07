@@ -1,0 +1,104 @@
+{
+  "candidate_count": 13,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.120; frequency=1; frequency_norm=0.100",
+      "line": 67,
+      "name": "loadAsync",
+      "param_count": 1,
+      "rank": 1,
+      "score": 8.590964,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.1,
+        "name_similarity": 0.120482,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override @Deprecated /** * @deprecated Use {@link #loadAsync(ConversationsSubmissionCallback)} instead */ public void loadAsync(ConversationsCallback<ResponseType> conversationsCallback)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.120; frequency=1; frequency_norm=0.100",
+      "line": 79,
+      "name": "loadAsync",
+      "param_count": 1,
+      "rank": 2,
+      "score": 8.590964,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.1,
+        "name_similarity": 0.120482,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@MainThread public void loadAsync(@NonNull ConversationsSubmissionCallback<ResponseType> conversationsCallback)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.257; frequency=0; frequency_norm=0.000",
+      "line": 153,
+      "name": "dispatchCompleteWithSuccess",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.514851,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.257426,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void dispatchCompleteWithSuccess(ResponseType response)"
+    }
+  ],
+  "dataset_id": "c2t_d56735a4ce5a1c626c00",
+  "focal_class_name": "LoadCallProgressiveSubmission",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvconversations\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\LoadCallProgressiveSubmission.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "loadAsync",
+    "rank": 1
+  },
+  "labeled_focal_method": "loadAsync",
+  "labeled_test_method": "shouldCallFailAndReturnParsedDataForProgressiveSubmitRequestWithFormErrors",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 46,
+    "is_test": true,
+    "line": 186,
+    "name": "shouldCallFailAndReturnParsedDataForProgressiveSubmitRequestWithFormErrors"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "LoadCallProgressiveSubmission",
+      "loadCallProgressiveSubmission"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:48Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertFalse",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.assertTrue",
+      "org.junit.Assert.fail",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_d56735a4ce5a1c626c00",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvconversations\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\LoadCallTestProgressiveSubmission.java",
+  "top_k": 3
+}

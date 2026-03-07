@@ -1,0 +1,104 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.538; frequency=1; frequency_norm=1.000",
+      "line": 115,
+      "name": "processMessage",
+      "param_count": 2,
+      "rank": 1,
+      "score": 8.326923,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.538462,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@JmsListener(id = HerdJmsDestinationResolver.SQS_DESTINATION_SEARCH_INDEX_UPDATE_QUEUE, containerFactory = \"jmsListenerContainerFactory\", destination = HerdJmsDestinationResolver.SQS_DESTINATION_SEARCH_INDEX_UPDATE_QUEUE) public void processMessage(String payload, @Headers Map<Object, Object> allHeaders)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.525; frequency=0; frequency_norm=0.000",
+      "line": 132,
+      "name": "processMessageWithRetry",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.04918,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.52459,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Retryable(maxAttempts = 4, backoff = @Backoff(delay = 2000, multiplier = 2)) private void processMessageWithRetry(String payload, @Headers Map<Object, Object> allHeaders)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.375; frequency=0; frequency_norm=0.000",
+      "line": 69,
+      "name": "controlSearchIndexUpdateJmsMessageListener",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.75,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.375,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Scheduled(fixedDelay = 60000) public void controlSearchIndexUpdateJmsMessageListener()"
+    }
+  ],
+  "dataset_id": "c2t_1a41baba3e8e7554a796",
+  "focal_class_name": "SearchIndexUpdateJmsMessageListener",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\SearchIndexUpdateJmsMessageListener.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "processMessage",
+    "rank": 1
+  },
+  "labeled_focal_method": "processMessage",
+  "labeled_test_method": "testProcessMessageBusinessObjectDefinition",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 81,
+    "name": "testProcessMessageBusinessObjectDefinition"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "SearchIndexUpdateJmsMessageListener"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:05Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.model.dto.SearchIndexUpdateDto.MESSAGE_TYPE_BUSINESS_OBJECT_DEFINITION_UPDATE",
+      "org.finra.herd.model.dto.SearchIndexUpdateDto.MESSAGE_TYPE_TAG_UPDATE",
+      "org.finra.herd.model.dto.SearchIndexUpdateDto.SEARCH_INDEX_UPDATE_TYPE_UPDATE",
+      "org.mockito.ArgumentMatchers.any",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_1a41baba3e8e7554a796",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\SearchIndexUpdateJmsMessageListenerTest.java",
+  "top_k": 3
+}

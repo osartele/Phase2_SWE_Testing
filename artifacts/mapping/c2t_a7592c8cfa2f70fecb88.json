@@ -1,0 +1,99 @@
+{
+  "candidate_count": 18,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=5; frequency_norm=1.000",
+      "line": 369,
+      "name": "getHivePathRegex",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 5,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getHivePathRegex(List<SchemaColumn> partitionColumns)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.706; frequency=0; frequency_norm=0.000",
+      "line": 357,
+      "name": "getHivePathPattern",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.411765,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.705882,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public Pattern getHivePathPattern(List<SchemaColumn> partitionColumns)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.645; frequency=0; frequency_norm=0.000",
+      "line": 637,
+      "name": "getHiveDataType",
+      "param_count": 2,
+      "rank": 3,
+      "score": 1.290323,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.645161,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private String getHiveDataType(SchemaColumn schemaColumn, BusinessObjectFormatEntity businessObjectFormatEntity)"
+    }
+  ],
+  "dataset_id": "c2t_a7592c8cfa2f70fecb88",
+  "focal_class_name": "Hive13DdlGenerator",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\Hive13DdlGenerator.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getHivePathRegex",
+    "rank": 1
+  },
+  "labeled_focal_method": "getHivePathRegex",
+  "labeled_test_method": "testGetHivePathRegex",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 24,
+    "is_test": true,
+    "line": 328,
+    "name": "testGetHivePathRegex"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Hive13DdlGenerator"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:37Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_a7592c8cfa2f70fecb88",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\Hive13DdlGeneratorTest.java",
+  "top_k": 3
+}

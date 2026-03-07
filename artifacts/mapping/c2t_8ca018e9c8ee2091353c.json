@@ -1,0 +1,123 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.500",
+      "line": 104,
+      "name": "getStorageFileEntity",
+      "param_count": 2,
+      "rank": 1,
+      "score": 8.75,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public StorageFileEntity getStorageFileEntity(String storageName, String filePath) throws ObjectNotFoundException, IllegalArgumentException"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=1.000; frequency=1; frequency_norm=0.500",
+      "line": 128,
+      "name": "getStorageFileEntity",
+      "param_count": 3,
+      "rank": 2,
+      "score": 7.5,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public StorageFileEntity getStorageFileEntity(StorageUnitEntity storageUnitEntity, String filePath, BusinessObjectDataKey businessObjectDataKey) throws ObjectNotFoundException, IllegalArgumentException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.590; frequency=0; frequency_norm=0.000",
+      "line": 54,
+      "name": "createStorageFileEntitiesFromStorageFiles",
+      "param_count": 3,
+      "rank": 3,
+      "score": 1.180328,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.590164,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public List<StorageFileEntity> createStorageFileEntitiesFromStorageFiles(StorageUnitEntity storageUnitEntity, List<StorageFile> storageFiles, String directoryPath)"
+    }
+  ],
+  "dataset_id": "c2t_8ca018e9c8ee2091353c",
+  "focal_class_name": "StorageFileDaoHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\StorageFileDaoHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getStorageFileEntity",
+    "rank": 1
+  },
+  "labeled_focal_method": "getStorageFileEntity",
+  "labeled_test_method": "testGetStorageFileEntity",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 12,
+    "is_test": true,
+    "line": 165,
+    "name": "testGetStorageFileEntity"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "StorageFileDaoHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:30Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.dao.AbstractDaoTest.BDEF_NAME",
+      "org.finra.herd.dao.AbstractDaoTest.DATA_VERSION",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_FILE_TYPE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_USAGE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_VERSION",
+      "org.finra.herd.dao.AbstractDaoTest.LOCAL_FILE",
+      "org.finra.herd.dao.AbstractDaoTest.NAMESPACE",
+      "org.finra.herd.dao.AbstractDaoTest.PARTITION_VALUE",
+      "org.finra.herd.dao.AbstractDaoTest.STORAGE_NAME",
+      "org.finra.herd.dao.AbstractDaoTest.SUBPARTITION_VALUES",
+      "org.finra.herd.dao.AbstractDaoTest.TEST_S3_KEY_PREFIX",
+      "org.finra.herd.service.AbstractServiceTest.DIRECTORY_PATH",
+      "org.finra.herd.service.AbstractServiceTest.FILE_NAME",
+      "org.finra.herd.service.AbstractServiceTest.FILE_NAME_2",
+      "org.finra.herd.service.AbstractServiceTest.FILE_SIZE",
+      "org.finra.herd.service.AbstractServiceTest.FILE_SIZE_2",
+      "org.finra.herd.service.AbstractServiceTest.NO_DIRECTORY_PATH",
+      "org.finra.herd.service.AbstractServiceTest.ROW_COUNT",
+      "org.finra.herd.service.AbstractServiceTest.ROW_COUNT_2",
+      "org.hamcrest.CoreMatchers.is",
+      "org.junit.Assert.assertThat",
+      "org.junit.Assert.fail",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_8ca018e9c8ee2091353c",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\StorageFileDaoHelperTest.java",
+  "top_k": 3
+}

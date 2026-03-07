@@ -1,0 +1,99 @@
+{
+  "candidate_count": 18,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.654; frequency=1; frequency_norm=0.250",
+      "line": 284,
+      "name": "getHivePartitions",
+      "param_count": 5,
+      "rank": 1,
+      "score": 7.807692,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.25,
+        "name_similarity": 0.653846,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public List<HivePartitionDto> getHivePartitions(BusinessObjectDataKey businessObjectDataKey, List<SchemaColumn> autoDiscoverableSubPartitionColumns, String s3KeyPrefix, Collection<String> storageFiles, String storageName)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.528; frequency=0; frequency_norm=0.000",
+      "line": 357,
+      "name": "getHivePathPattern",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.056604,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.528302,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public Pattern getHivePathPattern(List<SchemaColumn> partitionColumns)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.500; frequency=0; frequency_norm=0.000",
+      "line": 747,
+      "name": "processPartitionFiltersForGenerateDdl",
+      "param_count": 5,
+      "rank": 3,
+      "score": 1.0,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.5,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void processPartitionFiltersForGenerateDdl(BusinessObjectDataDdlPartitionsHelper.GenerateDdlRequestWrapper generateDdlRequest, StringBuilder sb, HashMap<String, String> replacements, BusinessObjectFormat businessObjectFormat, String ifNotExistsOption)"
+    }
+  ],
+  "dataset_id": "c2t_1892c6eda38239c4fe1c",
+  "focal_class_name": "Hive13DdlGenerator",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\Hive13DdlGenerator.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getHivePartitions",
+    "rank": 1
+  },
+  "labeled_focal_method": "getHivePartitions",
+  "labeled_test_method": "testGetHivePartitionsMultiplePathsFound",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 15,
+    "is_test": true,
+    "line": 301,
+    "name": "testGetHivePartitionsMultiplePathsFound"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "Hive13DdlGenerator"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:05Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_1892c6eda38239c4fe1c",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\Hive13DdlGeneratorTest.java",
+  "top_k": 3
+}

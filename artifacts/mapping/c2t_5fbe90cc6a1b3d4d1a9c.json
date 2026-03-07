@@ -1,0 +1,103 @@
+{
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 56,
+      "name": "createSecurityRole",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = SECURITY_ROLES_URI_PREFIX, method = RequestMethod.POST, consumes = {\"application/xml\", \"application/json\"}) @Secured(SecurityFunctions.FN_SECURITY_ROLES_POST) public SecurityRole createSecurityRole(@RequestBody SecurityRoleCreateRequest securityRoleCreateRequest)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.848; frequency=0; frequency_norm=0.000",
+      "line": 84,
+      "name": "getSecurityRole",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.69697,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.848485,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = SECURITY_ROLES_URI_PREFIX + \"/{securityRoleName}\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_SECURITY_ROLES_GET) public SecurityRole getSecurityRole(@PathVariable(\"securityRoleName\") String securityRoleName)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.833; frequency=0; frequency_norm=0.000",
+      "line": 70,
+      "name": "deleteSecurityRole",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.666667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.833333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = SECURITY_ROLES_URI_PREFIX + \"/{securityRoleName}\", method = RequestMethod.DELETE) @Secured(SecurityFunctions.FN_SECURITY_ROLES_DELETE) public SecurityRole deleteSecurityRole(@PathVariable(\"securityRoleName\") String securityRoleName)"
+    }
+  ],
+  "dataset_id": "c2t_5fbe90cc6a1b3d4d1a9c",
+  "focal_class_name": "SecurityRoleRestController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\SecurityRoleRestController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "createSecurityRole",
+    "rank": 1
+  },
+  "labeled_focal_method": "createSecurityRole",
+  "labeled_test_method": "testCreateSecurityRole",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 53,
+    "name": "testCreateSecurityRole"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "SecurityRoleRestController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:20Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.dao.AbstractDaoTest.DESCRIPTION",
+      "org.finra.herd.dao.AbstractDaoTest.SECURITY_ROLE",
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_5fbe90cc6a1b3d4d1a9c",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\SecurityRoleRestControllerTest.java",
+  "top_k": 3
+}

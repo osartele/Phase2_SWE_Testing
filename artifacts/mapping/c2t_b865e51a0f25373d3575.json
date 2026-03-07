@@ -1,0 +1,77 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=2; frequency_norm=1.000",
+      "line": 36,
+      "name": "sleep",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void sleep(Long millis)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.118; frequency=0; frequency_norm=0.000",
+      "line": 49,
+      "name": "executeAsync",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.235294,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.117647,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Async public void executeAsync(Runnable runnable)"
+    }
+  ],
+  "dataset_id": "c2t_b865e51a0f25373d3575",
+  "focal_class_name": "HerdThreadHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\main\\java\\org\\finra\\herd\\core\\helper\\HerdThreadHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "sleep",
+    "rank": 1
+  },
+  "labeled_focal_method": "sleep",
+  "labeled_test_method": "testSleep",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 3,
+    "is_test": true,
+    "line": 40,
+    "name": "testSleep"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HerdThreadHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:41Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_b865e51a0f25373d3575",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\test\\java\\org\\finra\\herd\\core\\helper\\HerdThreadHelperTest.java",
+  "top_k": 3
+}

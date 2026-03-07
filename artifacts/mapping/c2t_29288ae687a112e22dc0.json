@@ -61,7 +61,7 @@
   ],
   "dataset_id": "c2t_29288ae687a112e22dc0",
   "focal_class_name": "ActionParser",
-  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\main\\java\\com\\sonar\\sslr\\api\\typed\\ActionParser.java",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4159017\\sslr-core\\src\\main\\java\\com\\sonar\\sslr\\api\\typed\\ActionParser.java",
   "ground_truth": {
     "in_top_k": true,
     "labeled_focal_method": "parse",
@@ -83,8 +83,8 @@
       "ActionParser",
       "parser"
     ],
-    "generated_at_utc": "2026-03-06T03:03:47Z",
-    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "generated_at_utc": "2026-03-07T01:19:09Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
     "static_imports": [
       "org.fest.assertions.Assertions.assertThat",
       "org.junit.Assert.assertEquals",
@@ -93,9 +93,9 @@
   },
   "record_id": "c2t_29288ae687a112e22dc0",
   "repo_id": "4159017",
-  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4159017",
   "repository_url": "https://github.com/SonarSource/sslr",
   "status": "ok",
-  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-core\\src\\test\\java\\com\\sonar\\sslr\\api\\typed\\ActionParserTest.java",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4159017\\sslr-core\\src\\test\\java\\com\\sonar\\sslr\\api\\typed\\ActionParserTest.java",
   "top_k": 3
 }

@@ -1,0 +1,103 @@
+{
+  "candidate_count": 9,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=1; name_similarity=0.733; frequency=2; frequency_norm=1.000",
+      "line": 154,
+      "name": "convertStringToInteger",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.716667,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.733333,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static Integer convertStringToInteger(final String stringValue, final Integer defaultValue)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.282; frequency=0; frequency_norm=0.000",
+      "line": 196,
+      "name": "verifyHerdVersionConformingString",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.56338,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.28169,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static boolean verifyHerdVersionConformingString(String versionString)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.255; frequency=0; frequency_norm=0.000",
+      "line": 103,
+      "name": "stripHtml",
+      "param_count": 2,
+      "rank": 3,
+      "score": 0.510638,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.255319,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static String stripHtml(String fragment, String... whitelistTags)"
+    }
+  ],
+  "dataset_id": "c2t_a2bed17f08c765c116ff",
+  "focal_class_name": "HerdStringUtils",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\main\\java\\org\\finra\\herd\\core\\HerdStringUtils.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "convertStringToInteger",
+    "rank": 1
+  },
+  "labeled_focal_method": "convertStringToInteger",
+  "labeled_test_method": "testConvertStringToIntegerBlankStringValue",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 4,
+    "is_test": true,
+    "line": 212,
+    "name": "testConvertStringToIntegerBlankStringValue"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HerdStringUtils"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:35Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.hamcrest.CoreMatchers.is",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertFalse",
+      "org.junit.Assert.assertNull",
+      "org.junit.Assert.assertTrue",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_a2bed17f08c765c116ff",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\test\\java\\org\\finra\\herd\\core\\HerdStringUtilsTest.java",
+  "top_k": 3
+}

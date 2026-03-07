@@ -1,0 +1,80 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.308; frequency=1; frequency_norm=0.500",
+      "line": 48,
+      "name": "process",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.365385,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.307692,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void process(JCas jcas) throws AnalysisEngineProcessException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.138; frequency=0; frequency_norm=0.000",
+      "line": 42,
+      "name": "initialize",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.275862,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.137931,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void initialize(UimaContext context) throws ResourceInitializationException"
+    }
+  ],
+  "dataset_id": "c2t_b4c98c859a38506d0eab",
+  "focal_class_name": "RandomRanking",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\ranking\\RandomRanking.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "process",
+    "rank": 1
+  },
+  "labeled_focal_method": "process",
+  "labeled_test_method": "randomKeyphraseTest",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 13,
+    "is_test": true,
+    "line": 38,
+    "name": "randomKeyphraseTest"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "RandomRanking"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:40Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_b4c98c859a38506d0eab",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\ranking\\RandomRankingTest.java",
+  "top_k": 3
+}

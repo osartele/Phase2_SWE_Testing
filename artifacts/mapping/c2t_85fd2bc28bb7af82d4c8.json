@@ -1,0 +1,105 @@
+{
+  "candidate_count": 9,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=2; frequency_norm=1.000",
+      "line": 277,
+      "name": "getStorageUnitIds",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public List<Long> getStorageUnitIds(List<StorageUnitAvailabilityDto> storageUnitAvailabilityDtos)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.703; frequency=0; frequency_norm=0.000",
+      "line": 84,
+      "name": "createStorageUnitKey",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.405405,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.702703,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public BusinessObjectDataStorageUnitKey createStorageUnitKey(BusinessObjectDataKey businessObjectDataKey, String storageName)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.638; frequency=0; frequency_norm=0.000",
+      "line": 128,
+      "name": "createStorageUnitsFromEntities",
+      "param_count": 3,
+      "rank": 3,
+      "score": 1.276596,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.638298,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "List<StorageUnit> createStorageUnitsFromEntities(Collection<StorageUnitEntity> storageUnitEntities, Boolean includeStorageUnitStatusHistory, Boolean excludeBusinessObjectDataStorageFiles)"
+    }
+  ],
+  "dataset_id": "c2t_85fd2bc28bb7af82d4c8",
+  "focal_class_name": "StorageUnitHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\StorageUnitHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getStorageUnitIds",
+    "rank": 1
+  },
+  "labeled_focal_method": "getStorageUnitIds",
+  "labeled_test_method": "testGetStorageUnitIds",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 10,
+    "is_test": true,
+    "line": 193,
+    "name": "testGetStorageUnitIds"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "StorageUnitHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:28Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.fail",
+      "org.mockito.ArgumentMatchers.any",
+      "org.mockito.ArgumentMatchers.eq",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_85fd2bc28bb7af82d4c8",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\StorageUnitHelperTest.java",
+  "top_k": 3
+}

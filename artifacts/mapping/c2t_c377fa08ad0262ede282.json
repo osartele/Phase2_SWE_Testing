@@ -1,0 +1,58 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.222; frequency=1; frequency_norm=1.000",
+      "line": 12,
+      "name": "getMeanAveragePrecision",
+      "param_count": 0,
+      "rank": 1,
+      "score": 7.694444,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.222222,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public Double getMeanAveragePrecision()"
+    }
+  ],
+  "dataset_id": "c2t_c377fa08ad0262ede282",
+  "focal_class_name": "MeanAveragePrecisionKeyphraseCounter",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\evaluator\\util\\MeanAveragePrecisionKeyphraseCounter.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getMeanAveragePrecision",
+    "rank": 1
+  },
+  "labeled_focal_method": "getMeanAveragePrecision",
+  "labeled_test_method": "test",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 3,
+    "is_test": true,
+    "line": 62,
+    "name": "test"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "MeanAveragePrecisionKeyphraseCounter"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:43Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_c377fa08ad0262ede282",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.core-asl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\core\\evaluator\\util\\MeanAveragePrecisionKeyphraseCounterTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,101 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.500",
+      "line": 87,
+      "name": "getGlobalAttributeDefinitions",
+      "param_count": 0,
+      "rank": 1,
+      "score": 8.75,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = GLOBAL_ATTRIBUTE_DEFINITIONS_URI_PREFIX, method = RequestMethod.GET) @Secured(SecurityFunctions.FN_GLOBAL_ATTRIBUTE_DEFINITIONS_ALL_GET) public GlobalAttributeDefinitionKeys getGlobalAttributeDefinitions()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.982; frequency=0; frequency_norm=0.000",
+      "line": 102,
+      "name": "getGlobalAttributeDefinition",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.964912,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.982456,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = GLOBAL_ATTRIBUTE_DEFINITIONS_URI_PREFIX + \"/globalAttributeDefinitionLevels/{globalAttributeDefinitionLevel}/globalAttributeDefinitionNames/{globalAttributeDefinitionName}\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_GLOBAL_ATTRIBUTE_DEFINITIONS_GET) public GlobalAttributeDefinition getGlobalAttributeDefinition(@PathVariable(\"globalAttributeDefinitionLevel\") String globalAttributeDefinitionLevel, @PathVariable(\"globalAttributeDefinitionName\") String globalAttributeDefinitionName)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.900; frequency=0; frequency_norm=0.000",
+      "line": 55,
+      "name": "createGlobalAttributeDefinition",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.8,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.9,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = GLOBAL_ATTRIBUTE_DEFINITIONS_URI_PREFIX, method = RequestMethod.POST, consumes = {\"application/xml\", \"application/json\"}) @Secured(SecurityFunctions.FN_GLOBAL_ATTRIBUTE_DEFINITIONS_POST) public GlobalAttributeDefinition createGlobalAttributeDefinition(@RequestBody GlobalAttributeDefinitionCreateRequest globalAttributeDefinitionCreateRequest)"
+    }
+  ],
+  "dataset_id": "c2t_7fde1b13a4b72762bd6b",
+  "focal_class_name": "GlobalAttributeDefinitionRestController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\GlobalAttributeDefinitionRestController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getGlobalAttributeDefinitions",
+    "rank": 1
+  },
+  "labeled_focal_method": "getGlobalAttributeDefinitions",
+  "labeled_test_method": "testGetGlobalAttributeDefinitions",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 10,
+    "is_test": true,
+    "line": 139,
+    "name": "testGetGlobalAttributeDefinitions"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "GlobalAttributeDefinitionRestController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:26Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_7fde1b13a4b72762bd6b",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\GlobalAttributeDefinitionRestControllerTest.java",
+  "top_k": 3
+}

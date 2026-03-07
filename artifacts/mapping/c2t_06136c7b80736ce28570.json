@@ -1,0 +1,100 @@
+{
+  "candidate_count": 13,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.987; frequency=1; frequency_norm=1.000",
+      "line": 214,
+      "name": "getStorageAttributeIntegerValueByName",
+      "param_count": 4,
+      "rank": 1,
+      "score": 9.223333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.986667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public Integer getStorageAttributeIntegerValueByName(String attributeName, StorageEntity storageEntity, boolean attributeRequired, boolean attributeValueRequiredIfExists) throws IllegalStateException"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.987; frequency=1; frequency_norm=1.000",
+      "line": 190,
+      "name": "getStorageAttributeIntegerValueByName",
+      "param_count": 3,
+      "rank": 2,
+      "score": 7.973333,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.986667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public Integer getStorageAttributeIntegerValueByName(String attributeName, StorageEntity storageEntity, Integer defaultValue)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.882; frequency=0; frequency_norm=0.000",
+      "line": 239,
+      "name": "getStorageAttributeValueByName",
+      "param_count": 3,
+      "rank": 3,
+      "score": 1.764706,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.882353,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getStorageAttributeValueByName(String attributeName, Storage storage, Boolean required)"
+    }
+  ],
+  "dataset_id": "c2t_06136c7b80736ce28570",
+  "focal_class_name": "StorageHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\StorageHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getStorageAttributeIntegerValueByName",
+    "rank": 1
+  },
+  "labeled_focal_method": "getStorageAttributeIntegerValueByName",
+  "labeled_test_method": "testGetStorageAttributeIntegerValueByName_8",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 3,
+    "is_test": true,
+    "line": 258,
+    "name": "testGetStorageAttributeIntegerValueByName_8"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "StorageHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:02Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNull",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_06136c7b80736ce28570",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\StorageHelperTest.java",
+  "top_k": 3
+}

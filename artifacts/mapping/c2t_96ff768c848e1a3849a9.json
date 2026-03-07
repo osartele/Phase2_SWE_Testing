@@ -23,7 +23,7 @@
   ],
   "dataset_id": "c2t_96ff768c848e1a3849a9",
   "focal_class_name": "CssLoader",
-  "focal_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\main\\java\\org\\sonar\\sslr\\internal\\toolkit\\CssLoader.java",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4159017\\sslr-toolkit\\src\\main\\java\\org\\sonar\\sslr\\internal\\toolkit\\CssLoader.java",
   "ground_truth": {
     "in_top_k": true,
     "labeled_focal_method": "getCss",
@@ -44,17 +44,17 @@
     "focal_aliases": [
       "CssLoader"
     ],
-    "generated_at_utc": "2026-03-06T03:03:52Z",
-    "manifest_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\phase2\\data\\processed\\manifest.jsonl",
+    "generated_at_utc": "2026-03-07T01:19:33Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
     "static_imports": [
       "org.fest.assertions.Assertions.assertThat"
     ]
   },
   "record_id": "c2t_96ff768c848e1a3849a9",
   "repo_id": "4159017",
-  "repo_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4159017",
   "repository_url": "https://github.com/SonarSource/sslr",
   "status": "ok",
-  "test_file_path": "C:\\Users\\osart\\OneDrive - Umich\\SWTProject\\Phase2_SWE_Testing\\repos\\4159017\\sslr-toolkit\\src\\test\\java\\org\\sonar\\sslr\\internal\\toolkit\\CssLoaderTest.java",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4159017\\sslr-toolkit\\src\\test\\java\\org\\sonar\\sslr\\internal\\toolkit\\CssLoaderTest.java",
   "top_k": 3
 }

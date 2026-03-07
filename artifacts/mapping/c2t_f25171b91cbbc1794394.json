@@ -1,0 +1,101 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 95,
+      "name": "getSearchIndexes",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = SEARCH_INDEXES_URI_PREFIX, method = RequestMethod.GET) @Secured(SecurityFunctions.FN_SEARCH_INDEXES_ALL_GET) public SearchIndexKeys getSearchIndexes()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.933; frequency=0; frequency_norm=0.000",
+      "line": 83,
+      "name": "getSearchIndex",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.866667,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.933333,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = SEARCH_INDEXES_URI_PREFIX + \"/{searchIndexName}\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_SEARCH_INDEXES_GET) public SearchIndex getSearchIndex(@PathVariable(\"searchIndexName\") String searchIndexName)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.788; frequency=0; frequency_norm=0.000",
+      "line": 55,
+      "name": "createSearchIndex",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.575758,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.787879,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = SEARCH_INDEXES_URI_PREFIX, method = RequestMethod.POST, consumes = {\"application/xml\", \"application/json\"}) @Secured(SecurityFunctions.FN_SEARCH_INDEXES_POST) public SearchIndex createSearchIndex(@RequestBody SearchIndexCreateRequest request)"
+    }
+  ],
+  "dataset_id": "c2t_f25171b91cbbc1794394",
+  "focal_class_name": "SearchIndexRestController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\SearchIndexRestController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getSearchIndexes",
+    "rank": 1
+  },
+  "labeled_focal_method": "getSearchIndexes",
+  "labeled_test_method": "testGetSearchIndexes",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 127,
+    "name": "testGetSearchIndexes"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "SearchIndexRestController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:55Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_f25171b91cbbc1794394",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\SearchIndexRestControllerTest.java",
+  "top_k": 3
+}

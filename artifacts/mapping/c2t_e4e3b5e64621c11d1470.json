@@ -1,0 +1,61 @@
+{
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=4; frequency_norm=1.000",
+      "line": 41,
+      "name": "getMessageTypeEntity",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 4,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public MessageTypeEntity getMessageTypeEntity(String code)"
+    }
+  ],
+  "dataset_id": "c2t_e4e3b5e64621c11d1470",
+  "focal_class_name": "MessageTypeDaoHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\MessageTypeDaoHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getMessageTypeEntity",
+    "rank": 1
+  },
+  "labeled_focal_method": "getMessageTypeEntity",
+  "labeled_test_method": "testGetMessageTypeEntity",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 14,
+    "is_test": true,
+    "line": 32,
+    "name": "testGetMessageTypeEntity"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "MessageTypeDaoHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:52Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_e4e3b5e64621c11d1470",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\MessageTypeDaoHelperTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,84 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=5; frequency_norm=1.000",
+      "line": 62,
+      "name": "getStoragePlatforms",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 5,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = \"/storagePlatforms\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_STORAGE_PLATFORMS_ALL_GET) public StoragePlatforms getStoragePlatforms()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.973; frequency=0; frequency_norm=0.000",
+      "line": 50,
+      "name": "getStoragePlatform",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.945946,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.972973,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = \"/storagePlatforms/{name}\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_STORAGE_PLATFORMS_GET) public StoragePlatform getStoragePlatform(@PathVariable(\"name\") String name)"
+    }
+  ],
+  "dataset_id": "c2t_0baeefc41115a4f109b4",
+  "focal_class_name": "StoragePlatformRestController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\StoragePlatformRestController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getStoragePlatforms",
+    "rank": 1
+  },
+  "labeled_focal_method": "getStoragePlatforms",
+  "labeled_test_method": "testGetStoragePlatforms",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 16,
+    "is_test": true,
+    "line": 85,
+    "name": "testGetStoragePlatforms"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "StoragePlatformRestController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:03Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.assertTrue",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_0baeefc41115a4f109b4",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\StoragePlatformRestControllerTest.java",
+  "top_k": 3
+}

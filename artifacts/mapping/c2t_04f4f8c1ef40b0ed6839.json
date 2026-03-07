@@ -1,0 +1,100 @@
+{
+  "candidate_count": 27,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 600,
+      "name": "getStorageUnitByStorageName",
+      "param_count": 2,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public StorageUnit getStorageUnitByStorageName(BusinessObjectData businessObjectData, String storageName) throws IllegalStateException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.409; frequency=0; frequency_norm=0.000",
+      "line": 530,
+      "name": "getPartitionValue",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.818182,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.409091,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getPartitionValue(BusinessObjectDataEntity businessObjectDataEntity, int partitionColumnPosition)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.389; frequency=0; frequency_norm=0.000",
+      "line": 357,
+      "name": "createBusinessObjectDataKeyFromStorageUnitKey",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.777778,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.388889,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public BusinessObjectDataKey createBusinessObjectDataKeyFromStorageUnitKey(BusinessObjectDataStorageUnitKey storageUnitKey)"
+    }
+  ],
+  "dataset_id": "c2t_04f4f8c1ef40b0ed6839",
+  "focal_class_name": "BusinessObjectDataHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDataHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getStorageUnitByStorageName",
+    "rank": 1
+  },
+  "labeled_focal_method": "getStorageUnitByStorageName",
+  "labeled_test_method": "getStorageUnitByStorageName",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 19,
+    "is_test": true,
+    "line": 63,
+    "name": "getStorageUnitByStorageName"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BusinessObjectDataHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:02Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNull",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_04f4f8c1ef40b0ed6839",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDataHelperTest.java",
+  "top_k": 3
+}

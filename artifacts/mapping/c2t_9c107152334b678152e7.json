@@ -1,0 +1,104 @@
+{
+  "candidate_count": 37,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.242; frequency=1; frequency_norm=1.000",
+      "line": 110,
+      "name": "getInstance",
+      "param_count": 0,
+      "rank": 1,
+      "score": 9.734848,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.242424,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static BVSDK getInstance()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.513; frequency=0; frequency_norm=0.000",
+      "line": 641,
+      "name": "getBvSdkUserAgent",
+      "param_count": 0,
+      "rank": 2,
+      "score": 1.025641,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.512821,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getBvSdkUserAgent()"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.410; frequency=0; frequency_norm=0.000",
+      "line": 311,
+      "name": "bazaarEnvironment",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.820513,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.410256,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public Builder bazaarEnvironment(BazaarEnvironment bazaarEnvironment)"
+    }
+  ],
+  "dataset_id": "c2t_9c107152334b678152e7",
+  "focal_class_name": "BVSDK",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\BVSDK.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getInstance",
+    "rank": 1
+  },
+  "labeled_focal_method": "getInstance",
+  "labeled_test_method": "bvSdkShouldRequireInit",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 1,
+    "is_test": true,
+    "line": 96,
+    "name": "bvSdkShouldRequireInit"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BVSDK",
+      "should"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:34Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "junit.framework.Assert.assertEquals",
+      "org.mockito.Matchers.any",
+      "org.mockito.Mockito.times",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.when",
+      "org.mockito.MockitoAnnotations.initMocks"
+    ]
+  },
+  "record_id": "c2t_9c107152334b678152e7",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvcommon\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\BVSDKTest.java",
+  "top_k": 3
+}

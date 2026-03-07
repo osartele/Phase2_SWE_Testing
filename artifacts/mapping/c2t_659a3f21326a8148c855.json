@@ -1,0 +1,102 @@
+{
+  "candidate_count": 22,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.375; frequency=1; frequency_norm=0.333",
+      "line": 55,
+      "name": "sendSuccessfulConversationsDisplayResponse",
+      "param_count": 2,
+      "rank": 1,
+      "score": 9.333333,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.333333,
+        "name_similarity": 0.375,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "void sendSuccessfulConversationsDisplayResponse(ConversationsResponse conversationResponse, ConversationsDisplayRequest conversationrequest)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.438; frequency=0; frequency_norm=0.000",
+      "line": 198,
+      "name": "sendUsedFeatureInViewEvent",
+      "param_count": 3,
+      "rank": 2,
+      "score": 0.875,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.4375,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void sendUsedFeatureInViewEvent(String productId, String containerId, BVEventValues.BVProductType bvProductType)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.424; frequency=0; frequency_norm=0.000",
+      "line": 213,
+      "name": "sendUsedFeatureScrolledEvent",
+      "param_count": 2,
+      "rank": 3,
+      "score": 0.848485,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.424242,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void sendUsedFeatureScrolledEvent(String productId, BVEventValues.BVProductType bvProductType)"
+    }
+  ],
+  "dataset_id": "c2t_659a3f21326a8148c855",
+  "focal_class_name": "ConversationsAnalyticsManager",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvconversations\\src\\main\\java\\com\\bazaarvoice\\bvandroidsdk\\ConversationsAnalyticsManager.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "sendSuccessfulConversationsDisplayResponse",
+    "rank": 1
+  },
+  "labeled_focal_method": "sendSuccessfulConversationsDisplayResponse",
+  "labeled_test_method": "displayReviewsResponseShouldSendEvents",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 17,
+    "is_test": true,
+    "line": 33,
+    "name": "displayReviewsResponseShouldSendEvents"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "ConversationsAnalyticsManager",
+      "subject"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:21Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.atLeastOnce",
+      "org.mockito.Mockito.mock",
+      "org.mockito.Mockito.verify"
+    ]
+  },
+  "record_id": "c2t_659a3f21326a8148c855",
+  "repo_id": "4398263",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263",
+  "repository_url": "https://github.com/bazaarvoice/bv-android-sdk",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\4398263\\bvconversations\\src\\test\\java\\com\\bazaarvoice\\bvandroidsdk\\ConversationsAnalyticsManagerTest.java",
+  "top_k": 3
+}

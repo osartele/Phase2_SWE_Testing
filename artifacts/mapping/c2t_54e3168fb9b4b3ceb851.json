@@ -1,0 +1,101 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 55,
+      "name": "createGlobalAttributeDefinition",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = GLOBAL_ATTRIBUTE_DEFINITIONS_URI_PREFIX, method = RequestMethod.POST, consumes = {\"application/xml\", \"application/json\"}) @Secured(SecurityFunctions.FN_GLOBAL_ATTRIBUTE_DEFINITIONS_POST) public GlobalAttributeDefinition createGlobalAttributeDefinition(@RequestBody GlobalAttributeDefinitionCreateRequest globalAttributeDefinitionCreateRequest)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.915; frequency=0; frequency_norm=0.000",
+      "line": 102,
+      "name": "getGlobalAttributeDefinition",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.830508,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.915254,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = GLOBAL_ATTRIBUTE_DEFINITIONS_URI_PREFIX + \"/globalAttributeDefinitionLevels/{globalAttributeDefinitionLevel}/globalAttributeDefinitionNames/{globalAttributeDefinitionName}\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_GLOBAL_ATTRIBUTE_DEFINITIONS_GET) public GlobalAttributeDefinition getGlobalAttributeDefinition(@PathVariable(\"globalAttributeDefinitionLevel\") String globalAttributeDefinitionLevel, @PathVariable(\"globalAttributeDefinitionName\") String globalAttributeDefinitionName)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.903; frequency=0; frequency_norm=0.000",
+      "line": 70,
+      "name": "deleteGlobalAttributeDefinition",
+      "param_count": 2,
+      "rank": 3,
+      "score": 1.806452,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.903226,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = GLOBAL_ATTRIBUTE_DEFINITIONS_URI_PREFIX + \"/globalAttributeDefinitionLevels/{globalAttributeDefinitionLevel}/globalAttributeDefinitionNames/{globalAttributeDefinitionName}\", method = RequestMethod.DELETE) @Secured(SecurityFunctions.FN_GLOBAL_ATTRIBUTE_DEFINITIONS_DELETE) public GlobalAttributeDefinition deleteGlobalAttributeDefinition(@PathVariable(\"globalAttributeDefinitionLevel\") String globalAttributeDefinitionLevel, @PathVariable(\"globalAttributeDefinitionName\") String globalAttributeDefinitionName)"
+    }
+  ],
+  "dataset_id": "c2t_54e3168fb9b4b3ceb851",
+  "focal_class_name": "GlobalAttributeDefinitionRestController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\GlobalAttributeDefinitionRestController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "createGlobalAttributeDefinition",
+    "rank": 1
+  },
+  "labeled_focal_method": "createGlobalAttributeDefinition",
+  "labeled_test_method": "testCreateGlobalAttributeDefinition",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 60,
+    "name": "testCreateGlobalAttributeDefinition"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "GlobalAttributeDefinitionRestController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:18Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_54e3168fb9b4b3ceb851",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\GlobalAttributeDefinitionRestControllerTest.java",
+  "top_k": 3
+}

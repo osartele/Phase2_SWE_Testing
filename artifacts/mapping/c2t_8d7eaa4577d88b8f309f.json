@@ -1,0 +1,99 @@
+{
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=1; name_similarity=0.609; frequency=2; frequency_norm=0.333",
+      "line": 73,
+      "name": "getPerformanceMeasures",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.800725,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.333333,
+        "name_similarity": 0.608696,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public PerformanceMeasures getPerformanceMeasures(double retrievedPercentage)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=2); static_import_match=0; arg_count_match=1; name_similarity=0.609; frequency=2; frequency_norm=0.333",
+      "line": 89,
+      "name": "getPerformanceMeasures",
+      "param_count": 1,
+      "rank": 2,
+      "score": 9.800725,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 2,
+        "frequency_norm": 0.333333,
+        "name_similarity": 0.608696,
+        "qualifier_hits": 2,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public PerformanceMeasures getPerformanceMeasures(int retrievedItems)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.413; frequency=0; frequency_norm=0.000",
+      "line": 156,
+      "name": "getDocumentTitle",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.825397,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.412698,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public String getDocumentTitle()"
+    }
+  ],
+  "dataset_id": "c2t_8d7eaa4577d88b8f309f",
+  "focal_class_name": "DocumentPerformanceResult",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.bookindexing-gpl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\bookindexing\\evaluation\\performancemeasures\\DocumentPerformanceResult.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getPerformanceMeasures",
+    "rank": 1
+  },
+  "labeled_focal_method": "getPerformanceMeasures",
+  "labeled_test_method": "getPerfomanceMeasuresByCountB_for2RetrievedItems",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 15,
+    "is_test": true,
+    "line": 53,
+    "name": "getPerfomanceMeasuresByCountB_for2RetrievedItems"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "DocumentPerformanceResult",
+      "result"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:30Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals"
+    ]
+  },
+  "record_id": "c2t_8d7eaa4577d88b8f309f",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.bookindexing-gpl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\bookindexing\\evaluation\\performancemeasures\\DocumentPerformanceResultTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,103 @@
+{
+  "candidate_count": 9,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=8); static_import_match=0; arg_count_match=1; name_similarity=0.222; frequency=8; frequency_norm=0.571",
+      "line": 179,
+      "name": "sanitizeLogText",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.265873,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 8,
+        "frequency_norm": 0.571429,
+        "name_similarity": 0.222222,
+        "qualifier_hits": 8,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static String sanitizeLogText(String loggingText)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.300; frequency=0; frequency_norm=0.000",
+      "line": 87,
+      "name": "getShortDescription",
+      "param_count": 2,
+      "rank": 2,
+      "score": 0.6,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.3,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static String getShortDescription(String description, Integer shortDescMaxLength)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.279; frequency=0; frequency_norm=0.000",
+      "line": 154,
+      "name": "convertStringToInteger",
+      "param_count": 2,
+      "rank": 3,
+      "score": 0.55814,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.27907,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static Integer convertStringToInteger(final String stringValue, final Integer defaultValue)"
+    }
+  ],
+  "dataset_id": "c2t_ca0e5d0db286a6cad951",
+  "focal_class_name": "HerdStringUtils",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\main\\java\\org\\finra\\herd\\core\\HerdStringUtils.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "sanitizeLogText",
+    "rank": 1
+  },
+  "labeled_focal_method": "sanitizeLogText",
+  "labeled_test_method": "testLoggingPasswordMasked",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 32,
+    "is_test": true,
+    "line": 233,
+    "name": "testLoggingPasswordMasked"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HerdStringUtils"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:45Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.hamcrest.CoreMatchers.is",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertFalse",
+      "org.junit.Assert.assertNull",
+      "org.junit.Assert.assertTrue",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_ca0e5d0db286a6cad951",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\test\\java\\org\\finra\\herd\\core\\HerdStringUtilsTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,100 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.747; frequency=1; frequency_norm=0.167",
+      "line": 89,
+      "name": "retryStoragePolicyTransition",
+      "param_count": 2,
+      "rank": 1,
+      "score": 7.91,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.166667,
+        "name_similarity": 0.746667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public BusinessObjectData retryStoragePolicyTransition(BusinessObjectDataKey businessObjectDataKey, BusinessObjectDataRetryStoragePolicyTransitionRequest request)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.593; frequency=0; frequency_norm=0.000",
+      "line": 219,
+      "name": "validateBusinessObjectDataRetryStoragePolicyTransitionRequest",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.185185,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.592593,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void validateBusinessObjectDataRetryStoragePolicyTransitionRequest(BusinessObjectDataRetryStoragePolicyTransitionRequest request)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.554; frequency=0; frequency_norm=0.000",
+      "line": 162,
+      "name": "sendStoragePolicySelectionSqsMessage",
+      "param_count": 2,
+      "rank": 3,
+      "score": 1.108434,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.554217,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "protected void sendStoragePolicySelectionSqsMessage(String sqsQueueName, StoragePolicySelection storagePolicySelection)"
+    }
+  ],
+  "dataset_id": "c2t_dbb03d1ea0a342f12fbe",
+  "focal_class_name": "BusinessObjectDataRetryStoragePolicyTransitionHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDataRetryStoragePolicyTransitionHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "retryStoragePolicyTransition",
+    "rank": 1
+  },
+  "labeled_focal_method": "retryStoragePolicyTransition",
+  "labeled_test_method": "testRetryStoragePolicyTransitionUpperCaseParameters",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 10,
+    "is_test": true,
+    "line": 830,
+    "name": "testRetryStoragePolicyTransitionUpperCaseParameters"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BusinessObjectDataRetryStoragePolicyTransitionHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:49Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertNotNull",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_dbb03d1ea0a342f12fbe",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\BusinessObjectDataRetryStoragePolicyTransitionHelperTest.java",
+  "top_k": 3
+}

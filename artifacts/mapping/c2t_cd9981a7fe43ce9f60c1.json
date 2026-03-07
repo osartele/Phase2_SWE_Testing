@@ -1,0 +1,101 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 53,
+      "name": "createFileType",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = \"/fileTypes\", method = RequestMethod.POST, consumes = {\"application/xml\", \"application/json\"}) @Secured(SecurityFunctions.FN_FILE_TYPES_POST) public FileType createFileType(@RequestBody FileTypeCreateRequest request)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.800; frequency=0; frequency_norm=0.000",
+      "line": 67,
+      "name": "getFileType",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.6,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.8,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = \"/fileTypes/{fileTypeCode}\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_FILE_TYPES_GET) public FileType getFileType(@PathVariable(\"fileTypeCode\") String fileTypeCode)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.786; frequency=0; frequency_norm=0.000",
+      "line": 81,
+      "name": "deleteFileType",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.571429,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.785714,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = \"/fileTypes/{fileTypeCode}\", method = RequestMethod.DELETE) @Secured(SecurityFunctions.FN_FILE_TYPES_DELETE) public FileType deleteFileType(@PathVariable(\"fileTypeCode\") String fileTypeCode)"
+    }
+  ],
+  "dataset_id": "c2t_cd9981a7fe43ce9f60c1",
+  "focal_class_name": "FileTypeRestController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\FileTypeRestController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "createFileType",
+    "rank": 1
+  },
+  "labeled_focal_method": "createFileType",
+  "labeled_test_method": "testCreateFileType",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 9,
+    "is_test": true,
+    "line": 55,
+    "name": "testCreateFileType"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "FileTypeRestController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:46Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_cd9981a7fe43ce9f60c1",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\FileTypeRestControllerTest.java",
+  "top_k": 3
+}

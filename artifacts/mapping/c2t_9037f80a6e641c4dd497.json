@@ -1,0 +1,101 @@
+{
+  "candidate_count": 4,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=0.500",
+      "line": 97,
+      "name": "deleteFileIgnoreException",
+      "param_count": 1,
+      "rank": 1,
+      "score": 10.75,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 1.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public static void deleteFileIgnoreException(File file)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.836; frequency=0; frequency_norm=0.000",
+      "line": 80,
+      "name": "deleteDirectoryIgnoreException",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.672727,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.836364,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static void deleteDirectoryIgnoreException(File directory)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.667; frequency=0; frequency_norm=0.000",
+      "line": 63,
+      "name": "cleanDirectoryIgnoreException",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.333333,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.666667,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public static void cleanDirectoryIgnoreException(File directory)"
+    }
+  ],
+  "dataset_id": "c2t_9037f80a6e641c4dd497",
+  "focal_class_name": "HerdFileUtils",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\main\\java\\org\\finra\\herd\\core\\HerdFileUtils.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "deleteFileIgnoreException",
+    "rank": 1
+  },
+  "labeled_focal_method": "deleteFileIgnoreException",
+  "labeled_test_method": "testDeleteFileIgnoreException",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 179,
+    "name": "testDeleteFileIgnoreException"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HerdFileUtils"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:30Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertFalse",
+      "org.junit.Assert.assertTrue",
+      "org.junit.Assert.fail"
+    ]
+  },
+  "record_id": "c2t_9037f80a6e641c4dd497",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-core\\src\\test\\java\\org\\finra\\herd\\core\\HerdFileUtilsTest.java",
+  "top_k": 3
+}

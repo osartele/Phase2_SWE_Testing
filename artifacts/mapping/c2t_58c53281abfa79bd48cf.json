@@ -1,0 +1,100 @@
+{
+  "candidate_count": 22,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.286; frequency=1; frequency_norm=0.250",
+      "line": 69,
+      "name": "process",
+      "param_count": 1,
+      "rank": 1,
+      "score": 7.071429,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.25,
+        "name_similarity": 0.285714,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Override public void process(JCas jcas) throws AnalysisEngineProcessException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.389; frequency=0; frequency_norm=0.000",
+      "line": 105,
+      "name": "initializeGraph",
+      "param_count": 1,
+      "rank": 2,
+      "score": 0.777778,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.388889,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void initializeGraph(JCas jcas) throws AnalysisEngineProcessException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.364; frequency=0; frequency_norm=0.000",
+      "line": 173,
+      "name": "addToEdgeSet",
+      "param_count": 6,
+      "rank": 3,
+      "score": 0.727273,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.363636,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void addToEdgeSet(String term1, String term2, AnnotationFS a1, AnnotationFS a2, int id1, int id2)"
+    }
+  ],
+  "dataset_id": "c2t_58c53281abfa79bd48cf",
+  "focal_class_name": "CooccurrenceGraph",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.textgraphs-gpl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\textgraphs\\CooccurrenceGraph.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "process",
+    "rank": 1
+  },
+  "labeled_focal_method": "process",
+  "labeled_test_method": "cooccurrenceGraphTest",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 19,
+    "is_test": true,
+    "line": 38,
+    "name": "cooccurrenceGraphTest"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "CooccurrenceGraph"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:18Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.assertTrue"
+    ]
+  },
+  "record_id": "c2t_58c53281abfa79bd48cf",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.textgraphs-gpl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\textgraphs\\CooccurrenceGraphTest.java",
+  "top_k": 3
+}

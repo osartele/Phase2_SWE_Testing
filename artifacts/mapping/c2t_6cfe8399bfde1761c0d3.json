@@ -1,0 +1,107 @@
+{
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=3; frequency_norm=1.000",
+      "line": 55,
+      "name": "createBusinessObjectFormatExternalInterface",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 3,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = BUSINESS_OBJECT_FORMAT_EXTERNAL_INTERFACES_URI_PREFIX, method = RequestMethod.POST, consumes = {\"application/xml\", \"application/json\"}) @Secured(SecurityFunctions.FN_BUSINESS_OBJECT_FORMAT_EXTERNAL_INTERFACES_POST) public BusinessObjectFormatExternalInterface createBusinessObjectFormatExternalInterface( @RequestBody BusinessObjectFormatExternalInterfaceCreateRequest businessObjectFormatExternalInterfaceCreateRequest)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.940; frequency=0; frequency_norm=0.000",
+      "line": 100,
+      "name": "getBusinessObjectFormatExternalInterface",
+      "param_count": 5,
+      "rank": 2,
+      "score": 1.879518,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.939759,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = BUSINESS_OBJECT_FORMAT_EXTERNAL_INTERFACES_URI_PREFIX + \"/namespaces/{namespace}/businessObjectDefinitionNames/{businessObjectDefinitionName}/businessObjectFormatUsages/{businessObjectFormatUsage}\" + \"/businessObjectFormatFileTypes/{businessObjectFormatFileType}/externalInterfaceNames/{externalInterfaceName}\", method = RequestMethod.GET) @Secured(SecurityFunctions.FN_BUSINESS_OBJECT_FORMAT_EXTERNAL_INTERFACES_GET) public BusinessObjectFormatExternalInterface getBusinessObjectFormatExternalInterface(@PathVariable(\"namespace\") String namespace, @PathVariable(\"businessObjectDefinitionName\") String businessObjectDefinitionName, @PathVariable(\"businessObjectFormatUsage\") String businessObjectFormatUsage, @PathVariable(\"businessObjectFormatFileType\") String businessObjectFormatFileType, @PathVariable(\"externalInterfaceName\") String externalInterfaceName)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.930; frequency=0; frequency_norm=0.000",
+      "line": 75,
+      "name": "deleteBusinessObjectFormatExternalInterface",
+      "param_count": 5,
+      "rank": 3,
+      "score": 1.860465,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.930233,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@RequestMapping(value = BUSINESS_OBJECT_FORMAT_EXTERNAL_INTERFACES_URI_PREFIX + \"/namespaces/{namespace}/businessObjectDefinitionNames/{businessObjectDefinitionName}/businessObjectFormatUsages/{businessObjectFormatUsage}\" + \"/businessObjectFormatFileTypes/{businessObjectFormatFileType}/externalInterfaceNames/{externalInterfaceName}\", method = RequestMethod.DELETE) @Secured(SecurityFunctions.FN_BUSINESS_OBJECT_FORMAT_EXTERNAL_INTERFACES_DELETE) public BusinessObjectFormatExternalInterface deleteBusinessObjectFormatExternalInterface(@PathVariable(\"namespace\") String namespace, @PathVariable(\"businessObjectDefinitionName\") String businessObjectDefinitionName, @PathVariable(\"businessObjectFormatUsage\") String businessObjectFormatUsage, @PathVariable(\"businessObjectFormatFileType\") String businessObjectFormatFileType, @PathVariable(\"externalInterfaceName\") String externalInterfaceName)"
+    }
+  ],
+  "dataset_id": "c2t_6cfe8399bfde1761c0d3",
+  "focal_class_name": "BusinessObjectFormatExternalInterfaceRestController",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\main\\java\\org\\finra\\herd\\rest\\BusinessObjectFormatExternalInterfaceRestController.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "createBusinessObjectFormatExternalInterface",
+    "rank": 1
+  },
+  "labeled_focal_method": "createBusinessObjectFormatExternalInterface",
+  "labeled_test_method": "testCreateBusinessObjectFormatExternalInterface",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 8,
+    "is_test": true,
+    "line": 54,
+    "name": "testCreateBusinessObjectFormatExternalInterface"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BusinessObjectFormatExternalInterfaceRestController"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:22Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.dao.AbstractDaoTest.BDEF_NAME",
+      "org.finra.herd.dao.AbstractDaoTest.EXTERNAL_INTERFACE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_FILE_TYPE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_USAGE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.NAMESPACE",
+      "org.finra.herd.service.AbstractServiceTest.ID",
+      "org.junit.Assert.assertEquals",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_6cfe8399bfde1761c0d3",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-rest\\src\\test\\java\\org\\finra\\herd\\rest\\BusinessObjectFormatExternalInterfaceRestControllerTest.java",
+  "top_k": 3
+}

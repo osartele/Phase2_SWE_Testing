@@ -1,0 +1,115 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=0.541; frequency=1; frequency_norm=0.500",
+      "line": 100,
+      "name": "getStorageUnitEntity",
+      "param_count": 2,
+      "rank": 1,
+      "score": 7.831081,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 0.5,
+        "name_similarity": 0.540541,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public StorageUnitEntity getStorageUnitEntity(String storageName, BusinessObjectDataEntity businessObjectDataEntity)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.962; frequency=0; frequency_norm=0.000",
+      "line": 130,
+      "name": "getStorageUnitEntityByBusinessObjectDataAndStorage",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.923077,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.961538,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public StorageUnitEntity getStorageUnitEntityByBusinessObjectDataAndStorage(BusinessObjectDataEntity businessObjectDataEntity, StorageEntity storageEntity)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.582; frequency=0; frequency_norm=0.000",
+      "line": 151,
+      "name": "getStorageUnitEntityByKey",
+      "param_count": 1,
+      "rank": 3,
+      "score": 1.164557,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.582278,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public StorageUnitEntity getStorageUnitEntityByKey(BusinessObjectDataStorageUnitKey businessObjectDataStorageUnitKey)"
+    }
+  ],
+  "dataset_id": "c2t_00138c6d6c2634bb37e3",
+  "focal_class_name": "StorageUnitDaoHelper",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\main\\java\\org\\finra\\herd\\service\\helper\\StorageUnitDaoHelper.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "getStorageUnitEntity",
+    "rank": 1
+  },
+  "labeled_focal_method": "getStorageUnitEntity",
+  "labeled_test_method": "testGetStorageUnitEntityByBusinessObjectDataAndStorageName",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 13,
+    "is_test": true,
+    "line": 108,
+    "name": "testGetStorageUnitEntityByBusinessObjectDataAndStorageName"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "StorageUnitDaoHelper"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:01Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.dao.AbstractDaoTest.BDEF_NAME",
+      "org.finra.herd.dao.AbstractDaoTest.BDEF_NAMESPACE",
+      "org.finra.herd.dao.AbstractDaoTest.DATA_VERSION",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_FILE_TYPE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_USAGE_CODE",
+      "org.finra.herd.dao.AbstractDaoTest.FORMAT_VERSION",
+      "org.finra.herd.dao.AbstractDaoTest.NO_STORAGE_UNIT_STATUS",
+      "org.finra.herd.dao.AbstractDaoTest.PARTITION_VALUE",
+      "org.finra.herd.dao.AbstractDaoTest.STORAGE_NAME",
+      "org.finra.herd.dao.AbstractDaoTest.STORAGE_UNIT_STATUS",
+      "org.finra.herd.dao.AbstractDaoTest.STORAGE_UNIT_STATUS_2",
+      "org.finra.herd.dao.AbstractDaoTest.SUBPARTITION_VALUES",
+      "org.finra.herd.service.AbstractServiceTest.BUSINESS_OBJECT_DATA_KEY_AS_STRING",
+      "org.junit.Assert.assertEquals",
+      "org.junit.Assert.fail",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_00138c6d6c2634bb37e3",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-service\\src\\test\\java\\org\\finra\\herd\\service\\helper\\StorageUnitDaoHelperTest.java",
+  "top_k": 3
+}

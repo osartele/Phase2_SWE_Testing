@@ -1,0 +1,97 @@
+{
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.370; frequency=1; frequency_norm=1.000",
+      "line": 156,
+      "name": "initServletMapping",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.990741,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.37037,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "protected void initServletMapping(ServletContext servletContext)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.357; frequency=1; frequency_norm=1.000",
+      "line": 91,
+      "name": "initDispatchServlet",
+      "param_count": 1,
+      "rank": 2,
+      "score": 9.964286,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.357143,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "protected void initDispatchServlet(ServletContext servletContext)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.316; frequency=1; frequency_norm=1.000",
+      "line": 169,
+      "name": "initHttpSecurityHeadersFilter",
+      "param_count": 1,
+      "rank": 3,
+      "score": 9.881579,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.315789,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "protected void initHttpSecurityHeadersFilter(ServletContext servletContext)"
+    }
+  ],
+  "dataset_id": "c2t_92ee658d2f04375c33d4",
+  "focal_class_name": "WarInitializer",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-app\\src\\main\\java\\org\\finra\\herd\\app\\WarInitializer.java",
+  "ground_truth": {
+    "in_top_k": false,
+    "labeled_focal_method": "onStartup",
+    "rank": 8
+  },
+  "labeled_focal_method": "onStartup",
+  "labeled_test_method": "testOnStartup",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 7,
+    "is_test": true,
+    "line": 27,
+    "name": "testOnStartup"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "WarInitializer",
+      "warInitializer"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:31Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_92ee658d2f04375c33d4",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-app\\src\\test\\java\\org\\finra\\herd\\app\\WarInitializerTest.java",
+  "top_k": 3
+}

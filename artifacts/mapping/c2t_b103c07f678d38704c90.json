@@ -1,0 +1,111 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 169,
+      "name": "mapJsontoBdataKey",
+      "param_count": 1,
+      "rank": 1,
+      "score": 9.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "JsonSqsMessageBody mapJsontoBdataKey(String messageBody) throws IOException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.581; frequency=0; frequency_norm=0.000",
+      "line": 133,
+      "name": "getBdataKeySqs",
+      "param_count": 2,
+      "rank": 2,
+      "score": 1.16129,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.580645,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "@Retryable(value = ApiException.class, backoff = @Backoff(delay = 2000, multiplier = 2)) BusinessObjectDataKey getBdataKeySqs(AmazonSQS client, String queueUrl) throws IOException, ApiException"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.300; frequency=0; frequency_norm=0.000",
+      "line": 81,
+      "name": "applicationGetBuildInfo",
+      "param_count": 1,
+      "rank": 3,
+      "score": 0.6,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.3,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "BuildInformation applicationGetBuildInfo(ApplicationApi applicationApi) throws ApiException"
+    }
+  ],
+  "dataset_id": "c2t_b103c07f678d38704c90",
+  "focal_class_name": "HerdApiClientOperations",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-tools\\herd-access-validator\\src\\main\\java\\org\\finra\\herd\\tools\\access\\validator\\HerdApiClientOperations.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "mapJsontoBdataKey",
+    "rank": 1
+  },
+  "labeled_focal_method": "mapJsontoBdataKey",
+  "labeled_test_method": "testMapJsontoBdataKey",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 14,
+    "is_test": true,
+    "line": 66,
+    "name": "testMapJsontoBdataKey"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "HerdApiClientOperations"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:39Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.finra.herd.tools.access.validator.PropertiesHelper.AWS_REGION_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.AWS_ROLE_ARN_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.AWS_SQS_QUEUE_URL_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.BUSINESS_OBJECT_DEFINITION_NAME_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.BUSINESS_OBJECT_FORMAT_FILE_TYPE_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.BUSINESS_OBJECT_FORMAT_USAGE_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.HERD_BASE_URL_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.HERD_PASSWORD_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.HERD_USERNAME_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.NAMESPACE_PROPERTY",
+      "org.finra.herd.tools.access.validator.PropertiesHelper.PRIMARY_PARTITION_VALUE_PROPERTY",
+      "org.mockito.Mockito.verify",
+      "org.mockito.Mockito.verifyNoMoreInteractions",
+      "org.mockito.Mockito.when"
+    ]
+  },
+  "record_id": "c2t_b103c07f678d38704c90",
+  "repo_id": "42949039",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039",
+  "repository_url": "https://github.com/FINRAOS/herd",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\42949039\\herd-code\\herd-tools\\herd-access-validator\\src\\test\\java\\org\\finra\\herd\\tools\\access\\validator\\HerdApiClientOperationsTest.java",
+  "top_k": 3
+}

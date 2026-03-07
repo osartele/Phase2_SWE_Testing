@@ -1,0 +1,97 @@
+{
+  "candidate_count": 6,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.809; frequency=1; frequency_norm=1.000",
+      "line": 119,
+      "name": "buildKeyphraseCandidateModel",
+      "param_count": 2,
+      "rank": 1,
+      "score": 10.867021,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.808511,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public void buildKeyphraseCandidateModel(CandidateSet candidateSet, File outputFile)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.727; frequency=0; frequency_norm=0.000",
+      "line": 87,
+      "name": "buildStemModel",
+      "param_count": 1,
+      "rank": 2,
+      "score": 1.454545,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.727273,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "public void buildStemModel(File outputFile)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.690; frequency=0; frequency_norm=0.000",
+      "line": 132,
+      "name": "buildModel",
+      "param_count": 2,
+      "rank": 3,
+      "score": 1.37931,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.689655,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private void buildModel(final CandidateSet candidateSet, final File outputFile)"
+    }
+  ],
+  "dataset_id": "c2t_923317edb28fd9da9197",
+  "focal_class_name": "DfModelBuilder",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.wrappers-gpl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\bookindexing\\wrapper\\DfModelBuilder.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "buildKeyphraseCandidateModel",
+    "rank": 1
+  },
+  "labeled_focal_method": "buildKeyphraseCandidateModel",
+  "labeled_test_method": "buildCandidateModel",
+  "located_test_method": {
+    "annotation_names": [
+      "Test"
+    ],
+    "invocation_count": 2,
+    "is_test": true,
+    "line": 43,
+    "name": "buildCandidateModel"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "DfModelBuilder",
+      "t"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:31Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": []
+  },
+  "record_id": "c2t_923317edb28fd9da9197",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.wrappers-gpl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\bookindexing\\wrapper\\DfModelBuilderTest.java",
+  "top_k": 3
+}

@@ -1,0 +1,101 @@
+{
+  "candidate_count": 19,
+  "candidates": [
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=1.000; frequency=1; frequency_norm=1.000",
+      "line": 85,
+      "name": "extract",
+      "param_count": 1,
+      "rank": 1,
+      "score": 11.25,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 1.0,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "@Override public List<String> extract(File textFile)"
+    },
+    {
+      "explanation": "direct_call=1; qualifier_match=1 (hits=1); static_import_match=0; arg_count_match=1; name_similarity=0.364; frequency=1; frequency_norm=1.000",
+      "line": 219,
+      "name": "setCandidateSet",
+      "param_count": 1,
+      "rank": 2,
+      "score": 9.977273,
+      "signals": {
+        "arg_count_match": 1,
+        "direct_call": 1,
+        "frequency": 1,
+        "frequency_norm": 1.0,
+        "name_similarity": 0.363636,
+        "qualifier_hits": 1,
+        "qualifier_match": 1,
+        "static_import_match": 0
+      },
+      "signature": "public void setCandidateSet(CandidateSet candidateSet)"
+    },
+    {
+      "explanation": "direct_call=0; qualifier_match=0 (hits=0); static_import_match=0; arg_count_match=0; name_similarity=0.455; frequency=0; frequency_norm=0.000",
+      "line": 110,
+      "name": "createAggregate",
+      "param_count": 0,
+      "rank": 3,
+      "score": 0.909091,
+      "signals": {
+        "arg_count_match": 0,
+        "direct_call": 0,
+        "frequency": 0,
+        "frequency_norm": 0.0,
+        "name_similarity": 0.454545,
+        "qualifier_hits": 0,
+        "qualifier_match": 0,
+        "static_import_match": 0
+      },
+      "signature": "private AnalysisEngineDescription createAggregate() throws ResourceInitializationException"
+    }
+  ],
+  "dataset_id": "c2t_4ce9e9cb3c481be61851",
+  "focal_class_name": "BookIndexPhraseExtractor_BaseImpl",
+  "focal_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.wrappers-gpl\\src\\main\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\bookindexing\\wrapper\\BookIndexPhraseExtractor_BaseImpl.java",
+  "ground_truth": {
+    "in_top_k": true,
+    "labeled_focal_method": "extract",
+    "rank": 1
+  },
+  "labeled_focal_method": "extract",
+  "labeled_test_method": "extract",
+  "located_test_method": {
+    "annotation_names": [
+      "Test",
+      "Ignore"
+    ],
+    "invocation_count": 4,
+    "is_test": true,
+    "line": 34,
+    "name": "extract"
+  },
+  "metadata": {
+    "focal_aliases": [
+      "BookIndexPhraseExtractor_BaseImpl",
+      "extractor"
+    ],
+    "generated_at_utc": "2026-03-07T01:19:16Z",
+    "manifest_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\phase2\\data\\processed\\manifest.jsonl",
+    "static_imports": [
+      "org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription",
+      "org.junit.Assert.assertEquals"
+    ]
+  },
+  "record_id": "c2t_4ce9e9cb3c481be61851",
+  "repo_id": "40266095",
+  "repo_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095",
+  "repository_url": "https://github.com/dkpro/dkpro-keyphrases",
+  "status": "ok",
+  "test_file_path": "C:\\Users\\osart\\Phase2_SWE_Testing-data_ingestion\\repos\\40266095\\de.tudarmstadt.ukp.dkpro.keyphrases.wrappers-gpl\\src\\test\\java\\de\\tudarmstadt\\ukp\\dkpro\\keyphrases\\bookindexing\\wrapper\\BookIndexPhraseExtractor_BaseImplTest.java",
+  "top_k": 3
+}
