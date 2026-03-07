@@ -2768,3 +2768,5 @@ Traceback (most recent call last):
 subprocess.CalledProcessError: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.
 2026-03-06 19:19:16,599 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
 2026-03-06 19:19:16,600 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
+2026-03-06 19:27:49,121 | INFO | phase2.config | Loaded config from C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\configs\experiments\default.yaml
+2026-03-06 19:27:49,121 | INFO | phase2.cli | Logs writing to C:\Users\osart\Phase2_SWE_Testing-data_ingestion\phase2\artifacts\logs\phase2.log
